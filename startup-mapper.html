@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Mapping the Crunchbase Dataset by County</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="/d3/d3.min.js"></script>
+        <div class="column">
+          <h1>Mapping the Crunchbase Dataset by County</h1>
+          <p class="directions">Click/scroll to zoom. Mouseover for more details. More maps below.</p>
+          <iframe sandbox="allow-scripts allow-forms allow-same-origin" src="/map.html" width="960" height="600" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+          <p class="captions">Sources: <a href="https://data.crunchbase.com/page/crunchbase-open-data-map-odm" target="_blank">Crunchbase Open Data Map</a> and <a href="http://eric.clst.org/Stuff/USGeoJSON" target="_blank">Eric Celeste's GeoJSON Data (US Counties)</a></p>
+          <p>
+            Here are all of the companies listed on Crunchbase as of December, 2015. As you'd expect, lots of activity from Silicon Valley, Silicon Alley, Silicon Prairie, Silicon Beach...
+            <br><br>Now let's take a look at where the law schools are...
+          </p>
+          <h1>Crunchbase Dataset with Law School Locations</h1>
+          <iframe sandbox="allow-scripts allow-forms allow-same-origin" src="/map_with_law_schools.html" width="960" height="600" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+          <p class="captions">Sources: <a href="https://data.crunchbase.com/page/crunchbase-open-data-map-odm" target="_blank">Crunchbase Open Data Map</a>, <a href="http://eric.clst.org/Stuff/USGeoJSON" target="_blank">Eric Celeste's GeoJSON Data (US Counties)</a>, and, of course, <a href="https://en.wikipedia.org/wiki/List_of_law_schools_in_the_United_States" target="_blank">Wikipedia</a>.</p>
+          <p>
+            Now there are a few takeaways we can glean from this map:
+            <ol>
+              <li>Law schools seem to be located in the same counties that have Crunchbase activity</li>
+            </ol>
+          </p>
+        </div>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-74245662-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

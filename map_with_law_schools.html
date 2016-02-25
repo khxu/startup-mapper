@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mapping Crunchbase by Counties</title>
+		<script type="text/javascript" src="d3/d3.min.js"></script>
+		<script type="text/javascript" src="topojson/topojson.min.js"></script>
+		<style type="text/css">
+			.q-null { fill:rgb(247,251,255); }
+			.q0-8 { fill:rgb(222,235,247); }
+			.q1-8 { fill:rgb(198,219,239); }
+			.q2-8 { fill:rgb(158,202,225); }
+			.q3-8 { fill:rgb(107,174,214); }
+			.q4-8 { fill:rgb(66,146,198); }
+			.q5-8 { fill:rgb(33,113,181); }
+			.q6-8 { fill:rgb(8,81,156); }
+			.q7-8 { fill:rgb(8,48,107); }
+			.counties{
+				stroke:rgb(93,96,97);
+				stroke-width:0.2
+			}
+			.counties:hover{
+				stroke-width:2;
+				stroke:rgb(253,181,21);
+			}
+			.state-boundary {
+				fill: none;
+				stroke: rgb(8,48,107);
+				stroke-linejoin: round;
+				stroke-width: 0.5;
+			}
+			.tooltip {
+			  position: absolute;
+			  text-align: left;
+			  width: 160px;
+			  height: 38px;
+			  padding: 8px;
+			  margin-top: -20px;
+			  font: 10px sans-serif;
+			  background: #ddd;
+			  pointer-events: none;
+				opacity: 0.9;
+			}
+			.law-school-tooltip {
+			  position: absolute;
+			  text-align: left;
+			  width: 160px;
+			  height: 55px;
+			  padding: 8px;
+			  margin-top: -20px;
+			  font: 10px sans-serif;
+			  background: #ddd;
+			  pointer-events: none;
+				opacity: 0.9;
+			}
+			.background {
+				fill:rgb(177,217,255);
+			}
+			.legend-text{
+				font: 10px sans-serif;
+				text-anchor: middle;
+			}
+
+			.legend_6, .legend_7, .legend_8 {
+				fill: rgb(255,255,255);
+			}
+
+			.legend-name {
+				font: 10px sans-serif;
+			}
+
+			.legend_law_schools_0, .legend_law_schools_1 {
+				font: 10px sans-serif;
+			}
+
+			.legend_other_features {
+				font: 10px sans-serif;
+				text-anchor: middle;
+				font-weight: bold;
+			}
+
+			.legend_other_features_0 {
+				font: 10px sans-serif;
+				font-weight: bold;
+			}
+
+			.legend-border {
+				stroke-width: 1;
+				stroke: rgb(0,0,0);
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//Width and height
+			var w = 960;
+			var h = 600;
+			var active = d3.select(null);
+
+			//Define map projection
+			var projection = d3.geo.albersUsa()
+				  .translate([w/2, h/2])
+					// .scale(1500);
+
+			//Implementing zoom
+			var zoom = d3.behavior.zoom()
+			    .translate([0, 0])
+			    .scale(1)
+			    .scaleExtent([1, 8])
+			    .on("zoom", zoomed);
+
+			//Define default path generator
+			var path = d3.geo.path().projection(projection);
+
+			//Define quantize scale to sort data values into buckets of color
+			var color = d3.scale.ordinal()
+					.domain(["0", "1-10", "11-100", "101-200", "201-500", "501-1000", "1001-2000", "2001-5000", ">5001"])
+					.range(["rgb(247,251,255)", "rgb(222,235,247)",
+			"rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)", "rgb(8,48,107)"]);
+
+			var law_school_types = d3.scale.ordinal()
+					.domain(["Fully Accredited", "Not Fully Accredited"]);
+
+			var other_legend_features = d3.scale.ordinal()
+					.domain(["MAP LEGEND", "Law School Accreditation", "Number of Companies"]);
+
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h)
+						.on("click", stopped, true);
+
+			svg.append("rect")
+				 .attr("class", "background")
+				 .attr("width", w)
+				 .attr("height", h)
+				 .on("click", reset);
+
+		 	var g = svg.append("g");
+
+			svg
+					.call(zoom) //delete this line to disable free zooming
+					.call(zoom.event);
+
+			//Create tooltip
+			var div = d3.select("body").append("div")
+							    .attr("class", "tooltip")
+							    .style("display", "none");
+
+			var lawschooldiv = d3.select("body").append("div")
+							    .attr("class", "law-school-tooltip")
+							    .style("display", "none");
+
+			var legendRectSizeX = 130,
+					legendRectSizeY = 20,
+					legendSpacing = 4;
+
+			var legend_colors = d3.select("svg")
+          .append("g")
+          .selectAll("g")
+          .data(color.domain())
+          	.enter()
+          .append("g")
+            .attr("class", "legend")
+            .attr("transform", function(d, i) {
+              var height = legendRectSizeY;
+              var horz = 0;
+              var vert = i * height;
+              return "translate(" + horz + "," + vert + ")";
+      			});
+
+			var legend_law_schools = d3.select("svg")
+					.append("g")
+					.selectAll("g")
+					.data(law_school_types.domain())
+						.enter()
+					.append("g")
+						.attr("class", "legend")
+						.attr("transform", function(d, i) {
+							var height = legendRectSizeY;
+              var horz = 0;
+              var vert = i * height;
+              return "translate(" + horz + "," + vert + ")";
+						});
+
+			var legend_other_features = d3.select("svg")
+					.append("g")
+					.selectAll("g")
+					.data(other_legend_features.domain())
+						.enter()
+					.append("g")
+						.attr("class", "legend")
+						.attr("transform", function(d, i) {
+							var height = legendRectSizeY;
+							var horz = 0;
+							var vert = i * height;
+							return "translate(" + horz + "," + vert + ")";
+						});
+
+			svg.append("rect")
+				 .attr("class", "legend-border")
+				 .attr("width", legendRectSizeX - 1)
+				 .attr("height", legendRectSizeY*14)
+				 .attr("x", w - legendRectSizeX)
+				 .attr("y", h - legendRectSizeY*14)
+				 .style("fill", "none");
+
+			svg.append("line")
+				 .attr("class", "legend-separator")
+				 .attr("x1", w - legendRectSizeX)
+				 .attr("y1", h - legendRectSizeY*9)
+				 .attr("x2", w - 1)
+				 .attr("y2", h - legendRectSizeY*9)
+				 .style("stroke", "rgb(0,0,0)")
+				 .style("stroke-width", "1");
+
+		 svg.append("line")
+				 .attr("class", "legend-separator")
+				 .attr("x1", w - legendRectSizeX)
+				 .attr("y1", h - legendRectSizeY*10)
+				 .attr("x2", w - 1)
+				 .attr("y2", h - legendRectSizeY*10)
+				 .style("stroke", "rgb(0,0,0)")
+				 .style("stroke-width", "1");
+
+		 svg.append("line")
+				 .attr("class", "legend-separator")
+				 .attr("x1", w - legendRectSizeX)
+				 .attr("y1", h - legendRectSizeY*12)
+				 .attr("x2", w - 1)
+				 .attr("y2", h - legendRectSizeY*12)
+				 .style("stroke", "rgb(0,0,0)")
+				 .style("stroke-width", "1");
+
+	 		 svg.append("line")
+	 				 .attr("class", "legend-separator")
+	 				 .attr("x1", w - legendRectSizeX)
+	 				 .attr("y1", h - legendRectSizeY*13)
+	 				 .attr("x2", w - 1)
+	 				 .attr("y2", h - legendRectSizeY*13)
+	 				 .style("stroke", "rgb(0,0,0)")
+	 				 .style("stroke-width", "1");
+
+			legend_other_features.append("rect")
+					.attr("width", legendRectSizeX)
+					.attr("height", legendRectSizeY)
+					.attr("x", w - legendRectSizeX)
+					.attr("y", function (d, i) {
+						if (d == "MAP LEGEND") {
+							return h - 14*20
+						} else if (d == "Law School Accreditation") {
+							return h - 14*20
+						} else {
+							return h - 12*20
+						}
+					})
+					.style("fill", "rgb(255,255,255)")
+					.style("stroke", "rgb(255,255,255)");
+
+			legend_other_features.append("text")
+					.attr("x", w - legendRectSizeX/2)
+					.attr("y", function(d) {
+						if (d == "MAP LEGEND") {
+							return h - 14 * 20 + 14
+						} else if (d == "Law School Accreditation") {
+							return h - 14 * 20 + 14
+						} else {
+							return h - 12 * 20 + 14
+						}})
+					.attr("class", function(d,i) {return "legend_other_features legend_other_features_" + i})
+					.text(function(d) {return d;});
+
+			legend_law_schools.append("rect")
+					.attr("width", legendRectSizeX)
+          .attr("height", legendRectSizeY)
+					.attr("x", w - legendRectSizeX)
+					.attr("y", (h - legendRectSizeY * 12))
+          .style("fill", "rgb(255,255,255)")
+          .style("stroke", "rgb(255,255,255)");
+
+			legend_law_schools.append("text")
+					.attr("x", 20 + w - legendRectSizeX)
+					.attr("y", h - legendRectSizeY * 12 + 14)
+					.attr("class", function(d,i) {return "legend_law_schools_" + i})
+					.text(function(d) {return d;});
+
+			var accredited_color = "00B2A5";
+			var unaccredited_color = "E09E19";
+
+			legend_law_schools.append("circle")
+					.attr("cx", 10 + w - legendRectSizeX)
+					.attr("cy", h - 240 + 10)
+					.attr("r", 3)
+					.style("fill", function(d) {
+									if (d == "Fully Accredited") {
+										return accredited_color;
+									} else {
+										return unaccredited_color;
+									}})
+					.style("stroke", "rgb(255,255,255)")
+					.style("stroke-width", 0.5);
+
+			// Append a rectangle to each legend element to display the colors from the domain in the color variable
+			legend_colors.append("rect")
+          .attr("width", legendRectSizeX)
+          .attr("height", legendRectSizeY)
+					.attr("x", w - legendRectSizeX)
+					.attr("y", (h-180))
+					.attr("class", "legend_colors_rect")
+          .style("fill", color)
+          .style("stroke", color);
+
+      //Append a text element to each legend element based on the listed domains in the color variable
+      legend_colors.append("text")
+          .attr("x", w - legendRectSizeX + legendRectSizeX/2)
+					.attr("y", h-180+14)
+					.attr("class", function(d,i) {return "legend-text legend_" + i})
+          .text(function(d) { return d; });
+
+			//Load in geoID data
+			d3.csv("geo_ids_with_count.csv", function(data) {
+
+						//Load in GeoJSON data
+						d3.json("gz_2010_us_050_00_500k_topojson_test_with_count_and_county_names_and_state_boundaries.json", function(json) {
+
+							//Merge the geo ID data and GeoJSON
+							//Loop through once for each geo ID value
+							for(var i = 1; i <data.length; i++) {
+
+								//Grab geoID number
+								var geoID = data[i].geo_id;
+
+								//Grab company_count value
+								var companyCount = parseFloat(data[i].company_count);
+
+								//Cut down on the amount of typing
+								var jsonGeometries = json.objects.gz_2010_us_050_00_500k.geometries;
+
+								//Find the corresponding geoID inside the GeoJSON
+								for (var j = 0; j < jsonGeometries.length; j++){
+
+									var jsonGeoID = jsonGeometries[j].id;
+
+									if (geoID == jsonGeoID) {
+
+										//Copy the data value into the JSON
+										jsonGeometries[j].value = companyCount;
+
+										//Stop looking through the JSON
+										break;
+									}
+								}
+							}
+
+							//Load in law school geoData
+							d3.csv("us_law_schools_by_city_and_state.csv", function(law_data) {
+								g.selectAll("circle")
+									 .data(law_data)
+								 .enter()
+									 .append("circle")
+									 .attr("cx", function(d) {
+													 return projection([d._lon, d._lat])[0];
+									 })
+									 .attr("cy", function(d) {
+													 return projection([d._lon, d._lat])[1];
+									 })
+									 .attr("r", 3)
+									 .on("mouseover", mouseover_lawschool)
+								   .on("mousemove", mousemove_lawschool)
+								   .on("mouseout", mouseout_lawschool)
+									 .style("fill", function(d) {
+													 if (d._accreditation_content == "Unaccredited" || d._accreditation_content == "Provisional ABA") {
+														 return unaccredited_color;
+													 } else {
+														 return accredited_color;
+													 }})
+									 .style("stroke", "rgb(255,255,255)")
+									 .style("stroke-width", 0.5)
+									 .style("opacity", 0.75);
+							})
+
+							// Bind data and create one path per GeoJSON feature
+							g.selectAll(".counties")
+							   .data(topojson.feature(json, json.objects.gz_2010_us_050_00_500k).features)
+							.enter()
+							   .append("path")
+								 .attr("class", quantize)
+							   .attr("d", path)
+								 .on("mouseover", mouseover)
+							   .on("mousemove", mousemove)
+							   .on("mouseout", mouseout)
+								 .on("click", clicked);
+
+							g.append("path")
+							 		.datum(topojson.mesh(json, json.objects.gz_2010_us_040_00_500k, function(a, b) {return a !== b;}))
+									.attr("d", path)
+									.attr("class", "state-boundary");
+
+						});
+			});
+
+			// quantize function takes a data point and returns a number
+			// between 0 and 8, to indicate intensity, the prepends a 'q'
+			// and appends '-9'
+			function quantize(d) {
+				if (d.properties.COMPANY_COUNT == undefined) {
+					return "q-null counties";
+				} else if (d.properties.COMPANY_COUNT <= 10) {
+					return "q0-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 10 && d.properties.COMPANY_COUNT <= 100) {
+					return "q1-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 100 && d.properties.COMPANY_COUNT <= 200) {
+					return "q2-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 200 && d.properties.COMPANY_COUNT <= 500) {
+					return "q3-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 500 && d.properties.COMPANY_COUNT <= 1000) {
+					return "q4-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 1000 && d.properties.COMPANY_COUNT <= 2000) {
+					return "q5-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 2000 && d.properties.COMPANY_COUNT <= 5000) {
+					return "q6-8 counties"
+				} else if (d.properties.COMPANY_COUNT > 5000) {
+					return "q7-8 counties"
+				};
+			};
+
+			function mouseover() {
+			  div.style("display", "inline");
+			}
+
+			function mouseover_lawschool() {
+			  lawschooldiv.style("display", "inline");
+			}
+
+			function mousemove(d) {
+				if (d.properties.COMPANY_COUNT == undefined) {
+					div
+				      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>0")
+				      .style("left", (d3.event.pageX - 80) + "px")
+				      .style("top", (d3.event.pageY + 40) + "px");
+				} else {
+					div
+			      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>" + d.properties.COMPANY_COUNT)
+			      .style("left", (d3.event.pageX - 80) + "px")
+			      .style("top", (d3.event.pageY + 40) + "px");
+				}
+			}
+
+			function mousemove_lawschool(d) {
+					lawschooldiv
+				      .html("<b>Law School Name: </b>" + d._school_content + "<br><br><b>Accreditation: </b>" + d._accreditation_content)
+				      .style("left", (d3.event.pageX - 80) + "px")
+				      .style("top", (d3.event.pageY + 40) + "px");
+			}
+
+			function mouseout() {
+			  div.style("display", "none");
+			}
+
+			function mouseout_lawschool() {
+			  lawschooldiv.style("display", "none");
+			}
+
+			function clicked(d) {
+			  if (active.node() === this) return reset();
+			  active.classed("active", false);
+			  active = d3.select(this).classed("active", true);
+
+			  var bounds = path.bounds(d),
+			      dx = bounds[1][0] - bounds[0][0],
+			      dy = bounds[1][1] - bounds[0][1],
+			      x = (bounds[0][0] + bounds[1][0]) / 2,
+			      y = (bounds[0][1] + bounds[1][1]) / 2,
+			      // scale = .2 / Math.max(dx / w, dy / h ),
+						scale = 5,
+			      translate = [w / 2 - scale * x, h / 2 - scale * y];
+
+			  svg.transition()
+			      .duration(750)
+			      .call(zoom.translate(translate).scale(scale).event);
+			}
+
+			function reset() {
+			  active.classed("active", false);
+			  active = d3.select(null);
+
+			  svg.transition()
+			      .duration(750)
+			      .call(zoom.translate([0, 0]).scale(1).event);
+			}
+
+			function zoomed() {
+			  g.style("stroke-width", 1.5 / d3.event.scale + "px");
+			  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+			}
+
+			// If the drag behavior prevents the default click,
+			// also stop propagation so we don’t click-to-zoom.
+			function stopped() {
+			  if (d3.event.defaultPrevented) d3.event.stopPropagation();
+			}
+
+		</script>
+	</body>
+</html>

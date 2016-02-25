@@ -1,0 +1,246 @@
+_city,_state,_lat,_lon,_school_content,_type_value,_accreditation_content,_street_address
+San Diego,California,32.810355,-117.142829,Western Sierra Law School,Private,Unaccredited,"8575 Gibbs Dr, San Diego, CA 92123"
+Birmingham,Alabama,33.480838,-86.907183,Miles Law School,Private,Unaccredited,"5500 Myron Massey Blvd, Fairfield, AL 35064"
+Birmingham,Alabama,33.513202,-86.801166,Birmingham School of Law,Private,Unaccredited,"231 22nd St S, Birmingham, AL 35233"
+Irvine,California,33.632882,-117.732152,American International School of Law,Private,Unaccredited,"16491 Scientific Way , Irvine, CA 92618 "
+Irvine,California,33.69279,-117.766254,California Southern University,Private,Unaccredited,"930 Roosevelt, Irvine, CA 92620"
+Indio,California,33.719281,-116.218805,California Desert Trial Academy College of Law,Private,Unaccredited,
+Santa Ana,California,33.765394,-117.851618,"Trinity Law School, Trinity International University",Private,Unaccredited,"2200 N Grand Ave, Santa Ana, CA 92705"
+Long Beach,California,33.777466,-118.188487,Pacific Coast University School of Law,Private,Unaccredited,
+Orange,California,33.787966,-117.873633,Pacific West College of Law,Private,Unaccredited,"2011 W Chapman Ave, Orange, CA 92868"
+Cerritos,California,33.864429,-118.053932,Irvine University College of Law,Private,Unaccredited,
+Riverside,California,33.953355,-117.396162,California Southern Law School,Private,Unaccredited,
+Los Angeles,California,34.056488,-118.273743,Peoples College of Law,Private,Unaccredited,"660 S Bonnie Brae St, Los Angeles, CA 90057"
+Los Angeles,California,34.058731,-118.444143,"Concord Law School, Kaplan University",Private,Unaccredited,"10866 Wilshire Blvd, Los Angeles, CA 90024"
+San Bernardino,California,34.108345,-117.289765,American Heritage University School of Law,Private,Unaccredited,
+Glendale,California,34.142346,-118.248367,Glendale University College of Law,Private,Unaccredited,
+Woodland Hills,California,34.168339,-118.60592,University of West Los Angeles School of Law,Private,Unaccredited,
+Santa Barbara,California,34.424497,-119.705378,Santa Barbara College of Law,Private,Unaccredited,"20 E Victoria St, Santa Barbara, CA 93101"
+Ventura,California,34.424497,-119.705378,Ventura College of Law,Private,Unaccredited,"20 E Victoria St, Santa Barbara, CA 93101"
+Acton,California,34.469994,-118.196742,Larry H. Layton School of Law,Private,Unaccredited,
+San Luis Obispo,California,35.282753,-120.659616,University of San Luis Obispo School of Law,Private,Unaccredited,
+Ridgecrest,California,35.622506,-117.669941,Pinnacles School of Law,Private,Unaccredited,
+Nashville,Tennessee,36.105194,-86.762784,Nashville School of Law,Private,Unaccredited,"4013 Armory Oaks Dr, Nashville, TN 37204"
+Seaside,California,36.625809,-121.817036,Monterey College of Law,Private,Unaccredited,
+Fresno,California,36.739442,-119.784831,Oak Brook College of Law,Private,Unaccredited,
+Clovis,California,36.825228,-119.702919,San Joaquin College of Law,Private,Unaccredited,
+Menlo Park,California,37.453827,-122.182187,St. Francis School of Law,Private,Unaccredited,
+San Jose,California,37.469569,-121.93685,University of Silicon Valley Law School,Private,Unaccredited,2722 BAYVIEW DRIVE. FREMONT CALIFORNIA 94538
+Modesto,California,37.639097,-120.996878,University of Honolulu School of Law,Private,Unaccredited,
+Pleasant Hill,California,37.947979,-122.060796,John F. Kennedy University College of Law,Private,Unaccredited,
+Stockton,California,37.957702,-121.29078,"Laurence Drivon School of Law, Humphreys College",Private,Unaccredited,
+Santa Rosa,California,38.440468,-122.714431,Empire College School of Law,Private,Unaccredited,
+Sacramento,California,38.572398,-121.464128,Lincoln Law School of Sacramento,Private,Unaccredited,"3140 J St, Sacramento, CA 95816"
+Chico,California,39.728495,-121.837478,Cal Northern School of Law,Private,Unaccredited,
+Sacramento,California,38.6056815,-121.5142751,Northwestern California University School of Law,Private,Unaccredited,"2151 River Plaza Dr #306, Sacramento, CA 95833"
+Los Angeles,California,34.0621882,-118.2900329,International Pacific School of Law,Private,Unaccredited,"3055 Wilshire Blvd #500, Los Angeles, CA 90010"
+Los Angeles,California,34.0613735,-118.3033932,Abraham Lincoln University School of Law,Private,Unaccredited,"3530 Wilshire Blvd #1430, Los Angeles, CA 90010"
+Santa Ana,California,33.6975535,-117.9163724,"Taft Law School, William Howard Taft University",Private,Unaccredited,"3700 S Susan St #200, Santa Ana, CA 92704"
+San Jose,California,37.3309703,-121.887089,Lincoln Law School of San Jose,Private,Unaccredited,"384 S Second St, San Jose, CA 95113"
+La Mesa,California,32.7633355,-117.0222967,McMillan Academy of Law,Private,Unaccredited,"4670 Nebo Drive, Suite 200, La Mesa, CA 91941-5230"
+Santa Barbara,California,34.4353926,-119.8107478,California School of Law,Private,Unaccredited,"5276 Hollister Ave # 262, Santa Barbara, CA 93111"
+Ventura,California,34.26706,-119.2154704,Southern California Institute of Law,Private,Unaccredited,"877 S Victoria Ave #111, Ventura, CA 93003"
+San Francisco,California,37.8077556,-122.411767,San Francisco Law School,Private,Unaccredited,"One Beach Street, Suite 100, San Francisco, CA 94133-1221"
+Andover,Massachusetts,42.65717,-71.140878,Massachusetts School of Law,Private,Unaccredited,
+Knoxville,Tennessee,35.96517,-83.922268,"Duncan School of Law, Lincoln Memorial University",Private,Provisional ABA,"601 W Summit Hill Dr, Knoxville, TN 37902"
+Nashville,Tennessee,36.134657,-86.792156,Belmont University College of Law,Private,Provisional ABA,"1901 15th Ave S, Nashville, TN 37212"
+La Verne,California,33.6796268,-117.7443642,University of La Verne College of Law,Private,Provisional ABA,"1950 3rd Ln, Irvine, CA 92602"
+Dartmouth,Massachusetts,41.594268,-70.979442,University of Massachusetts School of Law,Public,Provisional ABA,
+Boise,Idaho,43.615046,-116.204443,Concordia University School of Law,Private,Provisional ABA,
+Honolulu,Hawaii,21.304547,-157.855676,"William S. Richardson School of Law, University of Hawaii",Public,Full ABA,
+Coral Gables,Florida,25.690552,-80.235009,University of Miami School of Law,Private,Full ABA,
+Miami Gardens,Florida,25.942075,-80.239753,St. Thomas University School of Law,Private,Full ABA,
+Davie,Florida,26.075729,-80.284109,"Shepard Broad Law Center, Nova Southeastern University",Private,Full ABA,
+Naples,Florida,26.142036,-81.79481,Ave Maria School of Law,Private,Full ABA,
+Gulfport,Florida,27.746197,-82.712723,Stetson University College of Law,Private,Full ABA,
+Orlando,Florida,28.553474,-81.323161,Barry University School of Law,Private,Full ABA,"6441 E Colonial Dr, Orlando, FL 32807"
+San Antonio,Texas,29.4246,-98.49514,St. Mary's University School of Law,Private,Full ABA,
+Gainesville,Florida,29.651907,-82.324798,University of Florida Levin College of Law,Public,Full ABA,
+Houston,Texas,29.724583,-95.36261,"Thurgood Marshall School of Law, Texas Southern University",Public,Full ABA,"3100 Cleburne St, Houston, TX 77004"
+Houston,Texas,29.727317,-95.338293,University of Houston Law Center,Public,Full ABA,"4604 Calhoun Rd, Houston, TX 77004"
+Houston,Texas,29.753499,-95.364975,South Texas College of Law,Private,Full ABA,"1303 San Jacinto St, Houston, TX 77002"
+New Orleans,Louisiana,29.937075,-90.128452,Loyola University New Orleans College of Law,Private,Full ABA,"526 Pine St, New Orleans, LA 70118"
+New Orleans,Louisiana,29.937519,-90.118619,Tulane University School of Law,Private,Full ABA,"6329 Freret St, New Orleans, LA 70118"
+Austin,Texas,30.271129,-97.743699,University of Texas School of Law,Public,Full ABA,
+Jacksonville,Florida,30.332184,-81.655651,Florida Coastal School of Law,Private,Full ABA,
+Tallahassee,Florida,30.438083,-84.280933,Florida State University College of Law,Public,Full ABA,
+Waco,Texas,31.549333,-97.146669,"Baylor Law School, Baylor University",Private,Full ABA,
+Savannah,Georgia,32.083541,-81.099834,Savannah Law School,Private,Full ABA,
+Tucson,Arizona,32.221742,-110.926476,"James E. Rogers College of Law, University of Arizona",Public,Full ABA,
+Montgomery,Alabama,32.366966,-86.300648,"Thomas Goode Jones School of Law, Faulkner University",Private,Full ABA,
+Jackson,Mississippi,32.410438,-90.162065,Mississippi College School of Law,Private,Full ABA,
+San Diego,California,32.710136,-117.154193,Thomas Jefferson School of Law,Private,Full ABA,"1155 Island Ave, San Diego, CA 92101"
+San Diego,California,32.721739,-117.162491,California Western School of Law,Private,Full ABA,"225 Cedar St, San Diego, CA 92101"
+Fort Worth,Texas,32.753177,-97.332746,Texas A&M University School of Law,Public,Full ABA,
+Dallas,Texas,32.776272,-96.796856,"Dedman School of Law, Southern Methodist University",Private,Full ABA,
+Charleston,South Carolina,32.787601,-79.940273,Charleston School of Law,Private,Full ABA,
+Macon,Georgia,32.840695,-83.632402,"Walter F. George School of Law, Mercer University",Private,Full ABA,
+Tuscaloosa,Alabama,33.26684,-87.486218,University of Alabama School of Law,Public,Full ABA,
+Tempe,Arizona,33.414631,-111.909376,"Sandra Day O'Connor College of Law, Arizona State University",Public,Full ABA,
+Phoenix,Arizona,33.446768,-112.075672,Phoenix School of Law,Private,Full ABA,
+Lubbock,Texas,33.577863,-101.855166,Texas Tech University School of Law,Public,Full ABA,
+Irvine,California,33.646868,-117.835225,"University of California, Irvine School of Law",Public,Full ABA,"401 E Peltason Dr, Irvine, CA 92612"
+Costa Mesa,California,33.663339,-117.903317,Whittier Law School,Private,Full ABA,
+Atlanta,Georgia,33.756673,-84.38721,Georgia State University College of Law,Public,Full ABA,"85 Park Pl NE, Atlanta, GA 30303"
+Malibu,California,33.793214,-116.502356,Pepperdine University School of Law,Private,Full ABA,
+Orange,California,33.793384,-117.852938,Chapman University School of Law,Private,Full ABA,"1 University Dr, Orange, CA 92866"
+Atlanta,Georgia,33.793676,-84.388835,John Marshall Law School,Private,Full ABA,"1422 West Peachtree St NW, Atlanta, GA 30309"
+Atlanta,Georgia,33.795478,-84.321354,Emory University School of Law,Private,Full ABA,"1301 Clifton Rd NE, Atlanta, GA 30322"
+Fullerton,California,33.870822,-117.929416,Western State University College of Law,Private,Full ABA,
+Athens,Georgia,33.959597,-83.376678,University of Georgia School of Law,Public,Full ABA,
+Columbia,South Carolina,34.000749,-81.034331,University of South Carolina School of Law,Public,Full ABA,
+Los Angeles,California,34.018069,-118.284902,"Gould School of Law, University of Southern California",Private,Full ABA,"699 Exposition Blvd, Los Angeles, CA 90089"
+Los Angeles,California,34.049114,-118.270388,"Loyola Law School, Loyola Marymount University",Private,Full ABA,"919 Albany St, Los Angeles, CA 90015"
+Los Angeles,California,34.060324,-118.289186,Southwestern University School of Law,Private,Full ABA,"675 S Westmoreland Ave, Los Angeles, CA 90005"
+Los Angeles,California,34.074207,-118.438629,"University of California, Los Angeles School of Law",Public,Full ABA,"385 Charles E Young Dr E, Los Angeles, CA 90095"
+Oxford,Mississippi,34.366413,-89.518766,University of Mississippi School of Law,Public,Full ABA,
+Little Rock,Arkansas,34.746481,-92.289595,"William H. Bowen School of Law, University of Arkansas at Little Rock",Public,Full ABA,
+Albuquerque,New Mexico,35.084103,-106.650985,University of New Mexico School of Law,Public,Full ABA,
+Memphis,Tennessee,35.149022,-90.051628,"Cecil C. Humphreys School of Law, University of Memphis",Public,Full ABA,
+Norman,Oklahoma,35.222572,-97.439482,University of Oklahoma College of Law,Public,Full ABA,
+Charlotte,North Carolina,35.227087,-80.843127,Charlotte School of Law,Private,Full ABA,
+Oklahoma City,Oklahoma,35.472989,-97.517054,Oklahoma City University School of Law,Private,Full ABA,
+Raleigh,North Carolina,35.780402,-78.639078,"Norman Adrian Wiggins School of Law, Campbell University",Private,Full ABA,
+Chapel Hill,North Carolina,35.9132,-79.055844,University of North Carolina School of Law,Public,Full ABA,
+Knoxville,Tennessee,35.957701,-83.929505,University of Tennessee College of Law,Public,Full ABA,"1505 Cumberland Ave, Knoxville, TN 37916"
+Durham,North Carolina,35.972194,-78.897669,North Carolina Central University School of Law,Public,Full ABA,"640 Nelson St, Durham, NC 27707"
+Durham,North Carolina,35.995462,-78.946847,Duke University School of Law,Private,Full ABA,"210 Science Dr, Durham, NC 27708"
+Fayetteville,Arkansas,36.062584,-94.157433,University of Arkansas School of Law,Public,Full ABA,
+Greensboro,North Carolina,36.072636,-79.791975,Elon University School of Law,Private,Full ABA,
+Winston-Salem,North Carolina,36.099817,-80.244144,Wake Forest University School of Law,Private,Full ABA,
+Tulsa,Oklahoma,36.155681,-95.992911,University of Tulsa College of Law,Private,Full ABA,
+Las Vegas,Nevada,36.166286,-115.149225,"William S. Boyd School of Law, University of Nevada, Las Vegas",Public,Full ABA,
+Virginia Beach,Virginia,36.718371,-76.24668,Regent University School of Law,Private,Full ABA,
+Williamsburg,Virginia,37.270703,-76.70745,"Marshall-Wythe School of Law, The College of William and Mary",Public,Full ABA,
+Grundy,Virginia,37.277889,-82.099022,Appalachian School of Law,Private,Full ABA,
+Santa Clara,California,37.354113,-121.955174,Santa Clara University School of Law,Private,Full ABA,
+Lynchburg,Virginia,37.40088,-79.184492,Liberty University School of Law,Private,Full ABA,
+Stanford,California,37.426565,-122.170188,Stanford Law School,Private,Full ABA,
+Richmond,Virginia,37.538509,-77.43428,University of Richmond School of Law,Private,Full ABA,
+Carbondale,Illinois,37.727469,-89.216655,Southern Illinois University School of Law,Public,Full ABA,
+San Francisco,California,37.776569,-122.453889,University of San Francisco School of Law,Private,Full ABA,"2130 Fulton St, San Francisco, CA 94117"
+San Francisco,California,37.781304,-122.415821,"University of California, Hastings College of the Law",Public,Full ABA,"200 McAllister St, San Francisco, CA 94102"
+Lexington,Virginia,37.784021,-79.442816,Washington and Lee University School of Law,Private,Full ABA,
+San Francisco,California,37.78916,-122.398485,Golden Gate University School of Law,Private,Full ABA,"536 Mission St, San Francisco, CA 94105"
+Berkeley,California,37.870839,-122.272864,"University of California, Berkeley School of Law (Boalt Hall)",Public,Full ABA,
+Lexington,Kentucky,38.046407,-84.497039,University of Kentucky College of Law,Public,Full ABA,
+Charlottesville,Virginia,38.052048,-78.509474,The Judge Advocate General's Legal Center and School,Public,Full ABA,"600 Massie Rd, Charlottesville, VA 22903"
+Charlottesville,Virginia,38.053275,-78.509263,University of Virginia School of Law,Public,Full ABA,"580 Massie Rd, Charlottesville, VA 22903"
+Louisville,Kentucky,38.254238,-85.759407,"Louis D. Brandeis School of Law, University of Louisville",Public,Full ABA,
+Davis,California,38.545379,-121.744583,"University of California, Davis School of Law (King Hall)",Public,Full ABA,
+Sacramento,California,38.549274,-121.472949,"McGeorge School of Law, University of the Pacific",Private,Full ABA,"3200 5th Ave, Sacramento, CA 95817"
+St. Louis,Missouri,38.637332,-90.194652,Saint Louis University School of Law,Private,Full ABA,"100 N Tucker Blvd, St. Louis, MO 63101"
+St. Louis,Missouri,38.647128,-90.302661,Washington University School of Law,Private,Full ABA,"1 Brookings Dr, St. Louis, MO 63130"
+Ada,Ohio,38.839894,-83.50517,"Ohio Northern University, Pettit College of Law",Private,Full ABA,
+Arlington,Virginia,38.890396,-77.084158,George Mason University School of Law,Public,Full ABA,
+Washington,District of Columbia,38.897833,-77.012599,Georgetown University Law Center,Private,Full ABA,"600 New Jersey Ave NW, Washington, DC 20001"
+Washington,District of Columbia,38.899384,-77.045247,The George Washington University Law School,Private,Full ABA,"2000 H St NW, Washington, DC 20052"
+Washington,District of Columbia,38.942721,-77.059603,Howard University School of Law,Private,Full ABA,"2900 Van Ness St NW, Washington, DC 20008"
+Washington,District of Columbia,38.945867,-77.079738,"Washington College of Law, American University",Private,Full ABA,"4300 Nebraska Ave NW, Washington, DC 20016"
+Washington,District of Columbia,38.946225,-77.065201,"David A. Clarke School of Law, University of the District of Columbia",Public,Full ABA,"4340 Connecticut Ave NW, Washington, DC 20008"
+Columbia,Missouri,38.951883,-92.333737,University of Missouri School of Law,Public,Full ABA,
+Lawrence,Kansas,38.971938,-95.23595,University of Kansas School of Law,Public,Full ABA,
+Highland Heights,Kentucky,39.03309,-84.452151,"Salmon P. Chase College of Law, Northern Kentucky University",Public,Full ABA,
+Topeka,Kansas,39.049011,-95.677556,Washburn University School of Law,Public,Full ABA,
+Kansas City,Missouri,39.084469,-94.56303,University of Missouri - Kansas City School of Law,Public,Full ABA,
+Cincinnati,Ohio,39.101454,-84.51246,University of Cincinnati College of Law,Public,Full ABA,
+Bloomington,Indiana,39.16704,-86.534288,"Maurer School of Law, Indiana University Bloomington",Public,Full ABA,
+Baltimore,Maryland,39.289773,-76.622697,University of Maryland School of Law,Public,Full ABA,"500 W Baltimore St, Baltimore, MD 21201"
+Baltimore,Maryland,39.305835,-76.615886,University of Baltimore School of Law,Public,Full ABA,"1401 N Charles St, Baltimore, MD 21201"
+Morgantown,West Virginia,39.629526,-79.955897,West Virginia University College of Law,Public,Full ABA,
+Denver,Colorado,39.739154,-104.984703,"Sturm College of Law, University of Denver",Private,Full ABA,
+Wilmington,Delaware,39.745947,-75.546589,Widener University School of Law,Private,Full ABA,
+Dayton,Ohio,39.758948,-84.191607,University of Dayton School of Law,Private,Full ABA,
+Indianapolis,Indiana,39.768333,-86.15835,Indiana University Robert H. McKinney School of Law,Public,Full ABA,
+Miami,Florida,25.7567687,-80.3801018,Florida International University College of Law,Public,Full ABA,"11200 S.W. 8th Street, RDB 2015, University Park, FL 33199"
+Nashville,Tennessee,36.1481438,-86.8022651,Vanderbilt University Law School,Private,Full ABA,"131 21st Ave S, Nashville, TN 37203"
+New York City,New York,40.7479289,-73.9461615,City University of New York School of Law,Public,Full ABA,"2 Court Square, Long Island City, NY 11101"
+Baton Rouge,Louisiana,30.5233151,-91.1984904,Southern University Law Center,Public,Full ABA,"2 Roosevelt Steptoe Dr, Baton Rouge, LA 70813"
+Orlando,Florida,28.5448058,-81.385435,Florida A&M University College of Law,Public,Full ABA,"201 Beggs Ave, Orlando, FL 32801"
+Washington,District of Columbia,38.936097,-76.9989966,"Columbus School of Law, The Catholic University of America",Private,Full ABA,"3600 John McCormack Dr NE, Washington, DC 20064"
+Chicago,Illinois,41.878985,-87.6442927,"Chicago-Kent College of Law, Illinois Institute of Technology",Private,Full ABA,"565 W Adams St #623, Chicago, IL 60661"
+San Diego,California,32.7716655,-117.1910477,University of San Diego School of Law,Private,Full ABA,"5998 Alcala Park, Warren Hall, San Diego, CA 92110"
+Birmingham,Alabama,33.4629377,-86.7928276,"Cumberland School of Law, Samford University",Private,Full ABA,"800 Lakeshore Dr, Birmingham, AL 35229"
+New York City,New York,40.7239575,-73.7947677,St. John's University School of Law,Private,Full ABA,"8000 Utopia Pkwy, Jamaica, NY 11439"
+Chicago,Illinois,41.8963359,-87.619839,Northwestern University School of Law,Private,Full ABA,"Northwestern University, 375 E Chicago Ave, Chicago, IL 60611"
+Baton Rouge,Louisiana,30.4142766,-91.1771987,"Paul M. Hebert Law Center, Louisiana State University",Public,Full ABA,"1 EAST CAMPUS DR., LOUISIANA STATE UNIVERSITY, BATON ROUGE, LA 70803-1000"
+Camden,New Jersey,39.944844,-75.119869,"Rutgers School of Law–Camden, Rutgers University",Public,Full ABA,
+Philadelphia,Pennsylvania,39.953908,-75.193999,University of Pennsylvania Law School,Private,Full ABA,"3501 Sansom St, Philadelphia, PA 19104"
+Philadelphia,Pennsylvania,39.962801,-75.247146,Drexel University School of Law,Private,Full ABA,"3320 Market St, Philadelphia, PA 19104"
+Columbus,Ohio,39.963774,-82.987073,Capital University Law School,Private,Full ABA,"303 E Broad St, Columbus, OH 43215"
+Philadelphia,Pennsylvania,39.979049,-75.157731,"Beasley School of Law, Temple University",Public,Full ABA,"1719 N Broad St, Philadelphia, PA 19122"
+Columbus,Ohio,39.996877,-83.00835,"Michael E. Moritz College of Law, Ohio State University",Public,Full ABA,"55 W 12th Ave, Columbus, OH 43210"
+Boulder,Colorado,40.014986,-105.270546,University of Colorado School of Law,Public,Full ABA,
+Radnor,Pennsylvania,40.0463,-75.359549,Villanova University School of Law,Private,Full ABA,
+Urbana,Illinois,40.111717,-88.207301,University of Illinois College of Law,Public,Full ABA,
+Carlisle,Pennsylvania,40.201824,-77.189389,"Dickinson School of Law, Penn State University",Public,Full ABA,
+Provo,Utah,40.233844,-111.658534,"J. Reuben Clark Law School, Brigham Young University",Private,Full ABA,
+Harrisburg,Pennsylvania,40.266311,-76.886112,Widener University School of Law,Private,Full ABA,
+Pittsburgh,Pennsylvania,40.43699,-79.993022,Duquesne University School of Law,Private,Full ABA,"900 Locust St, Pittsburgh, PA 15282"
+Pittsburgh,Pennsylvania,40.44429,-79.949289,University of Pittsburgh School of Law,Public,Full ABA,"3900 Forbes Ave, Pittsburgh, PA 15260"
+New York City,New York,40.691944,-73.989722,Brooklyn Law School,Private,Full ABA,"250 Joralemon St, Brooklyn, NY 11201"
+Hempstead,New York,40.706213,-73.61874,Hofstra University School of Law,Private,Full ABA,
+New York City,New York,40.725336,-73.996813,New York Law School,Private,Full ABA,"185 W Broadway, New York, NY 10013"
+New York City,New York,40.730164,-73.999039,New York University School of Law,Private,Full ABA,"245 Sullivan St, New York, NY 10012"
+New York City,New York,40.734715,-73.994132,"Benjamin N. Cardozo School of Law, Yeshiva University",Private,Full ABA,"55 5th Ave, New York, NY 10003"
+Newark,New Jersey,40.737276,-74.169906,Seton Hall University School of Law,Private,Full ABA,"1109 Raymond Blvd, Newark, NJ 07102"
+Newark,New Jersey,40.740526,-74.17319,"Rutgers School of Law–Newark, Rutgers University",Public,Full ABA,"123 Washington St, Newark, NJ 07102"
+Salt Lake City,Utah,40.767013,-111.890431,"S.J. Quinney College of Law, University of Utah",Public,Full ABA,
+New York City,New York,40.771639,-73.984889,Fordham University School of Law,Private,Full ABA,"150 W 62nd St, New York, NY 10023"
+Central Islip,New York,40.790654,-73.201781,Touro College Jacob D. Fuchsberg Law Center,Private,Full ABA,
+Lincoln,Nebraska,40.800055,-96.6674,University of Nebraska–Lincoln College of Law,Public,Full ABA,
+New York City,New York,40.806753,-73.960483,Columbia University Law School,Private,Full ABA,"435 W 116th St, New York, NY 10027"
+White Plains,New York,41.033986,-73.76291,Pace University School of Law,Private,Full ABA,
+Akron,Ohio,41.083064,-81.518485,University of Akron School of Law,Public,Full ABA,
+Omaha,Nebraska,41.258732,-95.937873,Creighton University School of Law,Private,Full ABA,
+New Haven,Connecticut,41.308214,-72.925052,Yale Law School,Private,Full ABA,
+Laramie,Wyoming,41.311367,-105.591101,University of Wyoming College of Law,Public,Full ABA,
+Hamden,Connecticut,41.395929,-72.896872,Quinnipiac University School of Law,Private,Full ABA,
+Valparaiso,Indiana,41.473095,-87.061141,Valparaiso University School of Law,Private,Full ABA,
+Cleveland,Ohio,41.501406,-81.678641,"Cleveland-Marshall College of Law, Cleveland State University",Public,Full ABA,"1801 Euclid Ave, Cleveland, OH 44115"
+Cleveland,Ohio,41.51129,-81.608971,Case Western Reserve University School of Law,Private,Full ABA,"11075 East Blvd, Cleveland, OH 44106"
+Des Moines,Iowa,41.591064,-93.603715,Drake University Law School,Private,Full ABA,
+Iowa City,Iowa,41.661256,-91.529911,University of Iowa College of Law,Public,Full ABA,
+Bristol,Rhode Island,41.677046,-71.26616,Roger Williams University School of Law,Private,Full ABA,
+Toledo,Ohio,41.678675,-83.512728,University of Toledo College of Law,Public,Full ABA,
+Notre Dame,Indiana,41.6992,-86.237369,Notre Dame Law School,Private,Full ABA,
+Hartford,Connecticut,41.765558,-72.690613,University of Connecticut School of Law,Public,Full ABA,
+Chicago,Illinois,41.785416,-87.598579,University of Chicago Law School,Private,Full ABA,"1111 E 60th St, Chicago, IL 60637"
+Chicago,Illinois,41.877771,-87.628449,John Marshall Law School,Private,Full ABA,"315 S Plymouth Ct, Chicago, IL 60604"
+Chicago,Illinois,41.878028,-87.626389,DePaul University College of Law,Private,Full ABA,Found geocode
+Chicago,Illinois,41.897001,-87.627097,Loyola University Chicago School of Law,Private,Full ABA,"25 E Pearson St, Chicago, IL 60611"
+Dekalb,Illinois,41.929474,-88.750365,Northern Illinois University College of Law,Public,Full ABA,
+Springfield,Massachusetts,42.112412,-72.546714,Western New England University School of Law,Private,Full ABA,
+Ann Arbor,Michigan,42.268157,-83.731229,University of Michigan Law School,Public,Full ABA,
+Detroit,Michigan,42.330417,-83.038858,University of Detroit Mercy School of Law,Private,Full ABA,"651 E Jefferson Ave, Detroit, MI 48226"
+Newton,Massachusetts,42.337041,-71.209221,Boston College Law School,Private,Full ABA,
+Boston,Massachusetts,42.339216,-71.091252,Northeastern University School of Law,Private,Full ABA,"416 Huntington Ave, Boston, MA 02115"
+Boston,Massachusetts,42.350471,-71.108859,Boston University School of Law,Private,Full ABA,"765 Commonwealth Avenue, Boston, MA 02215"
+Boston,Massachusetts,42.351008,-71.06618,New England School of Law,Private,Full ABA,"154 Stuart St, Boston, MA 02116"
+Boston,Massachusetts,42.356701,-71.061058,Suffolk University Law School,Private,Full ABA,"120 Tremont St, Boston, MA 02108"
+Detroit,Michigan,42.359519,-83.073405,Wayne State University Law School,Public,Full ABA,"471 W Palmer Ave, Detroit, MI 48202"
+Cambridge,Massachusetts,42.377274,-71.130574,Harvard Law School,Private,Full ABA,
+Ithaca,New York,42.439604,-76.496802,Cornell Law School,Private,Full ABA,
+Albany,New York,42.651167,-73.754968,"Albany Law School, Union University",Private,Full ABA,
+Lansing,Michigan,42.733771,-84.55538,Western Michigan University Thomas M. Cooley Law School,Private,Full ABA,
+East Lansing,Michigan,42.735542,-84.485247,Michigan State University College of Law,Public,Full ABA,
+Vermillion,South Dakota,42.779442,-96.92921,University of South Dakota School of Law,Public,Full ABA,
+Buffalo,New York,42.886447,-78.878369,"University at Buffalo Law School, SUNY",Public,Full ABA,
+Milwaukee,Wisconsin,43.034993,-87.922497,Marquette University Law School,Private,Full ABA,
+Syracuse,New York,43.048122,-76.147424,Syracuse University College of Law,Private,Full ABA,
+Madison,Wisconsin,43.074761,-89.383761,University of Wisconsin Law School,Public,Full ABA,
+Concord,New Hampshire,43.207106,-71.537022,University of New Hampshire School of Law,Public,Full ABA,
+Portland,Maine,43.661028,-70.25486,University of Maine School of Law,Public,Full ABA,
+Royalton,Vermont,43.815901,-72.545654,Vermont Law School,Private,Full ABA,
+Eugene,Oregon,44.101181,-123.152384,University of Oregon School of Law,Public,Full ABA,
+Salem,Oregon,44.939157,-123.033121,Willamette University College of Law,Private,Full ABA,
+St. Paul,Minnesota,44.941469,-93.137157,Hamline University School of Law,Private,Full ABA,"875 Summit Ave., Saint Paul, MN 55105"
+Minneapolis,Minnesota,44.973082,-93.244271,University of Minnesota Law School,Public,Full ABA,"229 19th Ave S, Minneapolis, MN 55455"
+Minneapolis,Minnesota,44.974496,-93.276338,University of St. Thomas School of Law,Private,Full ABA,"1000 Lasalle Ave, Minneapolis, MN 55403"
+Portland,Oregon,45.520247,-122.674195,Lewis & Clark Law School,Private,Full ABA,
+Moscow,Idaho,46.732388,-117.000165,University of Idaho College of Law,Public,Full ABA,
+Missoula,Montana,46.87008,-113.99528,University of Montana School of Law,Public,Full ABA,
+Seattle,Washington,47.608974,-122.315838,Seattle University School of Law,Private,Full ABA,"1215 E Columbia St, Seattle, WA 98122"
+Spokane,Washington,47.65886,-117.424713,Gonzaga University School of Law,Private,Full ABA,
+Seattle,Washington,47.660505,-122.309742,University of Washington School of Law,Public,Full ABA,"4293 Memorial Way Northeast, Seattle, WA 98195"
+Grand Forks,North Dakota,47.907824,-97.059203,University of North Dakota School of Law,Public,Full ABA,
