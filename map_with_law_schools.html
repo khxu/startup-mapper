@@ -89,9 +89,21 @@
 				stroke-width: 1;
 				stroke: rgb(0,0,0);
 			}
+
+			#form {
+				font: 12px sans-serif;
+				background-color: rgb(230,230,230);
+			}
+
+			.hidden {
+				display: none;
+			}
 		</style>
 	</head>
 	<body>
+		<div id='form'>
+		  <input checked='checked' type='checkbox' name='lawSchoolButton' id='lawSchoolButton' value='law-school-circles'/><label for='lawSchoolButton'>Show/Hide Law Schools</label>
+		</div>
 		<script type="text/javascript">
 			//Width and height
 			var w = 960;
@@ -367,6 +379,7 @@
 													 return projection([d._lon, d._lat])[1];
 									 })
 									 .attr("r", 3)
+									 .attr("class", "law-school-circles")
 									 .on("mouseover", mouseover_lawschool)
 								   .on("mousemove", mousemove_lawschool)
 								   .on("mouseout", mouseout_lawschool)
@@ -400,6 +413,13 @@
 
 						});
 			});
+
+			d3.selectAll('input').on('click', function() {
+				var value = this.value,
+				checked = this.checked;
+				// display = this.checked ? "inline" : "none";
+				d3.selectAll('.law-school-circles').classed('hidden', !checked);
+		  });
 
 			// quantize function takes a data point and returns a number
 			// between 0 and 8, to indicate intensity, the prepends a 'q'
