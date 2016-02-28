@@ -343,29 +343,29 @@
 
 							//Merge the geo ID data and GeoJSON
 							//Loop through once for each geo ID value
-							for(var i = 1; i <data.length; i++) {
-
-								//Grab geoID number
-								var geoID = data[i].geo_id;
-
-								//Grab company_count value
-								var companyCount = parseFloat(data[i].company_count);
-
-								//Cut down on the amount of typing
-								var jsonGeometries = json.objects.gz_2010_us_050_00_500k.geometries;
-
-								//Find the corresponding geoID inside the GeoJSON
-								for (var j = 0; j < jsonGeometries.length; j++){
-
-									var jsonGeoID = jsonGeometries[j].id;
-
-									if (geoID == jsonGeoID) {
-
-										//Copy the data value into the JSON
-										jsonGeometries[j].value = companyCount;
-
-										//Stop looking through the JSON
-										break;
+							// for(var i = 0; i <data.length; i++) {
+							//
+							// 	//Grab geoID number
+							// 	var geoID = data[i].geo_id;
+							//
+							// 	//Grab company_count value
+							// 	var companyCount = parseFloat(data[i].company_count);
+							//
+							// 	//Cut down on the amount of typing
+							// 	var jsonGeometries = json.objects.gz_2010_us_050_00_500k.geometries;
+							//
+							// 	//Find the corresponding geoID inside the GeoJSON
+							// 	for (var j = 0; j < jsonGeometries.length; j++){
+							//
+							// 		var jsonGeoID = jsonGeometries[j].id;
+							//
+							// 		if (geoID == jsonGeoID) {
+							//
+							// 			//Copy the data value into the JSON
+							// 			jsonGeometries[j].value = companyCount;
+							//
+							// 			//Stop looking through the JSON
+							// 			break;
 									}
 								}
 							}

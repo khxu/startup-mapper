@@ -6,6 +6,7 @@
 		<title>Mapping Crunchbase by Counties</title>
 		<script type="text/javascript" src="d3/d3.min.js"></script>
 		<script type="text/javascript" src="topojson/topojson.min.js"></script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
 		<style type="text/css">
 			.q-null { fill:rgb(247,251,255); }
 			.q0-8 { fill:rgb(222,235,247); }
@@ -92,7 +93,11 @@
 
 			#form {
 				font: 12px sans-serif;
-				background-color: rgb(230,230,230);
+				background-color: rgb(255,255,255);
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				padding-right: 3px;
 			}
 
 			.hidden {
@@ -331,199 +336,228 @@
 					.attr("class", function(d,i) {return "legend-text legend_" + i})
           .text(function(d) { return d; });
 
-			//Load in geoID data
-			d3.csv("geo_ids_with_count_and_pop_2010.csv", function(data) {
+			//Map the companiesPerCapita value to a hash
+			var rateByPerCapita = d3.map();
 
-						//Load in GeoJSON data
-						d3.json("gz_2010_us_050_00_500k_topojson_test_with_count_and_county_names_and_state_boundaries.json", function(json) {
+			var quantize = d3.scale.quantize()
+					.domain([0.000002, 0.01])
+					.range(d3.range(8).map(function(i) { return "q" + i + "-8"; }));
 
-							//Merge the geo ID data and GeoJSON
-							//Loop through once for each geo ID value
-							for(var i = 1; i <data.length; i++) {
+			//Implement queuing for asynchronous data loading.
+			queue()
+		    .defer(d3.json, "gz_2010_us_050_00_500k_topojson_test_with_count_and_county_names_and_state_boundaries.json")
+		    .defer(d3.csv, "geo_ids_with_count_and_pop_2010.csv", function(d) { rateByPerCapita.set(d.geo_id, d.companies_per_capita); })
+		    .await(ready);
 
-								//Grab geoID number
-								var geoID = data[i].geo_id;
+			function ready(error, gz_2010_us_050_00_500k_topojson_test_with_count_and_county_names_and_state_boundaries, geo_ids_with_count_and_pop_2010) {
+				//Load in geoID data
+				d3.csv("geo_ids_with_count_and_pop_2010.csv", function(data) {
+					// console.log(rateByPerCapita.values());
+					// console.log(rateByPerCapita.entries());
 
-								//Grab company_count value
-								var companyCount = parseFloat(data[i].company_count);
+							//Load in GeoJSON data
+							d3.json("gz_2010_us_050_00_500k_topojson_test_with_count_and_county_names_and_state_boundaries.json", function(json) {
 
-								//Grab companies_per_capita value
-								var companiesPerCapita = parseFloat(data[i].companies_per_capita);
+								//Merge the geo ID data and GeoJSON
+								//Loop through once for each geo ID value
+								// for(var i = 0; i <data.length; i++) {
+								//
+								// 	//Grab geoID number
+								// 	var geoID = data[i].geo_id;
+								//
+								// 	//Grab company_count value
+								// 	var companyCount = parseFloat(data[i].company_count);
+								//
+								// 	//Grab companies_per_capita value
+								// 	var companiesPerCapita = parseFloat(data[i].companies_per_capita);
+								//
+								// 	//Cut down on the amount of typing
+								// 	var jsonGeometries = json.objects.gz_2010_us_050_00_500k.geometries;
+								//
+								// 	//Find the corresponding geoID inside the GeoJSON
+								// 	for (var j = 0; j < jsonGeometries.length; j++){
+								//
+								// 		var jsonGeoID = jsonGeometries[j].id;
+								//
+								// 		if (geoID == jsonGeoID) {
+								//
+								// 			//Copy the data value into the JSON
+								// 			// jsonGeometries[j].value = companiesPerCapita;
+								// 			// console.log(jsonGeometries[j])
+								// 			//Stop looking through the JSON
+								// 			break;
+								// 		}
+								// 	}
+								// }
 
-								//Cut down on the amount of typing
-								var jsonGeometries = json.objects.gz_2010_us_050_00_500k.geometries;
+								//Load in law school geoData
+								d3.csv("us_law_schools_by_city_and_state.csv", function(law_data) {
+									g.selectAll("circle")
+										 .data(law_data)
+									 .enter()
+										 .append("circle")
+										 .attr("cx", function(d) {
+														 return projection([d._lon, d._lat])[0];
+										 })
+										 .attr("cy", function(d) {
+														 return projection([d._lon, d._lat])[1];
+										 })
+										 .attr("r", 3)
+										 .attr("class", "law-school-circles")
+										 .on("mouseover", mouseover_lawschool)
+										 .on("mousemove", mousemove_lawschool)
+										 .on("mouseout", mouseout_lawschool)
+										 .style("fill", function(d) {
+														 if (d._accreditation_content == "Unaccredited" || d._accreditation_content == "Provisional ABA") {
+															 return unaccredited_color;
+														 } else {
+															 return accredited_color;
+														 }})
+										 .style("stroke", "rgb(255,255,255)")
+										 .style("stroke-width", 0.5)
+										 .style("opacity", 0.75);
+								})
 
-								//Find the corresponding geoID inside the GeoJSON
-								for (var j = 0; j < jsonGeometries.length; j++){
+								console.log(rateByPerCapita.get("0500000US39159"))
 
-									var jsonGeoID = jsonGeometries[j].id;
+								// Bind data and create one path per GeoJSON feature
+								g.selectAll(".counties")
+									 .data(topojson.feature(json, json.objects.gz_2010_us_050_00_500k).features)
+								.enter()
+									 .append("path")
+									 .attr("class", function(d) {
+										//  console.log(d.id);
+										// console.log(rateByPerCapita.get(d.id))
+										// console.log(rateByPerCapita.entries());
+										// console.log(rateByPerCapita.values());
+										// console.log(rateByPerCapita.get("0500000US72129"))
+										//  if (rateByPerCapita.get(d.id) == undefined) {
+										// 		return "q-null counties";
+										// 	} else if (rateByPerCapita.get(d.id) <= 0.00001) {
+										// 		return "q0-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.00001 && rateByPerCapita.get(d.id)<= 0.00002) {
+										// 		return "q1-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.00002 && rateByPerCapita.get(d.id) <= 0.00004) {
+										// 		return "q2-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.00004 && rateByPerCapita.get(d.id) <= 0.0001) {
+										// 		return "q3-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.0001 && rateByPerCapita.get(d.id) <= 0.0002) {
+										// 		return "q4-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.0002 && rateByPerCapita.get(d.id) <= 0.001) {
+										// 		return "q5-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.001 && rateByPerCapita.get(d.id) <= 0.004) {
+										// 		return "q6-8 counties"
+										// 	} else if (rateByPerCapita.get(d.id) > 0.004) {
+										// 		return "q7-8 counties"
+										// 	};
 
-									if (geoID == jsonGeoID) {
-
-										//Copy the data value into the JSON
-										jsonGeometries[j].value = companyCount;
-
-										//Stop looking through the JSON
-										break;
-									}
-								}
-							}
-
-							//Load in law school geoData
-							d3.csv("us_law_schools_by_city_and_state.csv", function(law_data) {
-								g.selectAll("circle")
-									 .data(law_data)
-								 .enter()
-									 .append("circle")
-									 .attr("cx", function(d) {
-													 return projection([d._lon, d._lat])[0];
+										if (rateByPerCapita.get(d.id) == undefined) {
+											return "q-null counties";
+										} else {
+											return "counties " + quantize(rateByPerCapita.get(d.id));
+										}
 									 })
-									 .attr("cy", function(d) {
-													 return projection([d._lon, d._lat])[1];
-									 })
-									 .attr("r", 3)
-									 .attr("class", "law-school-circles")
-									 .on("mouseover", mouseover_lawschool)
-								   .on("mousemove", mousemove_lawschool)
-								   .on("mouseout", mouseout_lawschool)
-									 .style("fill", function(d) {
-													 if (d._accreditation_content == "Unaccredited" || d._accreditation_content == "Provisional ABA") {
-														 return unaccredited_color;
-													 } else {
-														 return accredited_color;
-													 }})
-									 .style("stroke", "rgb(255,255,255)")
-									 .style("stroke-width", 0.5)
-									 .style("opacity", 0.75);
-							})
+									 .attr("d", path)
+									 .on("mouseover", mouseover)
+									 .on("mousemove", mousemove)
+									 .on("mouseout", mouseout)
+									 .on("click", clicked);
 
-							// Bind data and create one path per GeoJSON feature
-							g.selectAll(".counties")
-							   .data(topojson.feature(json, json.objects.gz_2010_us_050_00_500k).features)
-							.enter()
-							   .append("path")
-								 .attr("class", quantize)
-							   .attr("d", path)
-								 .on("mouseover", mouseover)
-							   .on("mousemove", mousemove)
-							   .on("mouseout", mouseout)
-								 .on("click", clicked);
+								g.append("path")
+										.datum(topojson.mesh(json, json.objects.gz_2010_us_040_00_500k, function(a, b) {return a !== b;}))
+										.attr("d", path)
+										.attr("class", "state-boundary");
 
-							g.append("path")
-							 		.datum(topojson.mesh(json, json.objects.gz_2010_us_040_00_500k, function(a, b) {return a !== b;}))
-									.attr("d", path)
-									.attr("class", "state-boundary");
+							});
+				});
 
-						});
-			});
+				d3.selectAll('input').on('click', function() {
+					var value = this.value,
+					checked = this.checked;
+					// display = this.checked ? "inline" : "none";
+					d3.selectAll('.law-school-circles').classed('hidden', !checked);
+				});
 
-			d3.selectAll('input').on('click', function() {
-				var value = this.value,
-				checked = this.checked;
-				// display = this.checked ? "inline" : "none";
-				d3.selectAll('.law-school-circles').classed('hidden', !checked);
-		  });
 
-			// quantize function takes a data point and returns a number
-			// between 0 and 8, to indicate intensity, the prepends a 'q'
-			// and appends '-9'
-			function quantize(d) {
-				if (d.properties.COMPANY_COUNT == undefined) {
-					return "q-null counties";
-				} else if (d.properties.COMPANY_COUNT <= 10) {
-					return "q0-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 10 && d.properties.COMPANY_COUNT <= 100) {
-					return "q1-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 100 && d.properties.COMPANY_COUNT <= 200) {
-					return "q2-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 200 && d.properties.COMPANY_COUNT <= 500) {
-					return "q3-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 500 && d.properties.COMPANY_COUNT <= 1000) {
-					return "q4-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 1000 && d.properties.COMPANY_COUNT <= 2000) {
-					return "q5-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 2000 && d.properties.COMPANY_COUNT <= 5000) {
-					return "q6-8 counties"
-				} else if (d.properties.COMPANY_COUNT > 5000) {
-					return "q7-8 counties"
-				};
-			};
+			}
 
 			function mouseover() {
-			  div.style("display", "inline");
+				div.style("display", "inline");
 			}
 
 			function mouseover_lawschool() {
-			  lawschooldiv.style("display", "inline");
+				lawschooldiv.style("display", "inline");
 			}
 
 			function mousemove(d) {
 				if (d.properties.COMPANY_COUNT == undefined) {
 					div
-				      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>0")
-				      .style("left", (d3.event.pageX - 80) + "px")
-				      .style("top", (d3.event.pageY + 40) + "px");
+							.html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>0")
+							.style("left", (d3.event.pageX - 80) + "px")
+							.style("top", (d3.event.pageY + 40) + "px");
 				} else {
 					div
-			      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>" + d.properties.COMPANY_COUNT)
-			      .style("left", (d3.event.pageX - 80) + "px")
-			      .style("top", (d3.event.pageY + 40) + "px");
+						.html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>" + d.properties.COMPANY_COUNT)
+						.style("left", (d3.event.pageX - 80) + "px")
+						.style("top", (d3.event.pageY + 40) + "px");
 				}
 			}
 
 			function mousemove_lawschool(d) {
 					lawschooldiv
-				      .html("<b>Law School Name: </b>" + d._school_content + "<br><br><b>Accreditation: </b>" + d._accreditation_content)
-				      .style("left", (d3.event.pageX - 80) + "px")
-				      .style("top", (d3.event.pageY + 40) + "px");
+							.html("<b>Law School Name: </b>" + d._school_content + "<br><br><b>Accreditation: </b>" + d._accreditation_content)
+							.style("left", (d3.event.pageX - 80) + "px")
+							.style("top", (d3.event.pageY + 40) + "px");
 			}
 
 			function mouseout() {
-			  div.style("display", "none");
+				div.style("display", "none");
 			}
 
 			function mouseout_lawschool() {
-			  lawschooldiv.style("display", "none");
+				lawschooldiv.style("display", "none");
 			}
 
 			function clicked(d) {
-			  if (active.node() === this) return reset();
-			  active.classed("active", false);
-			  active = d3.select(this).classed("active", true);
+				if (active.node() === this) return reset();
+				active.classed("active", false);
+				active = d3.select(this).classed("active", true);
 
-			  var bounds = path.bounds(d),
-			      dx = bounds[1][0] - bounds[0][0],
-			      dy = bounds[1][1] - bounds[0][1],
-			      x = (bounds[0][0] + bounds[1][0]) / 2,
-			      y = (bounds[0][1] + bounds[1][1]) / 2,
-			      // scale = .2 / Math.max(dx / w, dy / h ),
+				var bounds = path.bounds(d),
+						dx = bounds[1][0] - bounds[0][0],
+						dy = bounds[1][1] - bounds[0][1],
+						x = (bounds[0][0] + bounds[1][0]) / 2,
+						y = (bounds[0][1] + bounds[1][1]) / 2,
+						// scale = .2 / Math.max(dx / w, dy / h ),
 						scale = 5,
-			      translate = [w / 2 - scale * x, h / 2 - scale * y];
+						translate = [w / 2 - scale * x, h / 2 - scale * y];
 
-			  svg.transition()
-			      .duration(750)
-			      .call(zoom.translate(translate).scale(scale).event);
+				svg.transition()
+						.duration(750)
+						.call(zoom.translate(translate).scale(scale).event);
 			}
 
 			function reset() {
-			  active.classed("active", false);
-			  active = d3.select(null);
+				active.classed("active", false);
+				active = d3.select(null);
 
-			  svg.transition()
-			      .duration(750)
-			      .call(zoom.translate([0, 0]).scale(1).event);
+				svg.transition()
+						.duration(750)
+						.call(zoom.translate([0, 0]).scale(1).event);
 			}
 
 			function zoomed() {
-			  g.style("stroke-width", 1.5 / d3.event.scale + "px");
-			  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+				g.style("stroke-width", 1.5 / d3.event.scale + "px");
+				g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 			}
 
 			// If the drag behavior prevents the default click,
 			// also stop propagation so we don’t click-to-zoom.
 			function stopped() {
-			  if (d3.event.defaultPrevented) d3.event.stopPropagation();
+				if (d3.event.defaultPrevented) d3.event.stopPropagation();
 			}
+
+
 
 		</script>
 	</body>
