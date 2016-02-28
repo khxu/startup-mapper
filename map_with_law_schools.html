@@ -139,7 +139,7 @@
 					.domain(["Fully Accredited", "Not Fully Accredited"]);
 
 			var other_legend_features = d3.scale.ordinal()
-					.domain(["MAP LEGEND", "Law School Accreditation", "Number of Companies"]);
+					.domain(["MAP LEGEND", "Law School Accreditation", "Number of Listings"]);
 
 			//Create SVG element
 			var svg = d3.select("body")
@@ -432,12 +432,12 @@
 			function mousemove(d) {
 				if (d.properties.COMPANY_COUNT == undefined) {
 					div
-				      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>0")
+				      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Listings on Crunchbase: </b>0")
 				      .style("left", (d3.event.pageX - 80) + "px")
 				      .style("top", (d3.event.pageY + 40) + "px");
 				} else {
 					div
-			      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Companies on Crunchbase: </b>" + d.properties.COMPANY_COUNT)
+			      .html("<b>County Name: </b>" + d.properties.NAME + "<br><br><b>Listings on Crunchbase: </b>" + d.properties.COMPANY_COUNT)
 			      .style("left", (d3.event.pageX - 80) + "px")
 			      .style("top", (d3.event.pageY + 40) + "px");
 				}
