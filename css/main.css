@@ -102,13 +102,18 @@ textarea {
   padding: 0 10px;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p, ol {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 960px;
 }
 
 .directions {
-  /*font-size: 14px;*/
   margin-bottom: 0em;
+  font-size: 14px;
 }
 
 .captions {
@@ -117,14 +122,48 @@ body {
   font-style: italic;
 }
 
+#footnotediv {
+  position: absolute;
+  width: 400px;
+  overflow: visible;
+}
 
+#footnotediv div {
+  background-color: white;
+  padding: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 1px solid #CDBBB5;
+  box-shadow: #555 0 0 10px;
+  -webkit-box-shadow:#555 0 0 10px;
+  -moz-box-shadow:0 0 10px #555;
+  font-size: 14px;
+}
 
+.footnotes {
+  font-size: 14px;
+}
 
+sup a {
+  margin-left: -12px;
+  margin-right: -8px;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: none;
+  color: rgb(0,0,0);
+}
 
+a {
+  color:rgb(0,0,0);
+}
 
+a:unvisited {
+  color:rgb(0,0,0);
+}
 
-
-
+a:visited {
+  color:gray;
+}
 
 /* ==========================================================================
    Helper classes
