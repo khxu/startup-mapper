@@ -9,15 +9,15 @@
 		<script src="http://d3js.org/queue.v1.min.js"></script>
 		<style type="text/css">
 			.q-null { fill:rgb(253,224,239); }
-			.q0-7{ fill:rgb(247,251,255); }
-			/*.q1-8 { fill:rgb(222,235,247); }*/
-			.q1-7 { fill:rgb(198,219,239); }
-			.q2-7 { fill:rgb(158,202,225); }
-			.q3-7 { fill:rgb(107,174,214); }
-			.q4-7 { fill:rgb(66,146,198); }
-			.q5-7 { fill:rgb(33,113,181); }
-			.q6-7 { fill:rgb(8,81,156); }
-			/*.q7-8 { fill:rgb(8,48,107); }*/
+			.q0-8 { fill:rgb(247,251,255); }
+			/*.q0-8 { fill:rgb(222,235,247); }*/
+			.q1-8 { fill:rgb(198,219,239); }
+			.q2-8 { fill:rgb(158,202,225); }
+			.q3-8 { fill:rgb(107,174,214); }
+			.q4-8 { fill:rgb(66,146,198); }
+			.q5-8 { fill:rgb(33,113,181); }
+			.q6-8 { fill:rgb(8,81,156); }
+			.q7-8 { fill:rgb(8,48,107); }
 			.counties{
 				stroke:rgb(93,96,97);
 				stroke-width:0.2
@@ -141,9 +141,9 @@
 
 			//Define quantize scale to sort data values into buckets of color
 			var color = d3.scale.ordinal()
-					.domain(["Data Unavailable", "0-20k", "20k-40k", "40k-60k", "60k-80k", "80k-100k", "100k-120k", ">120k"])
+					.domain(["Data Unavailable", "0-10k", "10k-20k", "20k-40k", "40k-60k", "60k-80k", "80k-100k", "100k-120k", ">120k"])
 					.range(["rgb(253,224,239)", "rgb(247,251,255)",
-			"rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)"]);
+			"rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)", "rgb(8,48,107)"]);
 
 			var numBuckets = color.domain().length;
 			// console.log(numBuckets);
@@ -231,9 +231,9 @@
 			svg.append("rect")
 				 .attr("class", "legend-border")
 				 .attr("width", legendRectSizeX - 1)
-				 .attr("height", legendRectSizeY*13)
+				 .attr("height", legendRectSizeY*14)
 				 .attr("x", w - legendRectSizeX)
-				 .attr("y", h - legendRectSizeY*13)
+				 .attr("y", h - legendRectSizeY*14)
 				 .style("fill", "none");
 
 			svg.append("line")
@@ -248,27 +248,27 @@
 		 svg.append("line")
 				 .attr("class", "legend-separator")
 				 .attr("x1", w - legendRectSizeX)
-				 .attr("y1", h - legendRectSizeY*9)
+				 .attr("y1", h - legendRectSizeY*10)
 				 .attr("x2", w - 1)
-				 .attr("y2", h - legendRectSizeY*9)
+				 .attr("y2", h - legendRectSizeY*10)
 				 .style("stroke", "rgb(0,0,0)")
 				 .style("stroke-width", "1");
 
 		 svg.append("line")
 				 .attr("class", "legend-separator")
 				 .attr("x1", w - legendRectSizeX)
-				 .attr("y1", h - legendRectSizeY*11)
+				 .attr("y1", h - legendRectSizeY*12)
 				 .attr("x2", w - 1)
-				 .attr("y2", h - legendRectSizeY*11)
+				 .attr("y2", h - legendRectSizeY*12)
 				 .style("stroke", "rgb(0,0,0)")
 				 .style("stroke-width", "1");
 
 	 		 svg.append("line")
 	 				 .attr("class", "legend-separator")
 	 				 .attr("x1", w - legendRectSizeX)
-	 				 .attr("y1", h - legendRectSizeY*12)
+	 				 .attr("y1", h - legendRectSizeY*13)
 	 				 .attr("x2", w - 1)
-	 				 .attr("y2", h - legendRectSizeY*12)
+	 				 .attr("y2", h - legendRectSizeY*13)
 	 				 .style("stroke", "rgb(0,0,0)")
 	 				 .style("stroke-width", "1");
 
@@ -278,11 +278,11 @@
 					.attr("x", w - legendRectSizeX)
 					.attr("y", function (d, i) {
 						if (d == "MAP LEGEND") {
-							return h - 13*20
+							return h - 14*20
 						} else if (d == "Law School Accreditation") {
-							return h - 13*20
+							return h - 14*20
 						} else {
-							return h - 11*20
+							return h - 12*20
 						}
 					})
 					.style("fill", "rgb(255,255,255)")
@@ -292,11 +292,11 @@
 					.attr("x", w - legendRectSizeX/2)
 					.attr("y", function(d) {
 						if (d == "MAP LEGEND") {
-							return h - 13 * 20 + 14
+							return h - 14 * 20 + 14
 						} else if (d == "Law School Accreditation") {
-							return h - 13 * 20 + 14
+							return h - 14 * 20 + 14
 						} else {
-							return h - 11 * 20 + 14
+							return h - 12 * 20 + 14
 						}})
 					.attr("class", function(d,i) {return "legend_other_features legend_other_features_" + i})
 					.text(function(d) {return d;});
@@ -305,13 +305,13 @@
 					.attr("width", legendRectSizeX)
           .attr("height", legendRectSizeY)
 					.attr("x", w - legendRectSizeX)
-					.attr("y", (h - legendRectSizeY * 11))
+					.attr("y", (h - legendRectSizeY * 12))
           .style("fill", "rgb(255,255,255)")
           .style("stroke", "rgb(255,255,255)");
 
 			legend_law_schools.append("text")
 					.attr("x", 20 + w - legendRectSizeX)
-					.attr("y", h - legendRectSizeY * 11 + 14)
+					.attr("y", h - legendRectSizeY * 12 + 14)
 					.attr("class", function(d,i) {return "legend_law_schools_" + i})
 					.text(function(d) {return d;});
 
@@ -320,7 +320,7 @@
 
 			legend_law_schools.append("circle")
 					.attr("cx", 10 + w - legendRectSizeX)
-					.attr("cy", h - 11 * 20 + 10)
+					.attr("cy", h - 12 * 20 + 10)
 					.attr("r", 3)
 					.style("fill", function(d) {
 									if (d == "Fully Accredited") {
@@ -432,20 +432,22 @@
 					return "q-null counties";
 				// } else if (rateBySmallBiz.get(d.id) == 0) {
 				// 	return "q0-8 counties"
-				} else if (rateBySmallBiz.get(d.id) <= 20000) {
-					return "q0-7 counties"
+				} else if (rateBySmallBiz.get(d.id) <= 10000) {
+					return "q0-8 counties"
+				} else if (rateBySmallBiz.get(d.id) > 10000 && rateBySmallBiz.get(d.id) <= 20000) {
+					return "q1-8 counties"
 				} else if (rateBySmallBiz.get(d.id) > 20000 && rateBySmallBiz.get(d.id) <= 40000) {
-					return "q1-7 counties"
+					return "q2-8 counties"
 				} else if (rateBySmallBiz.get(d.id) > 40000 && rateBySmallBiz.get(d.id) <= 60000) {
-					return "q2-7 counties"
+					return "q3-8 counties"
 				} else if (rateBySmallBiz.get(d.id) > 60000 && rateBySmallBiz.get(d.id) <= 80000) {
-					return "q3-7 counties"
+					return "q4-8 counties"
 				} else if (rateBySmallBiz.get(d.id) > 80000 && rateBySmallBiz.get(d.id) <= 100000) {
-					return "q4-7 counties"
+					return "q5-8 counties"
 				} else if (rateBySmallBiz.get(d.id) > 100000 && rateBySmallBiz.get(d.id) <= 120000) {
-					return "q5-7 counties"
+					return "q6-8 counties"
 				} else if (rateBySmallBiz.get(d.id) > 120000) {
-					return "q6-7 counties"
+					return "q7-8 counties"
 				};
 			};
 
