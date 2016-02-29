@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -28,29 +28,109 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="/d3/d3.min.js"></script>
+        <script src="js/footnotes.js" type="text/javascript"></script>
         <div class="column">
+          <a href="http://www.kevinhxu.com/">Home</a>
           <h1>Mapping the Crunchbase Dataset by County</h1>
-          <p class="directions">Click a county or scroll to zoom. Click + drag to pan. Mouseover for more details. More maps below.</p>
+          <p class="directions">Click a county or scroll to zoom. Drag to pan. Mouseover for more details. More maps below.</p>
           <iframe sandbox="allow-scripts allow-forms allow-same-origin" src="/map.html" width="960" height="600" marginwidth="0" marginheight="0" scrolling="no"></iframe>
           <p class="captions">Sources: <a href="https://data.crunchbase.com/page/crunchbase-open-data-map-odm" target="_blank">Crunchbase Open Data Map</a> and <a href="http://eric.clst.org/Stuff/USGeoJSON" target="_blank">Eric Celeste's GeoJSON Data (US Counties)</a></p>
+          <h2>What is this?</h2>
           <p>
-            Here are all of the companies listed on Crunchbase as of December, 2015. As you'd expect, lots of activity from Silicon Valley, Silicon Alley, Silicon Prairie, Silicon Beach...
+            Above is a map of all of the investment round listings on Crunchbase as of December, 2015, categorized by US county. Some background: Crunchbase is an online platform that crowdsources investment data on companies -- think Wikipedia for startups, except all submissions undergo moderator review before being posted.
+            <sup id="fnref:1.crunchbase">
+              <a href="#fn:1.crunchbase" rel="footnote">1</a>
+            </sup>
+            Basically, if a company receives institutional investment, it's going to get listed on Crunchbase.
+          </p>
+          <p>
+            As you'd expect, lots of activity in <a href="https://en.wikipedia.org/wiki/Silicon_Valley" target="_blank">Silicon Valley</a>,
+            <a href="https://en.wikipedia.org/wiki/Silicon_Alley" target="_blank">Silicon Alley</a>,
+            <a href="https://en.wikipedia.org/wiki/Silicon_Prairie" target="_blank">Silicon Prairie</a>,
+            <a href="https://en.wikipedia.org/wiki/Silicon_Beach" target="_blank">Silicon Beach</a>,
+            <a href="https://en.wikipedia.org/wiki/Silicon_Mountain" target="_blank">Silicon Mountain</a>,
+            [insert additional Silicon wordplay here]...
             <br><br>Now let's take a look at where the law schools are...
           </p>
           <h1>Crunchbase Dataset with Law School Locations</h1>
           <iframe sandbox="allow-scripts allow-forms allow-same-origin" src="/map_with_law_schools.html" width="960" height="600" marginwidth="0" marginheight="0" scrolling="no"></iframe>
           <p class="captions">Sources: <a href="https://data.crunchbase.com/page/crunchbase-open-data-map-odm" target="_blank">Crunchbase Open Data Map</a>, <a href="http://eric.clst.org/Stuff/USGeoJSON" target="_blank">Eric Celeste's GeoJSON Data (US Counties)</a>, and, of course, <a href="https://en.wikipedia.org/wiki/List_of_law_schools_in_the_United_States" target="_blank">Wikipedia</a>.</p>
           <p>
-            Now there are a few takeaways we can glean from this map:
+            This map contains an overlay of all law schools in the 50 states.
+            <sup id="fnref:1.puertorico">
+              <a href="#fn:1.puertorico" rel="footnote">2</a>
+            </sup>
+          </p>
+          <p>
+            There are a few takeaways we can glean from this map:
             <ol>
               <li>Law schools seem to be located in the same counties that have at least some Crunchbase activity;</li>
-              <li>Where law schools are sparse, they tend to hang out near the borders of states; and</li>
-              <li>California and New York have a LOT of law schools (hit the Show/Hide Button to reveal the county underneath the six overlapping law schools in NY).</li>
+              <li>Where law schools are sparse, they tend to straddle the borders of multiple states; and</li>
+              <li>California
+                <sup id="fnref:1.correspondence">
+                  <a href="#fn:1.correspondence" rel="footnote">3</a>
+                </sup> and New York have a LOT of law schools.
+                <sup id="fnref:1.lawschools">
+                  <a href="#fn:1.lawschools" rel="footnote">4</a>
+                </sup>
+              </li>
             </ol>
-            But wait! Isn't this more of a map showing Crunchbase's market penetration, rather than business activity?
+          </p>
+          <h2>But wait!</h2>
+          <p>
+            Isn't this more of a map showing Crunchbase's market penetration, rather than business activity?
             <br><br>Maybe. Let's see what the map would look like if, instead, we used data from the US
             Census Bureau...
           </p>
+          <h1>Using Census Bureau Data on Small Businesses</h1>
+          <iframe sandbox="allow-scripts allow-forms allow-same-origin" src="/cbp_map_with_law_schools.html" width="960" height="600" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+          <p class="captions">Sources: County Business Patterns from the <a href="http://www.census.gov/econ/cbp/" target="_blank">US Census Bureau</a>, <a href="http://eric.clst.org/Stuff/USGeoJSON" target="_blank">Eric Celeste's GeoJSON Data (US Counties)</a>, and, of course, <a href="https://en.wikipedia.org/wiki/List_of_law_schools_in_the_United_States" target="_blank">Wikipedia</a>.</p>
+          <p>
+            Look familiar? I filtered the County Business Patterns dataset from the US Census Bureau for small businesses -- defined as companies with 500 or fewer employees. Unfortunately, I couldn't find data for certain counties in the dataset for some reason. If you find a more complete dataset, please let me know. I'd love to fill in those missing counties.
+
+            <br><br>However, the overall picture is pretty clear: <strong> law schools tend to be in places where there is a high level of business activity.</strong> Not too surprising, I know. But high levels of business activity tend to be in cities, rather than rural areas, and law students tend to want to stick around where they went to school.
+
+            <br><br>Ultimately, we're facing a massive <a href="http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1149&context=blrlj" target="_blank">justice gap</a>
+            <sup id="fnref:1.blawquote">
+              <a href="#fn:1.blawquote" rel="footnote">5</a>
+            </sup> in <a href="https://www.washingtonpost.com/news/storyline/wp/2014/08/25/how-do-you-keep-them-down-on-the-farm-once-theyve-passed-the-bar/" target="_blank">rural areas</a> and we've got to figure out ways to address it. Some areas have created programs to incentivize lawyers with  <a href="http://www.nytimes.com/2013/04/09/us/subsidy-seen-as-a-way-to-fill-a-need-for-rural-lawyers.html" target="_blank">cold, hard, cash</a>. With the price of law school tuition nowadays, we're going to need more programs like South Dakota's. But there's still more we can do at the law school level to increase legal access in a sustainable way.
+
+            <br><br>Why can't rural populations access lawyers? It's not just that lawyers are far away -- we've got phones, email, and Skype for that. It's the money. And I'm not saying that lawyers are greedy, blood-sucking parasites for charging what they do. It's a free market and it takes many years of hard work to gain the expertise to effectively counsel clients.
+
+            <br><br>So what's the alternative? <strong>We have plenty of law students hungry for experiential learning opportunities at law schools that are, by and large, concentrated in urban areas.</strong> Law school clinics -- particularly ones that have a strong economic development<sup id="fnref:1.economicdevelopment">
+              <a href="#fn:1.economicdevelopment" rel="footnote">6</a>
+            </sup> bent, such as the <a href="https://www.law.berkeley.edu/experiential/new-business-practicum/" target="_blank">New Business Practicum</a> at Berkeley Law, can help address the needs of rural populations. When it comes to entrepreneurship, this can be especially powerful, as clients who successfully navigate the many obstacles of startup law tend to wind up in a position where they can afford a lawyer. And an accountant. And office space, employees, giving back to the community, etc.
+          </p>
+
+          <div class="footnotes">
+            <hr>
+            <ol>
+              <li id="fn:1.crunchbase">
+                <p>Interestingly, Crunchbase actually <a href="https://info.crunchbase.com/2015/09/crunchbase-spins-out-of-aol-and-emergence-capital-leads-series-a-investment/" target="_blank">spun out of AOL</a> originally. Turns out they pulled out of the <a href="https://www.quora.com/How-much-did-it-cost-AOL-to-distribute-all-those-CDs-back-in-the-1990s" target="_blank">coaster-making business</a> and turned into a mass media powerhouse. Huh. Who knew?
+                </p>
+              </li>
+              <li id="fn:1.correspondence">
+                <p>Note: some of these are correspondence or online schools, where students work toward their law degrees remotely. For these schools, I geocoded their administrative offices, which is why the University of Honolulu School of Law -- a correspondence school -- is located in the not-so-Hawaiian city of Modesto, CA.
+                </p>
+              </li>
+              <li id="fn:1.puertorico">
+                <p>Sorry, Puerto Rico.
+                </p>
+              </li>
+              <li id="fn:1.blawquote">
+                <p>"[N]ationwide, only 20% of those in need of civil legal help actually receive it... In California, legal aid programs cannot meet 67% of the legal needs of low-income individuals."
+                </p>
+              </li>
+              <li id="fn:1.lawschools">
+                <p>Hit the Show/Hide Button to reveal the county underneath the six overlapping law schools in NY.
+                </p>
+              </li>
+              <li id="fn:1.economicdevelopment">
+                <p>"[The rural lawyer] shortage affects entire rural communities, as by hindering economic development. That is, the missing lawyers could serve not only the needs of individual clients, but also those of local entities, both public and private, while providing the sort of human and social capital that helps communities innovate and flourish." -<i><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2480748" target="_blank">Law Stretched Thin: Access to Justice in Rural America</a></i>
+                </p>
+              </li>
+            </ol>
+          </div>
         </div>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
