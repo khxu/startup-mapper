@@ -106,8 +106,12 @@ h1, h2, h3, h4 {
   font-family: 'Roboto Slab', serif;
 }
 
-p, ol {
+p, ol, li {
   font-family: 'Open Sans', sans-serif;
+  max-width: 960px;
+}
+
+hr {
   max-width: 960px;
 }
 
@@ -142,6 +146,7 @@ p, ol {
 
 .footnotes {
   font-size: 14px;
+  max-width: 960px;
 }
 
 sup a {
