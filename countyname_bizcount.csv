@@ -1,0 +1,3144 @@
+county_name,cbp_small_biz_count,crunchbase_count,state_abbv,state_name
+King County,0,0,TX,Texas
+Kalawao County,1,0,HI,Hawaii
+Loving County,2,0,TX,Texas
+McPherson County,6,0,NE,Nebraska
+Borden County,6,0,TX,Texas
+Issaquena County,8,0,MS,Mississippi
+Blaine County,8,0,NE,Nebraska
+Loup County,8,0,NE,Nebraska
+Harding County,9,0,NM,New Mexico
+Arthur County,10,0,NE,Nebraska
+Banner County,10,0,NE,Nebraska
+Petroleum County,11,0,MT,Montana
+Buffalo County,11,0,SD,South Dakota
+Sioux County,13,0,NE,Nebraska
+Kenedy County,13,0,TX,Texas
+Esmeralda County,14,0,NV,Nevada
+Roberts County,14,0,TX,Texas
+Golden Valley County,16,0,MT,Montana
+Terrell County,16,0,TX,Texas
+Taliaferro County,17,0,GA,Georgia
+Kent County,17,0,TX,Texas
+Clark County,18,0,ID,Idaho
+Robertson County,18,0,KY,Kentucky
+Treasure County,18,0,MT,Montana
+Hayes County,20,0,NE,Nebraska
+Slope County,20,0,ND,North Dakota
+Thomas County,21,0,NE,Nebraska
+Keya Paha County,21,0,NE,Nebraska
+Wheeler County,21,0,NE,Nebraska
+Glascock County,22,0,GA,Georgia
+Baker County,23,0,GA,Georgia
+Echols County,23,0,GA,Georgia
+Logan County,23,0,NE,Nebraska
+Mellette County,23,0,SD,South Dakota
+Glasscock County,23,0,TX,Texas
+Daggett County,23,0,UT,Utah
+Piute County,24,0,UT,Utah
+Menominee County,26,0,WI,Wisconsin
+Camas County,27,0,ID,Idaho
+Cottle County,27,0,TX,Texas
+Foard County,27,0,TX,Texas
+Motley County,27,0,TX,Texas
+Garfield County,28,0,MT,Montana
+Sioux County,28,0,ND,North Dakota
+Webster County,29,0,GA,Georgia
+Wheeler County,29,0,OR,Oregon
+Yakutat City and Borough,30,0,AK,Alaska
+Grant County,30,0,NE,Nebraska
+Hooker County,32,0,NE,Nebraska
+Crowley County,33,1,CO,Colorado
+Hudspeth County,33,0,TX,Texas
+Carter County,34,0,MT,Montana
+Corson County,34,0,SD,South Dakota
+Armstrong County,34,0,TX,Texas
+Alpine County,36,0,CA,California
+Kiowa County,36,0,CO,Colorado
+McMullen County,36,0,TX,Texas
+Clay County,37,0,GA,Georgia
+Edwards County,37,0,TX,Texas
+Quitman County,38,0,GA,Georgia
+Kinney County,38,0,TX,Texas
+Oldham County,38,0,TX,Texas
+Wibaux County,39,0,MT,Montana
+Prairie County,39,0,MT,Montana
+Menard County,39,0,TX,Texas
+Briscoe County,39,0,TX,Texas
+Van Buren County,40,0,TN,Tennessee
+Costilla County,42,0,CO,Colorado
+Harding County,42,0,SD,South Dakota
+Dickens County,42,1,TX,Texas
+Elliott County,43,0,KY,Kentucky
+Ziebach County,43,0,SD,South Dakota
+Eureka County,44,0,NV,Nevada
+Garfield County,44,0,WA,Washington
+Greeley County,45,0,KS,Kansas
+Rock County,45,0,NE,Nebraska
+De Baca County,45,0,NM,New Mexico
+Hyde County,45,0,SD,South Dakota
+Sheridan County,46,0,ND,North Dakota
+Sterling County,46,0,TX,Texas
+Concho County,46,0,TX,Texas
+Owsley County,47,0,KY,Kentucky
+Mora County,47,1,NM,New Mexico
+Hancock County,47,0,TN,Tennessee
+Oliver County,48,0,ND,North Dakota
+Stonewall County,48,0,TX,Texas
+Throckmorton County,49,0,TX,Texas
+Lake and Peninsula Borough,51,0,AK,Alaska
+Worth County,51,0,MO,Missouri
+Jackson County,51,0,SD,South Dakota
+Hodgeman County,52,0,KS,Kansas
+Harmon County,52,0,OK,Oklahoma
+Sherman County,52,0,OR,Oregon
+Jones County,52,0,SD,South Dakota
+Cochran County,52,0,TX,Texas
+Culberson County,52,0,TX,Texas
+Dolores County,53,0,CO,Colorado
+Pope County,53,0,IL,Illinois
+Garden County,53,0,NE,Nebraska
+Sanborn County,54,0,SD,South Dakota
+Schleicher County,54,0,TX,Texas
+Todd County,55,0,SD,South Dakota
+Campbell County,56,0,SD,South Dakota
+Jeff Davis County,56,0,TX,Texas
+Aleutians East Borough,57,0,AK,Alaska
+Bent County,57,0,CO,Colorado
+Talbot County,57,0,GA,Georgia
+Benton County,57,0,MS,Mississippi
+Craig County,57,0,VA,Virginia
+Cheyenne County,58,0,CO,Colorado
+Schley County,58,0,GA,Georgia
+Butte County,58,0,ID,Idaho
+Deuel County,58,0,NE,Nebraska
+Mineral County,58,0,NV,Nevada
+Catron County,58,0,NM,New Mexico
+Irion County,58,0,TX,Texas
+Clark County,59,0,KS,Kansas
+Judith Basin County,59,0,MT,Montana
+McCone County,59,0,MT,Montana
+Wheatland County,59,0,MT,Montana
+Steele County,59,0,ND,North Dakota
+Hamilton County,60,0,KS,Kansas
+Stanton County,60,0,KS,Kansas
+Wallace County,60,0,KS,Kansas
+Jefferson County,60,1,MS,Mississippi
+Delta County,60,0,TX,Texas
+Collingsworth County,60,0,TX,Texas
+Menifee County,61,0,KY,Kentucky
+Gosper County,61,0,NE,Nebraska
+Sherman County,61,0,TX,Texas
+Stewart County,62,0,GA,Georgia
+Keweenaw County,63,0,MI,Michigan
+Bennett County,63,0,SD,South Dakota
+Wirt County,63,0,WV,West Virginia
+Billings County,64,0,ND,North Dakota
+Moore County,64,0,TN,Tennessee
+Warren County,65,0,GA,Georgia
+Hardin County,65,0,IL,Illinois
+Bristol Bay Borough,66,0,AK,Alaska
+Calhoun County,66,0,AR,Arkansas
+Mineral County,66,0,CO,Colorado
+Lane County,66,0,KS,Kansas
+Dundy County,66,0,NE,Nebraska
+Pawnee County,66,0,NE,Nebraska
+Greeley County,66,0,NE,Nebraska
+Kidder County,66,0,ND,North Dakota
+Shannon County,66,0,SD,South Dakota
+Coke County,66,0,TX,Texas
+Sierra County,67,0,CA,California
+Wheeler County,67,0,GA,Georgia
+Liberty County,67,0,MT,Montana
+Boyd County,67,0,NE,Nebraska
+Hitchcock County,67,0,NE,Nebraska
+Sully County,67,1,SD,South Dakota
+San Juan County,68,0,CO,Colorado
+Hanson County,68,0,SD,South Dakota
+Chautauqua County,69,0,KS,Kansas
+Logan County,69,0,ND,North Dakota
+Doddridge County,69,0,WV,West Virginia
+Fisher County,70,0,TX,Texas
+Hoonah-Angoon Census Area,71,0,AK,Alaska
+Wade Hampton Census Area,71,1,AK,Alaska
+Jackson County,71,0,CO,Colorado
+Sedgwick County,71,0,CO,Colorado
+Long County,71,0,GA,Georgia
+Daniels County,71,0,MT,Montana
+Frontier County,71,0,NE,Nebraska
+Northwest Arctic Borough,72,0,AK,Alaska
+Elk County,72,0,KS,Kansas
+Mercer County,72,0,MO,Missouri
+Meagher County,72,0,MT,Montana
+Gilliam County,72,0,OR,Oregon
+Faulk County,72,0,SD,South Dakota
+Hancock County,73,0,GA,Georgia
+Chase County,73,0,KS,Kansas
+Grant County,73,0,ND,North Dakota
+Cimarron County,73,0,OK,Oklahoma
+Surry County,73,0,VA,Virginia
+Twiggs County,74,0,GA,Georgia
+Calhoun County,74,0,GA,Georgia
+Powder River County,74,0,MT,Montana
+Franklin County,74,0,NE,Nebraska
+Pershing County,74,0,NV,Nevada
+Lake County,74,0,TN,Tennessee
+Hall County,74,0,TX,Texas
+Hinsdale County,75,0,CO,Colorado
+Cotton County,75,0,OK,Oklahoma
+Miner County,75,0,SD,South Dakota
+Nicholas County,76,0,KY,Kentucky
+Hickman County,77,0,KY,Kentucky
+McPherson County,77,0,SD,South Dakota
+Tyrrell County,78,0,NC,North Carolina
+Eddy County,78,0,ND,North Dakota
+Lyman County,78,0,SD,South Dakota
+Real County,78,0,TX,Texas
+Bland County,78,0,VA,Virginia
+Liberty County,79,0,FL,Florida
+Trimble County,79,0,KY,Kentucky
+Golden Valley County,79,0,ND,North Dakota
+Haakon County,79,0,SD,South Dakota
+Carlisle County,80,0,KY,Kentucky
+Jerauld County,80,0,SD,South Dakota
+Cleveland County,81,0,AR,Arkansas
+Marion County,81,0,GA,Georgia
+Schuyler County,81,0,MO,Missouri
+Sherman County,81,0,NE,Nebraska
+Storey County,81,0,NV,Nevada
+Rich County,81,0,UT,Utah
+Wayne County,81,0,UT,Utah
+Treutlen County,82,0,GA,Georgia
+Pickett County,82,0,TN,Tennessee
+Newton County,83,0,AR,Arkansas
+Comanche County,83,0,KS,Kansas
+Scott County,84,0,IL,Illinois
+Kearny County,84,0,KS,Kansas
+Wolfe County,84,0,KY,Kentucky
+Putnam County,84,0,MO,Missouri
+Towner County,84,0,ND,North Dakota
+Coal County,84,0,OK,Oklahoma
+Dewey County,84,0,SD,South Dakota
+Hardeman County,84,0,TX,Texas
+Wahkiakum County,84,0,WA,Washington
+Jewell County,85,0,KS,Kansas
+Tensas Parish,85,0,LA,Louisiana
+Lynn County,85,0,TX,Texas
+Donley County,85,0,TX,Texas
+Wrangell City and Borough,86,0,AK,Alaska
+Wichita County,86,0,KS,Kansas
+Lincoln County,86,0,KS,Kansas
+Roger Mills County,86,0,OK,Oklahoma
+Upton County,86,0,TX,Texas
+Highland County,86,0,VA,Virginia
+Lincoln County,87,0,ID,Idaho
+Woodson County,87,0,KS,Kansas
+Gallatin County,87,1,KY,Kentucky
+Lincoln County,87,0,NV,Nevada
+Greenlee County,88,0,AZ,Arizona
+Oneida County,88,0,ID,Idaho
+Ohio County,88,1,IN,Indiana
+McCormick County,88,1,SC,South Carolina
+Atkinson County,89,0,GA,Georgia
+Webster County,89,0,NE,Nebraska
+Hidalgo County,89,0,NM,New Mexico
+Baca County,90,0,CO,Colorado
+Aurora County,90,0,SD,South Dakota
+Jackson County,90,0,TN,Tennessee
+Dillingham Census Area,92,0,AK,Alaska
+Lanier County,92,0,GA,Georgia
+Wilcox County,92,0,GA,Georgia
+Crane County,92,0,TX,Texas
+Coosa County,93,0,AL,Alabama
+Calhoun County,93,0,IL,Illinois
+Niobrara County,93,0,WY,Wyoming
+Lafayette County,94,0,FL,Florida
+Knox County,94,3,MO,Missouri
+Garfield County,94,0,NE,Nebraska
+Greer County,94,0,OK,Oklahoma
+Lander County,95,0,NV,Nevada
+Lipscomb County,95,0,TX,Texas
+Jim Hogg County,95,0,TX,Texas
+Greensville County,95,0,VA,Virginia
+Chattahoochee County,96,0,GA,Georgia
+Edwards County,96,0,KS,Kansas
+Kiowa County,96,0,KS,Kansas
+Bracken County,96,0,KY,Kentucky
+Jenkins County,97,0,GA,Georgia
+Red Lake County,97,0,MN,Minnesota
+Burke County,97,0,ND,North Dakota
+Hettinger County,97,0,ND,North Dakota
+Lowndes County,98,0,AL,Alabama
+Pulaski County,98,0,IL,Illinois
+Guadalupe County,98,0,NM,New Mexico
+Benson County,98,0,ND,North Dakota
+Bledsoe County,98,0,TN,Tennessee
+Knox County,98,0,TX,Texas
+Crosby County,98,0,TX,Texas
+Clay County,98,0,WV,West Virginia
+Greene County,99,0,AL,Alabama
+Yukon-Koyukuk Census Area,99,0,AK,Alaska
+Rush County,99,0,KS,Kansas
+Martin County,99,0,TX,Texas
+Lee County,100,0,KY,Kentucky
+Clay County,100,0,TN,Tennessee
+Crawford County,101,0,GA,Georgia
+Mahnomen County,101,0,MN,Minnesota
+Forest County,101,0,PA,Pennsylvania
+Gallatin County,102,0,IL,Illinois
+Decatur County,102,0,KS,Kansas
+Jackson County,102,0,KY,Kentucky
+Griggs County,102,0,ND,North Dakota
+Denali Borough,103,1,AK,Alaska
+Carroll County,103,0,MS,Mississippi
+Harlan County,103,0,NE,Nebraska
+Harper County,103,0,OK,Oklahoma
+Ellis County,103,0,OK,Oklahoma
+King and Queen County,103,5,VA,Virginia
+Florence County,103,0,WI,Wisconsin
+Rawlins County,104,0,KS,Kansas
+Dixon County,104,0,NE,Nebraska
+Nance County,104,0,NE,Nebraska
+Douglas County,104,0,SD,South Dakota
+Washington County,105,0,CO,Colorado
+Sheridan County,105,0,KS,Kansas
+Adams County,105,0,ND,North Dakota
+Jefferson County,105,0,OK,Oklahoma
+Conejos County,106,1,CO,Colorado
+Glades County,106,0,FL,Florida
+Cheyenne County,106,0,KS,Kansas
+Union County,106,0,NM,New Mexico
+Perry County,107,0,AR,Arkansas
+Alexander County,107,0,IL,Illinois
+Quitman County,107,0,MS,Mississippi
+Stanton County,107,0,NE,Nebraska
+Tyler County,107,0,WV,West Virginia
+Gilpin County,108,0,CO,Colorado
+Graham County,108,0,KS,Kansas
+Renville County,108,0,ND,North Dakota
+Potter County,108,0,SD,South Dakota
+Skagway Municipality,109,0,AK,Alaska
+Logan County,109,0,KS,Kansas
+Houston County,109,0,TN,Tennessee
+Mills County,109,0,TX,Texas
+Zavala County,109,0,TX,Texas
+Calhoun County,109,0,WV,West Virginia
+Leslie County,110,0,KY,Kentucky
+Cumberland County,110,0,KY,Kentucky
+Claiborne County,110,0,MS,Mississippi
+Camden County,110,0,NC,North Carolina
+Stanley County,110,0,SD,South Dakota
+Meigs County,110,0,TN,Tennessee
+Bullock County,111,0,AL,Alabama
+Lafayette County,111,0,AR,Arkansas
+Montgomery County,111,0,GA,Georgia
+Union County,111,0,IN,Indiana
+Morton County,111,0,KS,Kansas
+Granite County,111,0,MT,Montana
+Baylor County,112,0,TX,Texas
+Buena Vista city,112,0,VA,Virginia
+Pleasants County,112,0,WV,West Virginia
+Musselshell County,113,0,MT,Montana
+Cameron County,113,0,PA,Pennsylvania
+Aleutians West Census Area,114,0,AK,Alaska
+Mineral County,114,0,MT,Montana
+Clark County,114,0,SD,South Dakota
+Adams County,115,1,ID,Idaho
+Brown County,115,0,IL,Illinois
+Sullivan County,115,0,MO,Missouri
+Reagan County,115,0,TX,Texas
+Goliad County,115,0,TX,Texas
+Searcy County,116,0,AR,Arkansas
+McIntosh County,116,0,ND,North Dakota
+Carson County,116,0,TX,Texas
+Essex County,116,0,VT,Vermont
+Saguache County,117,3,CO,Colorado
+Bear Lake County,117,0,ID,Idaho
+Stark County,117,1,IL,Illinois
+Owen County,117,0,KY,Kentucky
+Franklin County,117,0,MS,Mississippi
+Johnson County,117,0,NE,Nebraska
+Heard County,118,0,GA,Georgia
+Adams County,118,0,IA,Iowa
+Morrill County,118,0,NE,Nebraska
+Perry County,118,0,TN,Tennessee
+Henderson County,119,0,IL,Illinois
+Warren County,119,0,IN,Indiana
+Haskell County,119,0,KS,Kansas
+Trego County,119,8,KS,Kansas
+Lewis County,119,0,KY,Kentucky
+St. Helena Parish,119,0,LA,Louisiana
+Trousdale County,119,0,TN,Tennessee
+Hartley County,119,0,TX,Texas
+Taylor County,120,0,GA,Georgia
+Johnson County,120,0,GA,Georgia
+Metcalfe County,120,0,KY,Kentucky
+Choctaw County,120,0,MS,Mississippi
+Gates County,120,0,NC,North Carolina
+Divide County,120,0,ND,North Dakota
+Lewis County,121,0,ID,Idaho
+Nevada County,122,0,AR,Arkansas
+Traverse County,122,0,MN,Minnesota
+Greene County,122,0,MS,Mississippi
+Thurston County,122,0,NE,Nebraska
+Lincoln County,123,0,CO,Colorado
+Sargent County,123,0,ND,North Dakota
+Emmons County,123,1,ND,North Dakota
+Grant County,123,0,OK,Oklahoma
+La Salle County,124,0,TX,Texas
+Clay County,124,0,TX,Texas
+Garza County,124,0,TX,Texas
+Perry County,125,0,AL,Alabama
+Irwin County,125,0,GA,Georgia
+Crawford County,125,0,IN,Indiana
+Hancock County,125,0,KY,Kentucky
+Sharkey County,125,0,MS,Mississippi
+Allendale County,125,0,SC,South Carolina
+Hand County,125,0,SD,South Dakota
+Clinch County,126,0,GA,Georgia
+East Carroll Parish,126,0,LA,Louisiana
+Crockett County,126,0,TX,Texas
+Lee County,127,0,AR,Arkansas
+Edmonson County,127,0,KY,Kentucky
+Perkins County,127,0,NE,Nebraska
+Nelson County,127,5,ND,North Dakota
+Bath County,127,0,VA,Virginia
+Gilmer County,127,0,WV,West Virginia
+Perkins County,128,0,SD,South Dakota
+Decatur County,129,0,IA,Iowa
+Stafford County,129,0,KS,Kansas
+Fulton County,129,0,KY,Kentucky
+Brown County,129,0,NE,Nebraska
+Kimball County,129,0,NE,Nebraska
+McHenry County,129,0,ND,North Dakota
+Edmunds County,129,0,SD,South Dakota
+San Augustine County,129,0,TX,Texas
+Shackelford County,129,0,TX,Texas
+Switzerland County,130,0,IN,Indiana
+Meade County,130,0,KS,Kansas
+Red River Parish,130,1,LA,Louisiana
+Scotland County,130,0,MO,Missouri
+Alfalfa County,130,0,OK,Oklahoma
+Newton County,130,0,TX,Texas
+Presidio County,130,0,TX,Texas
+Putnam County,131,0,IL,Illinois
+Brooks County,131,0,TX,Texas
+Pendleton County,131,0,WV,West Virginia
+Miller County,132,0,GA,Georgia
+Randolph County,132,0,GA,Georgia
+Ottawa County,132,0,KS,Kansas
+Ballard County,132,0,KY,Kentucky
+Gove County,133,0,KS,Kansas
+Columbia County,133,0,WA,Washington
+Ferry County,133,0,WA,Washington
+Prince of Wales-Hyder Census Area,134,0,AK,Alaska
+Haines Borough,134,0,AK,Alaska
+Taylor County,134,0,IA,Iowa
+Wabaunsee County,134,0,KS,Kansas
+Maries County,134,0,MO,Missouri
+Mason County,134,0,TX,Texas
+Kimble County,134,0,TX,Texas
+Phillips County,135,0,CO,Colorado
+Union County,135,0,FL,Florida
+Lincoln County,135,0,GA,Georgia
+Stevens County,136,0,KS,Kansas
+Jones County,136,0,NC,North Carolina
+Holt County,137,0,MO,Missouri
+Broadwater County,137,4,MT,Montana
+Phillips County,137,0,MT,Montana
+Vinton County,137,0,OH,Ohio
+Deuel County,137,1,SD,South Dakota
+Webster County,137,0,WV,West Virginia
+Woodruff County,138,0,AR,Arkansas
+Kemper County,138,0,MS,Mississippi
+Wilkinson County,139,0,MS,Mississippi
+Sutton County,139,0,TX,Texas
+Morris County,140,0,KS,Kansas
+Lyon County,140,0,KY,Kentucky
+Dade County,140,0,MO,Missouri
+Clark County,140,0,MO,Missouri
+Foster County,140,0,ND,North Dakota
+Montgomery County,141,0,AR,Arkansas
+Charles City County,141,0,VA,Virginia
+Cumberland County,142,0,VA,Virginia
+Custer County,143,0,CO,Colorado
+Ness County,143,0,KS,Kansas
+Tillman County,143,0,OK,Oklahoma
+Mitchell County,143,0,TX,Texas
+Edwards County,144,0,IL,Illinois
+Ringgold County,144,0,IA,Iowa
+Kittson County,144,0,MN,Minnesota
+Doniphan County,145,0,KS,Kansas
+Bailey County,145,0,TX,Texas
+Charlton County,146,0,GA,Georgia
+Wayne County,146,0,IA,Iowa
+Smith County,146,0,KS,Kansas
+Bath County,146,0,KY,Kentucky
+Haskell County,146,0,TX,Texas
+Jasper County,147,0,GA,Georgia
+Perry County,147,0,MS,Mississippi
+Hickory County,147,0,MO,Missouri
+Blaine County,147,0,MT,Montana
+Stewart County,147,0,TN,Tennessee
+San Saba County,147,0,TX,Texas
+Chase County,148,3,NE,Nebraska
+Dewey County,148,0,OK,Oklahoma
+Swisher County,148,0,TX,Texas
+Wilkinson County,149,0,GA,Georgia
+Power County,149,3,ID,Idaho
+Caldwell County,150,0,MO,Missouri
+Howard County,150,0,NE,Nebraska
+Polk County,150,0,NE,Nebraska
+Marshall County,150,0,SD,South Dakota
+Refugio County,150,0,TX,Texas
+Boise County,151,0,ID,Idaho
+Cleburne County,152,0,AL,Alabama
+Jefferson Davis County,152,0,MS,Mississippi
+Scott County,153,0,AR,Arkansas
+Turner County,153,0,GA,Georgia
+Garfield County,153,0,UT,Utah
+Van Buren County,154,0,IA,Iowa
+Osborne County,154,0,KS,Kansas
+Morgan County,154,0,KY,Kentucky
+Humphreys County,154,0,MS,Mississippi
+LaMoure County,154,1,ND,North Dakota
+Hansford County,154,0,TX,Texas
+Marion County,154,0,TX,Texas
+North Slope Borough,155,0,AK,Alaska
+Lincoln County,155,1,AR,Arkansas
+Schuyler County,155,0,IL,Illinois
+Cameron Parish,155,2,LA,Louisiana
+Sweet Grass County,155,0,MT,Montana
+Huerfano County,156,0,CO,Colorado
+Love County,156,0,OK,Oklahoma
+Prairie County,157,0,AR,Arkansas
+Bowman County,157,0,ND,North Dakota
+Floyd County,157,0,TX,Texas
+Modoc County,158,0,CA,California
+Livingston County,158,0,KY,Kentucky
+Rains County,158,0,TX,Texas
+Dooly County,159,0,GA,Georgia
+Lake of the Woods County,159,0,MN,Minnesota
+Fallon County,159,1,MT,Montana
+Morgan County,159,0,TN,Tennessee
+Beaver County,159,0,UT,Utah
+McCreary County,160,0,KY,Kentucky
+Chouteau County,160,0,MT,Montana
+Nowata County,160,0,OK,Oklahoma
+Sullivan County,160,0,PA,Pennsylvania
+Moody County,160,0,SD,South Dakota
+Childress County,160,0,TX,Texas
+Summers County,160,0,WV,West Virginia
+Little River County,161,0,AR,Arkansas
+Lake County,161,0,MI,Michigan
+Daviess County,161,0,MO,Missouri
+Shelby County,161,0,MO,Missouri
+Fulton County,162,0,AR,Arkansas
+Martin County,162,0,KY,Kentucky
+Luce County,162,0,MI,Michigan
+Lawrence County,162,0,MS,Mississippi
+Smith County,162,0,MS,Mississippi
+Shannon County,162,0,MO,Missouri
+Pierce County,162,0,ND,North Dakota
+Bleckley County,163,0,GA,Georgia
+Ellsworth County,163,0,KS,Kansas
+Green County,163,0,KY,Kentucky
+McLean County,163,0,KY,Kentucky
+Powell County,163,0,MT,Montana
+Zapata County,163,0,TX,Texas
+Duval County,163,0,TX,Texas
+Terrell County,164,0,GA,Georgia
+Morgan County,164,0,OH,Ohio
+Okfuskee County,164,0,OK,Oklahoma
+Johnson County,165,0,IL,Illinois
+Crittenden County,165,0,KY,Kentucky
+Amite County,165,0,MS,Mississippi
+Grundy County,165,0,TN,Tennessee
+Hamilton County,166,0,FL,Florida
+Latimer County,166,0,OK,Oklahoma
+Kingsbury County,166,0,SD,South Dakota
+Franklin County,166,0,TX,Texas
+Grayson County,166,0,VA,Virginia
+Nome Census Area,167,0,AK,Alaska
+Petersburg Census Area,167,0,AK,Alaska
+Custer County,167,0,ID,Idaho
+Pawnee County,167,0,KS,Kansas
+Beaver County,167,0,OK,Oklahoma
+Oglethorpe County,168,0,GA,Georgia
+Sheridan County,168,0,NE,Nebraska
+Hyde County,168,0,NC,North Carolina
+Furnas County,169,0,NE,Nebraska
+Graham County,169,0,NC,North Carolina
+Red River County,169,0,TX,Texas
+Mathews County,169,0,VA,Virginia
+Davis County,170,1,IA,Iowa
+Powell County,170,0,KY,Kentucky
+Ontonagon County,170,0,MI,Michigan
+Wilkin County,170,0,MN,Minnesota
+Nuckolls County,170,0,NE,Nebraska
+Winkler County,170,0,TX,Texas
+Grant Parish,171,0,LA,Louisiana
+Tallahatchie County,171,0,MS,Mississippi
+Ozark County,171,1,MO,Missouri
+Cavalier County,171,0,ND,North Dakota
+Sabine County,171,0,TX,Texas
+Southeast Fairbanks Census Area,172,0,AK,Alaska
+Worth County,172,0,IA,Iowa
+Magoffin County,172,0,KY,Kentucky
+Webster County,172,0,MS,Mississippi
+Pondera County,172,0,MT,Montana
+Cannon County,172,0,TN,Tennessee
+Hemphill County,172,0,TX,Texas
+Pulaski County,173,0,GA,Georgia
+Monroe County,173,0,IA,Iowa
+Kearney County,173,0,NE,Nebraska
+Knott County,174,0,KY,Kentucky
+Tucker County,174,0,WV,West Virginia
+Day County,175,0,SD,South Dakota
+Richmond County,175,69,VA,Virginia
+Norton County,176,0,KS,Kansas
+St. Clair County,176,0,MO,Missouri
+Bon Homme County,176,0,SD,South Dakota
+Hamlin County,176,0,SD,South Dakota
+Castro County,177,0,TX,Texas
+Lunenburg County,177,0,VA,Virginia
+Monroe County,177,0,WV,West Virginia
+Cumberland County,178,0,IL,Illinois
+Lucas County,178,0,IA,Iowa
+Morrow County,178,0,OR,Oregon
+Macon County,179,0,GA,Georgia
+Sequatchie County,179,0,TN,Tennessee
+Linn County,180,0,KS,Kansas
+Caldwell Parish,180,0,LA,Louisiana
+Yalobusha County,180,0,MS,Mississippi
+Reynolds County,180,0,MO,Missouri
+Johnston County,180,0,OK,Oklahoma
+Grand Isle County,180,0,VT,Vermont
+Owyhee County,181,0,ID,Idaho
+Audubon County,181,0,IA,Iowa
+McCook County,181,0,SD,South Dakota
+Martin County,182,1,IN,Indiana
+Pendleton County,182,0,KY,Kentucky
+Estill County,182,0,KY,Kentucky
+Valley County,182,0,NE,Nebraska
+Trinity County,182,0,TX,Texas
+Osceola County,183,0,IA,Iowa
+Rappahannock County,183,0,VA,Virginia
+Dixie County,184,0,FL,Florida
+McIntosh County,184,0,GA,Georgia
+Rosebud County,184,0,MT,Montana
+White Pine County,184,0,NV,Nevada
+Yoakum County,184,0,TX,Texas
+Norman County,185,0,MN,Minnesota
+Harney County,185,0,OR,Oregon
+Sheridan County,186,0,MT,Montana
+Brantley County,187,0,GA,Georgia
+Seminole County,187,0,GA,Georgia
+Fremont County,187,1,IA,Iowa
+Adair County,187,0,IA,Iowa
+Lewis County,187,0,MO,Missouri
+Gregory County,187,0,SD,South Dakota
+Emery County,187,0,UT,Utah
+Hot Springs County,187,0,WY,Wyoming
+Madison County,188,0,AR,Arkansas
+Benton County,188,0,IN,Indiana
+Clarke County,188,0,IA,Iowa
+Catahoula Parish,188,0,LA,Louisiana
+West Carroll Parish,188,0,LA,Louisiana
+Spink County,188,0,SD,South Dakota
+Juab County,188,0,UT,Utah
+Clay County,189,0,AL,Alabama
+Wilcox County,189,0,AL,Alabama
+Telfair County,189,0,GA,Georgia
+Greenwood County,189,5,KS,Kansas
+Butler County,189,0,KY,Kentucky
+Wells County,189,0,ND,North Dakota
+Lee County,189,0,SC,South Carolina
+Republic County,190,0,KS,Kansas
+West Feliciana Parish,190,0,LA,Louisiana
+Oscoda County,190,0,MI,Michigan
+Clay County,190,0,NE,Nebraska
+Pushmataha County,190,0,OK,Oklahoma
+Calhoun County,191,0,FL,Florida
+Scott County,191,0,KS,Kansas
+Boone County,191,0,NE,Nebraska
+Nemaha County,191,0,NE,Nebraska
+Lake County,191,0,OR,Oregon
+Union County,191,0,TN,Tennessee
+Willacy County,191,0,TX,Texas
+Sussex County,191,0,VA,Virginia
+Clinton County,192,0,KY,Kentucky
+Howard County,192,0,MO,Missouri
+Dunn County,192,0,ND,North Dakota
+Caribou County,193,0,ID,Idaho
+Alcona County,193,0,MI,Michigan
+Bollinger County,193,0,MO,Missouri
+Kiowa County,193,2,OK,Oklahoma
+Conecuh County,194,0,AL,Alabama
+Hamilton County,194,0,IL,Illinois
+Big Stone County,194,0,MN,Minnesota
+Toole County,194,0,MT,Montana
+Ransom County,194,0,ND,North Dakota
+Lewis County,194,0,TN,Tennessee
+Somervell County,194,0,TX,Texas
+Hale County,195,0,AL,Alabama
+Dallas County,195,0,AR,Arkansas
+Baraga County,195,0,MI,Michigan
+Noxubee County,195,0,MS,Mississippi
+Burt County,195,0,NE,Nebraska
+Pike County,196,0,IN,Indiana
+San Jacinto County,196,0,TX,Texas
+Skamania County,196,6,WA,Washington
+Monroe County,197,0,AR,Arkansas
+Wilkes County,197,0,GA,Georgia
+Monroe County,197,0,MO,Missouri
+Hamilton County,197,0,NY,New York
+Archer County,197,1,TX,Texas
+Spencer County,198,0,KY,Kentucky
+Todd County,198,0,KY,Kentucky
+Gentry County,198,0,MO,Missouri
+Brooks County,199,1,GA,Georgia
+Rooks County,199,0,KS,Kansas
+Douglas County,199,0,MO,Missouri
+Wayne County,199,0,TN,Tennessee
+Candler County,200,0,GA,Georgia
+Carter County,200,6,MO,Missouri
+Clay County,200,0,NC,North Carolina
+Wheeler County,200,0,TX,Texas
+Sumter County,201,0,AL,Alabama
+Pike County,201,0,AR,Arkansas
+Perquimans County,201,0,NC,North Carolina
+Dickenson County,201,0,VA,Virginia
+Lincoln County,201,0,WV,West Virginia
+Atchison County,202,0,MO,Missouri
+Jasper County,203,0,IL,Illinois
+Clearwater County,203,0,MN,Minnesota
+Henry County,204,1,KY,Kentucky
+Monroe County,204,0,KY,Kentucky
+Montmorency County,204,1,MI,Michigan
+Lac qui Parle County,204,0,MN,Minnesota
+Fall River County,204,0,SD,South Dakota
+Lake County,205,0,CO,Colorado
+Chariton County,205,0,MO,Missouri
+Ralls County,205,0,MO,Missouri
+Izard County,206,0,AR,Arkansas
+Teton County,206,0,MT,Montana
+Parmer County,206,0,TX,Texas
+Callahan County,207,0,TX,Texas
+Butler County,208,0,NE,Nebraska
+Thayer County,208,0,NE,Nebraska
+Rolette County,208,0,ND,North Dakota
+Decatur County,208,11,TN,Tennessee
+Dallam County,208,0,TX,Texas
+Pocahontas County,208,0,WV,West Virginia
+Harrison County,209,0,MO,Missouri
+Hamilton County,209,0,TX,Texas
+Ritchie County,209,0,WV,West Virginia
+Crenshaw County,210,0,AL,Alabama
+Early County,210,0,GA,Georgia
+Kingman County,210,0,KS,Kansas
+Webster County,210,2,KY,Kentucky
+Lincoln County,210,0,MN,Minnesota
+Tunica County,210,0,MS,Mississippi
+Oregon County,210,0,MO,Missouri
+Polk County,210,0,TN,Tennessee
+Evans County,211,0,GA,Georgia
+Anderson County,211,0,KS,Kansas
+Tripp County,211,0,SD,South Dakota
+Marion County,212,0,AR,Arkansas
+Screven County,212,0,GA,Georgia
+Washington County,212,0,KS,Kansas
+Madison Parish,212,0,LA,Louisiana
+Washington County,213,1,AL,Alabama
+Dade County,213,0,GA,Georgia
+Grant County,213,0,MN,Minnesota
+Crockett County,213,0,TN,Tennessee
+Gilchrist County,214,0,FL,Florida
+Bacon County,214,0,GA,Georgia
+Garrard County,214,0,KY,Kentucky
+Jasper County,214,0,MS,Mississippi
+Reeves County,214,0,TX,Texas
+Poquoson city,214,0,VA,Virginia
+Macon County,215,1,AL,Alabama
+Montgomery County,215,0,MS,Mississippi
+DeKalb County,215,0,MO,Missouri
+Noble County,215,0,OK,Oklahoma
+Walworth County,215,0,SD,South Dakota
+Camp County,215,0,TX,Texas
+Menard County,216,0,IL,Illinois
+Louisa County,216,0,IA,Iowa
+Sierra County,216,0,NM,New Mexico
+Iron County,216,0,WI,Wisconsin
+Walthall County,217,0,MS,Mississippi
+Big Horn County,217,0,MT,Montana
+Noble County,217,0,OH,Ohio
+McCulloch County,217,0,TX,Texas
+Pend Oreille County,217,0,WA,Washington
+Washington County,218,0,ID,Idaho
+Harper County,218,0,KS,Kansas
+Rockcastle County,218,0,KY,Kentucky
+Coleman County,218,0,TX,Texas
+Antelope County,219,0,NE,Nebraska
+Adair County,219,0,OK,Oklahoma
+Pepin County,219,0,WI,Wisconsin
+Barber County,220,0,KS,Kansas
+Grainger County,220,0,TN,Tennessee
+Weston County,220,0,WY,Wyoming
+Gray County,221,0,KS,Kansas
+Lawrence County,221,0,KY,Kentucky
+Pocahontas County,222,0,IA,Iowa
+Fillmore County,222,0,NE,Nebraska
+Dickey County,223,0,ND,North Dakota
+Madison County,223,0,TX,Texas
+Falls County,223,0,TX,Texas
+Larue County,224,0,KY,Kentucky
+Chicot County,225,0,AR,Arkansas
+Haskell County,225,0,OK,Oklahoma
+Brule County,225,0,SD,South Dakota
+Trigg County,226,0,KY,Kentucky
+Breathitt County,226,0,KY,Kentucky
+Hughes County,226,0,OK,Oklahoma
+Southampton County,226,0,VA,Virginia
+Morgan County,226,1,WV,West Virginia
+Jack County,227,0,TX,Texas
+Covington city,227,0,VA,Virginia
+Benewah County,228,0,ID,Idaho
+Massac County,228,0,IL,Illinois
+Grant County,228,0,KS,Kansas
+Socorro County,228,1,NM,New Mexico
+Crook County,228,0,WY,Wyoming
+Rio Blanco County,229,0,CO,Colorado
+Clearwater County,229,0,ID,Idaho
+Clarke County,229,0,MS,Mississippi
+Taylor County,229,0,WV,West Virginia
+Casey County,230,0,KY,Kentucky
+Cherry County,230,0,NE,Nebraska
+Roberts County,230,0,SD,South Dakota
+Carroll County,231,0,KY,Kentucky
+Pierce County,231,0,NE,Nebraska
+Torrance County,231,1,NM,New Mexico
+Runnels County,231,0,TX,Texas
+Bethel Census Area,232,0,AK,Alaska
+Blackford County,232,0,IN,Indiana
+Bienville Parish,232,0,LA,Louisiana
+Carroll County,232,0,MO,Missouri
+Dimmit County,232,0,TX,Texas
+Charlotte County,232,0,VA,Virginia
+Monona County,233,0,IA,Iowa
+Roosevelt County,233,0,MT,Montana
+Stone County,234,0,AR,Arkansas
+Lamar County,234,0,GA,Georgia
+Alger County,234,0,MI,Michigan
+Morris County,234,0,TX,Texas
+Barbour County,234,0,WV,West Virginia
+Schoolcraft County,235,0,MI,Michigan
+Quay County,235,0,NM,New Mexico
+Terry County,235,0,TX,Texas
+Morgan County,235,1,UT,Utah
+Grant County,236,0,OR,Oregon
+Emporia city,236,0,VA,Virginia
+Allen County,237,1,KY,Kentucky
+Jefferson County,237,0,NE,Nebraska
+Chester County,237,0,TN,Tennessee
+Caswell County,238,1,NC,North Carolina
+Washita County,238,0,OK,Oklahoma
+Calhoun County,238,0,SC,South Carolina
+Fentress County,238,0,TN,Tennessee
+Jefferson County,239,0,FL,Florida
+Jeff Davis County,239,0,GA,Georgia
+Pike County,240,0,GA,Georgia
+Norton city,240,0,VA,Virginia
+Lamar County,241,0,AL,Alabama
+Coffey County,241,0,KS,Kansas
+Washington County,241,1,KY,Kentucky
+Mercer County,241,0,ND,North Dakota
+Millard County,241,0,UT,Utah
+Grundy County,242,0,MO,Missouri
+Washington County,242,0,NC,North Carolina
+Wilson County,243,0,KS,Kansas
+Hutchinson County,243,0,SD,South Dakota
+Hickman County,243,0,TN,Tennessee
+Johnson County,243,0,TN,Tennessee
+Alleghany County,243,2,VA,Virginia
+Grant County,243,0,WV,West Virginia
+Jackson Parish,244,0,LA,Louisiana
+Merrick County,244,0,NE,Nebraska
+Mitchell County,245,0,KS,Kansas
+Phillips County,245,0,KS,Kansas
+Greene County,245,0,NC,North Carolina
+Lamb County,245,0,TX,Texas
+Clay County,246,0,KY,Kentucky
+Holmes County,246,0,MS,Mississippi
+East Feliciana Parish,247,0,LA,Louisiana
+Unicoi County,247,0,TN,Tennessee
+Roane County,247,0,WV,West Virginia
+Ida County,248,0,IA,Iowa
+Deer Lodge County,248,0,MT,Montana
+Glacier County,248,0,MT,Montana
+Alleghany County,248,0,NC,North Carolina
+Fleming County,249,0,KY,Kentucky
+Saluda County,249,1,SC,South Carolina
+Kane County,249,1,UT,Utah
+Bradley County,250,0,AR,Arkansas
+Keokuk County,250,0,IA,Iowa
+Hardy County,250,0,WV,West Virginia
+Jackson County,251,0,KS,Kansas
+Wayne County,251,0,NE,Nebraska
+Colfax County,252,0,NE,Nebraska
+Monroe County,252,1,OH,Ohio
+Buckingham County,252,0,VA,Virginia
+Trinity County,253,0,CA,California
+Berrien County,253,0,GA,Georgia
+Cass County,253,0,IL,Illinois
+Choctaw County,254,0,AL,Alabama
+Greene County,254,0,IL,Illinois
+Claiborne Parish,254,0,LA,Louisiana
+Barton County,254,0,MO,Missouri
+Forest County,254,0,WI,Wisconsin
+Parke County,255,0,IN,Indiana
+McLean County,255,0,ND,North Dakota
+Stephens County,255,0,TX,Texas
+Howard County,256,0,IA,Iowa
+Wayne County,256,0,MO,Missouri
+Newton County,257,0,IN,Indiana
+Marshall County,257,0,MN,Minnesota
+Calhoun County,257,0,MS,Mississippi
+Stillwater County,257,0,MT,Montana
+Lincoln County,257,0,WA,Washington
+Braxton County,257,0,WV,West Virginia
+Assumption Parish,258,0,LA,Louisiana
+Montgomery County,258,0,MO,Missouri
+Tyler County,258,0,TX,Texas
+San Juan County,258,0,UT,Utah
+Amelia County,258,0,VA,Virginia
+Sherman County,259,0,KS,Kansas
+Mississippi County,259,0,MO,Missouri
+Richardson County,259,0,NE,Nebraska
+Major County,260,1,OK,Oklahoma
+Blanco County,260,0,TX,Texas
+Brunswick County,260,1,VA,Virginia
+Greene County,261,0,IA,Iowa
+Stone County,261,0,MS,Mississippi
+Choctaw County,261,0,OK,Oklahoma
+Turner County,261,0,SD,South Dakota
+Vermillion County,262,0,IN,Indiana
+Warren County,262,0,NC,North Carolina
+Bamberg County,262,3,SC,South Carolina
+Kit Carson County,263,0,CO,Colorado
+Ouray County,263,0,CO,Colorado
+Comanche County,263,0,TX,Texas
+Banks County,264,0,GA,Georgia
+Clay County,264,0,KS,Kansas
+Osage County,264,0,KS,Kansas
+Rock County,264,4,MN,Minnesota
+Dallas County,264,0,MO,Missouri
+Knox County,264,0,NE,Nebraska
+Northampton County,264,0,NC,North Carolina
+Smith County,264,0,TN,Tennessee
+Osage County,265,0,MO,Missouri
+Pickens County,266,0,AL,Alabama
+Brown County,266,0,KS,Kansas
+Holmes County,267,0,FL,Florida
+Wabash County,267,0,IL,Illinois
+McDowell County,267,0,WV,West Virginia
+Wayne County,268,0,KY,Kentucky
+Harrison County,268,0,OH,Ohio
+Pawnee County,268,0,OK,Oklahoma
+Sevier County,269,0,AR,Arkansas
+Rice County,269,0,KS,Kansas
+Jefferson County,269,0,MT,Montana
+Platte County,269,0,WY,Wyoming
+Valley County,270,0,MT,Montana
+Atoka County,270,0,OK,Oklahoma
+Brewster County,270,0,TX,Texas
+Union County,271,0,KY,Kentucky
+Pamlico County,271,0,NC,North Carolina
+Fremont County,272,1,ID,Idaho
+Hart County,272,0,KY,Kentucky
+Charles Mix County,272,0,SD,South Dakota
+Grant County,273,0,AR,Arkansas
+Fulton County,273,0,PA,Pennsylvania
+Madison County,273,0,VA,Virginia
+Bibb County,274,0,AL,Alabama
+Lawrence County,274,0,AR,Arkansas
+Custer County,274,0,SD,South Dakota
+Gulf County,275,1,FL,Florida
+Russell County,276,0,KS,Kansas
+Dawes County,277,0,NE,Nebraska
+Dawson County,277,0,TX,Texas
+Franklin County,278,0,AR,Arkansas
+Lawrence County,278,1,IL,Illinois
+Palo Alto County,278,0,IA,Iowa
+Cedar County,278,0,MO,Missouri
+Bottineau County,278,0,ND,North Dakota
+Robertson County,278,0,TX,Texas
+Cook County,279,0,MN,Minnesota
+Grant County,279,0,SD,South Dakota
+Jones County,279,0,TX,Texas
+Marshall County,280,0,IL,Illinois
+Mercer County,280,0,IL,Illinois
+Franklin County,281,0,ID,Idaho
+Worth County,282,0,GA,Georgia
+Pembina County,282,0,ND,North Dakota
+Live Oak County,282,0,TX,Texas
+Giles County,283,0,VA,Virginia
+Towns County,284,0,GA,Georgia
+Calhoun County,284,0,IA,Iowa
+Madison County,284,0,MO,Missouri
+Woods County,284,0,OK,Oklahoma
+Breckinridge County,285,1,KY,Kentucky
+Caldwell County,285,0,KY,Kentucky
+Appomattox County,285,0,VA,Virginia
+Wyoming County,285,0,WV,West Virginia
+Harrison County,286,0,KY,Kentucky
+Overton County,286,0,TN,Tennessee
+Lexington city,286,0,VA,Virginia
+Lee County,286,0,VA,Virginia
+Leake County,288,0,MS,Mississippi
+Andrew County,288,0,MO,Missouri
+Marquette County,288,8,WI,Wisconsin
+Tattnall County,289,0,GA,Georgia
+Lemhi County,289,0,ID,Idaho
+Owen County,289,2,IN,Indiana
+Missaukee County,289,0,MI,Michigan
+Watonwan County,289,0,MN,Minnesota
+Linn County,289,0,MO,Missouri
+Cheyenne County,289,0,NE,Nebraska
+Blaine County,289,0,OK,Oklahoma
+Fairfield County,289,0,SC,South Carolina
+Franklin city,289,0,VA,Virginia
+Boone County,289,1,WV,West Virginia
+Marshall County,290,0,OK,Oklahoma
+Marion County,291,0,KS,Kansas
+Murray County,291,0,OK,Oklahoma
+Hamilton County,292,0,NE,Nebraska
+DeKalb County,292,0,TN,Tennessee
+Nottoway County,292,0,VA,Virginia
+Henry County,293,0,AL,Alabama
+Kanabec County,293,0,MN,Minnesota
+Chattooga County,294,0,GA,Georgia
+Mills County,294,0,IA,Iowa
+Patrick County,294,1,VA,Virginia
+Mason County,295,0,IL,Illinois
+Winn Parish,295,0,LA,Louisiana
+Wilbarger County,296,0,TX,Texas
+Jackson County,297,0,TX,Texas
+Essex County,297,0,VA,Virginia
+Howard County,298,1,AR,Arkansas
+Madison County,298,0,FL,Florida
+Saline County,298,0,NE,Nebraska
+Meigs County,298,1,OH,Ohio
+Bosque County,298,0,TX,Texas
+Scott County,298,0,VA,Virginia
+Burke County,299,0,GA,Georgia
+Cook County,299,0,GA,Georgia
+Lake County,299,0,MN,Minnesota
+Paulding County,299,0,OH,Ohio
+Ward County,299,0,TX,Texas
+Galax city,299,0,VA,Virginia
+Jefferson County,300,0,GA,Georgia
+Cedar County,300,0,NE,Nebraska
+Madison County,300,1,NC,North Carolina
+Crawford County,301,0,MI,Michigan
+Traill County,301,0,ND,North Dakota
+Clay County,301,1,SD,South Dakota
+Big Horn County,301,0,WY,Wyoming
+Meriwether County,302,0,GA,Georgia
+Bond County,302,0,IL,Illinois
+Karnes County,303,1,TX,Texas
+Franklin County,304,0,FL,Florida
+Starke County,304,0,IN,Indiana
+McDonald County,304,0,MO,Missouri
+Yell County,305,0,AR,Arkansas
+Tipton County,305,0,IN,Indiana
+Swift County,305,0,MN,Minnesota
+Fayette County,306,0,AL,Alabama
+Haywood County,306,0,TN,Tennessee
+Clay County,307,0,AR,Arkansas
+Jefferson County,307,0,KS,Kansas
+Lauderdale County,307,0,TN,Tennessee
+Floyd County,307,0,VA,Virginia
+King William County,307,0,VA,Virginia
+Grundy County,308,0,IA,Iowa
+Montgomery County,308,0,IA,Iowa
+Lincoln County,308,0,KY,Kentucky
+Benton County,308,0,TN,Tennessee
+Sharp County,309,1,AR,Arkansas
+Hancock County,309,0,IA,Iowa
+Cloud County,309,0,KS,Kansas
+George County,310,0,MS,Mississippi
+Edgefield County,311,0,SC,South Carolina
+Desha County,312,0,AR,Arkansas
+Appanoose County,312,1,IA,Iowa
+Jackson County,312,0,MN,Minnesota
+Box Butte County,312,0,NE,Nebraska
+Butte County,312,0,SD,South Dakota
+Radford city,313,3,VA,Virginia
+Yellow Medicine County,314,0,MN,Minnesota
+Frio County,314,0,TX,Texas
+Jones County,315,0,GA,Georgia
+Murray County,315,0,MN,Minnesota
+Bedford city,315,0,VA,Virginia
+Buffalo County,315,0,WI,Wisconsin
+Adair County,316,0,KY,Kentucky
+Emmet County,317,0,IA,Iowa
+Anderson County,317,0,KY,Kentucky
+Newton County,317,0,MS,Mississippi
+Scott County,317,0,TN,Tennessee
+Northampton County,317,0,VA,Virginia
+Ben Hill County,318,0,GA,Georgia
+Moultrie County,318,0,IL,Illinois
+St. James Parish,318,0,LA,Louisiana
+Rusk County,318,0,WI,Wisconsin
+Bertie County,319,0,NC,North Carolina
+Fountain County,320,0,IN,Indiana
+Manassas Park city,321,0,VA,Virginia
+Pierce County,322,2,GA,Georgia
+Pulaski County,322,0,IN,Indiana
+Greene County,322,0,VA,Virginia
+Guthrie County,323,0,IA,Iowa
+Middlesex County,323,0,VA,Virginia
+Humboldt County,324,0,IA,Iowa
+Westmoreland County,324,0,VA,Virginia
+Randolph County,325,0,AR,Arkansas
+Allen Parish,325,0,LA,Louisiana
+Clear Creek County,326,0,CO,Colorado
+Mitchell County,326,0,IA,Iowa
+Union Parish,326,0,LA,Louisiana
+Mason County,326,0,WV,West Virginia
+Jackson County,327,0,AR,Arkansas
+Covington County,327,0,MS,Mississippi
+Yancey County,327,0,NC,North Carolina
+Marlboro County,327,0,SC,South Carolina
+Macon County,327,0,TN,Tennessee
+Winnebago County,328,0,IA,Iowa
+Moniteau County,328,0,MO,Missouri
+Burleson County,328,0,TX,Texas
+Adams County,328,0,WI,Wisconsin
+Arenac County,329,0,MI,Michigan
+Phelps County,329,0,NE,Nebraska
+Cibola County,329,1,NM,New Mexico
+Kalkaska County,331,0,MI,Michigan
+Union County,332,0,IA,Iowa
+Pipestone County,332,0,MN,Minnesota
+Clark County,333,0,IL,Illinois
+Butler County,333,0,IA,Iowa
+Thomas County,333,0,KS,Kansas
+Letcher County,333,0,KY,Kentucky
+Stevens County,333,0,MN,Minnesota
+Attala County,333,0,MS,Mississippi
+Franklin County,334,0,IA,Iowa
+Northumberland County,334,0,VA,Virginia
+Piatt County,335,0,IL,Illinois
+Abbeville County,335,0,SC,South Carolina
+Hampshire County,335,0,WV,West Virginia
+Washington County,336,0,GA,Georgia
+Sullivan County,336,0,IN,Indiana
+Presque Isle County,336,0,MI,Michigan
+Humphreys County,336,0,TN,Tennessee
+Pecos County,336,0,TX,Texas
+Gem County,337,0,ID,Idaho
+Van Buren County,338,0,AR,Arkansas
+Dodge County,338,0,GA,Georgia
+Nolan County,339,0,TX,Texas
+New Kent County,339,1,VA,Virginia
+Randolph County,340,0,AL,Alabama
+Prowers County,340,0,CO,Colorado
+Tama County,340,0,IA,Iowa
+Bates County,340,0,MO,Missouri
+Macon County,340,0,MO,Missouri
+Hampton County,340,0,SC,South Carolina
+Chickasaw County,341,0,MS,Mississippi
+Craig County,341,1,OK,Oklahoma
+Union County,342,1,IL,Illinois
+Tippah County,342,0,MS,Mississippi
+Keith County,342,0,NE,Nebraska
+Roosevelt County,342,0,NM,New Mexico
+Dawson County,343,0,MT,Montana
+Beaverhead County,344,0,MT,Montana
+Cuming County,344,1,NE,Nebraska
+La Paz County,345,0,AZ,Arizona
+Edgar County,345,0,IL,Illinois
+Itawamba County,346,0,MS,Mississippi
+Butts County,347,0,GA,Georgia
+Goshen County,347,0,WY,Wyoming
+Rio Grande County,348,0,CO,Colorado
+Gooding County,348,1,ID,Idaho
+Potter County,348,0,PA,Pennsylvania
+Mariposa County,349,0,CA,California
+Brown County,349,0,IN,Indiana
+Iron County,349,0,MO,Missouri
+Freestone County,349,0,TX,Texas
+Dinwiddie County,349,0,VA,Virginia
+Cherokee County,350,0,KS,Kansas
+Tishomingo County,350,0,MS,Mississippi
+Warren County,351,0,IL,Illinois
+Cottonwood County,351,0,MN,Minnesota
+Ray County,352,0,MO,Missouri
+Barnwell County,352,0,SC,South Carolina
+Cherokee County,353,0,IA,Iowa
+Sac County,353,0,IA,Iowa
+Sanders County,353,0,MT,Montana
+Madison County,354,0,IA,Iowa
+Bourbon County,354,0,KS,Kansas
+Ohio County,354,1,KY,Kentucky
+Houston County,354,0,TX,Texas
+Madison County,355,0,GA,Georgia
+Boundary County,355,0,ID,Idaho
+Shoshone County,355,1,ID,Idaho
+Clarke County,355,0,VA,Virginia
+Marion County,356,0,KY,Kentucky
+Iron County,356,0,MI,Michigan
+Clay County,356,0,MS,Mississippi
+Wallowa County,356,0,OR,Oregon
+Adams County,356,0,WA,Washington
+Rush County,357,2,IN,Indiana
+Harrison County,357,0,IA,Iowa
+Jefferson County,357,0,OR,Oregon
+La Salle Parish,358,1,LA,Louisiana
+Tate County,358,0,MS,Mississippi
+Wetzel County,358,0,WV,West Virginia
+Cross County,359,0,AR,Arkansas
+Atchison County,359,0,KS,Kansas
+Nemaha County,359,3,KS,Kansas
+Sibley County,359,0,MN,Minnesota
+Simpson County,360,0,KY,Kentucky
+McIntosh County,360,0,OK,Oklahoma
+Meade County,361,0,KY,Kentucky
+Madison County,361,0,MT,Montana
+Mountrail County,361,1,ND,North Dakota
+Chowan County,362,1,NC,North Carolina
+Swain County,362,0,NC,North Carolina
+Leon County,362,0,TX,Texas
+Lafayette County,362,0,WI,Wisconsin
+Appling County,363,0,GA,Georgia
+Clay County,363,0,IL,Illinois
+Mercer County,363,0,KY,Kentucky
+Concordia Parish,363,0,LA,Louisiana
+Lake County,363,0,SD,South Dakota
+Mitchell County,364,0,GA,Georgia
+Bandera County,364,0,TX,Texas
+Poinsett County,365,0,AR,Arkansas
+Grant County,365,0,KY,Kentucky
+Perry County,366,0,IN,Indiana
+Somerset County,366,0,MD,Maryland
+Hardeman County,366,0,TN,Tennessee
+White County,366,4,TN,Tennessee
+Richland County,366,0,WI,Wisconsin
+Pope County,367,0,MN,Minnesota
+Benton County,368,0,MO,Missouri
+Lee County,369,0,GA,Georgia
+Yuma County,370,0,CO,Colorado
+Pointe Coupee Parish,370,0,LA,Louisiana
+Clinton County,370,0,MO,Missouri
+Las Animas County,371,0,CO,Colorado
+Marshall County,372,0,KS,Kansas
+Russell County,372,0,KY,Kentucky
+Barnes County,372,0,ND,North Dakota
+Adams County,372,0,OH,Ohio
+Ford County,374,0,IL,Illinois
+Ochiltree County,374,0,TX,Texas
+Caroline County,374,0,VA,Virginia
+Harris County,375,0,GA,Georgia
+Pike County,375,1,IL,Illinois
+Colusa County,376,0,CA,California
+Bourbon County,376,0,KY,Kentucky
+Los Alamos County,376,3,NM,New Mexico
+Mitchell County,376,0,NC,North Carolina
+Logan County,377,0,AR,Arkansas
+Nelson County,377,0,VA,Virginia
+Washington County,378,0,FL,Florida
+Hancock County,378,8,IL,Illinois
+Wayne County,378,1,IL,Illinois
+Wayne County,378,0,MS,Mississippi
+Washakie County,378,3,WY,Wyoming
+Cherokee County,379,0,AL,Alabama
+Carroll County,379,1,IN,Indiana
+Hardee County,380,0,FL,Florida
+Winston County,380,0,MS,Mississippi
+White County,381,0,IL,Illinois
+Sitka City and Borough,382,0,AK,Alaska
+Hamilton County,382,0,IA,Iowa
+Custer County,382,0,NE,Nebraska
+Morrow County,382,2,OH,Ohio
+Emanuel County,384,0,GA,Georgia
+Washington County,384,0,IL,Illinois
+Franklin Parish,384,0,LA,Louisiana
+Hempstead County,385,1,AR,Arkansas
+Allen County,385,0,KS,Kansas
+Baker County,386,0,FL,Florida
+Schuyler County,386,1,NY,New York
+Anson County,386,0,NC,North Carolina
+Lampasas County,386,1,TX,Texas
+Fluvanna County,386,0,VA,Virginia
+Pratt County,387,0,KS,Kansas
+Luna County,387,0,NM,New Mexico
+Orange County,388,0,IN,Indiana
+Lyon County,388,0,IA,Iowa
+Koochiching County,389,0,MN,Minnesota
+Ste. Genevieve County,389,0,MO,Missouri
+Wright County,390,0,IA,Iowa
+Pennington County,390,0,MN,Minnesota
+Johnson County,391,0,AR,Arkansas
+Gaines County,391,8,TX,Texas
+Butler County,392,0,AL,Alabama
+Hart County,392,0,GA,Georgia
+Lewis County,392,0,WV,West Virginia
+Monroe County,393,0,AL,Alabama
+Murray County,394,0,GA,Georgia
+Gladwin County,394,0,MI,Michigan
+Wadena County,394,0,MN,Minnesota
+Spencer County,395,0,IN,Indiana
+Allamakee County,395,0,IA,Iowa
+Putnam County,396,0,GA,Georgia
+De Witt County,396,0,IL,Illinois
+Hoke County,396,0,NC,North Carolina
+McNairy County,396,0,TN,Tennessee
+Shelby County,397,0,IA,Iowa
+Scott County,398,4,IN,Indiana
+Pike County,398,2,MO,Missouri
+Milam County,398,1,TX,Texas
+Deaf Smith County,398,0,TX,Texas
+Sanpete County,398,1,UT,Utah
+Carroll County,399,0,IL,Illinois
+Jay County,399,0,IN,Indiana
+Geneva County,400,0,AL,Alabama
+Taylor County,400,0,FL,Florida
+Aitkin County,400,0,MN,Minnesota
+Cooper County,400,0,MO,Missouri
+Yazoo County,401,0,MS,Mississippi
+Grady County,402,0,GA,Georgia
+Minidoka County,402,0,ID,Idaho
+Livingston County,402,0,MO,Missouri
+Crawford County,402,0,WI,Wisconsin
+Jennings County,403,0,IN,Indiana
+Brooke County,403,0,WV,West Virginia
+Burnett County,403,0,WI,Wisconsin
+Gogebic County,404,0,MI,Michigan
+Wright County,404,0,MO,Missouri
+Humboldt County,404,0,NV,Nevada
+Grimes County,404,0,TX,Texas
+Drew County,405,0,AR,Arkansas
+Walsh County,405,0,ND,North Dakota
+Lawrence County,406,0,AL,Alabama
+Roseau County,406,0,MN,Minnesota
+Carter County,407,0,KY,Kentucky
+Limestone County,407,0,TX,Texas
+Franklin County,408,0,IN,Indiana
+Andrews County,408,0,TX,Texas
+Conway County,409,0,AR,Arkansas
+Lassen County,409,1,CA,California
+Pike County,409,0,OH,Ohio
+Gonzales County,410,0,TX,Texas
+Page County,410,0,VA,Virginia
+Johnson County,411,0,KY,Kentucky
+Carbon County,412,0,MT,Montana
+Carroll County,412,0,VA,Virginia
+Ashley County,413,0,AR,Arkansas
+Wakulla County,413,0,FL,Florida
+Phillips County,414,0,AR,Arkansas
+Franklin County,414,0,GA,Georgia
+Floyd County,414,0,IA,Iowa
+Richland Parish,414,0,LA,Louisiana
+Chippewa County,414,0,MN,Minnesota
+Claiborne County,414,0,TN,Tennessee
+Marion County,414,0,TN,Tennessee
+Hopewell city,414,0,VA,Virginia
+Moffat County,415,0,CO,Colorado
+Page County,416,0,IA,Iowa
+Simpson County,416,0,MS,Mississippi
+Dent County,416,0,MO,Missouri
+Del Norte County,417,0,CA,California
+De Soto Parish,417,0,LA,Louisiana
+Teton County,418,0,ID,Idaho
+Chickasaw County,418,0,IA,Iowa
+Marshall County,418,0,MS,Mississippi
+Mingo County,418,0,WV,West Virginia
+Johnson County,418,0,WY,Wyoming
+Greene County,419,0,GA,Georgia
+Holt County,419,1,NE,Nebraska
+Red Willow County,420,0,NE,Nebraska
+Colfax County,420,1,NM,New Mexico
+Lee County,420,0,TX,Texas
+Montague County,420,0,TX,Texas
+Bradford County,421,0,FL,Florida
+Ripley County,421,0,MO,Missouri
+Elbert County,422,0,GA,Georgia
+Jersey County,423,0,IL,Illinois
+Dodge County,423,0,MN,Minnesota
+Perry County,424,0,IL,Illinois
+Ramsey County,424,0,ND,North Dakota
+Perry County,424,0,OH,Ohio
+Crawford County,425,0,IL,Illinois
+DeSoto County,426,0,FL,Florida
+Dakota County,426,0,NE,Nebraska
+Bayfield County,426,0,WI,Wisconsin
+Calhoun County,427,0,TX,Texas
+Jackson County,428,0,WI,Wisconsin
+Price County,428,0,WI,Wisconsin
+Gasconade County,429,0,MO,Missouri
+Jefferson County,430,0,ID,Idaho
+Osceola County,430,0,MI,Michigan
+New Madrid County,430,0,MO,Missouri
+Elmore County,431,0,ID,Idaho
+Faribault County,431,0,MN,Minnesota
+Asotin County,431,0,WA,Washington
+Pemiscot County,432,1,MO,Missouri
+McDuffie County,433,0,GA,Georgia
+Fergus County,433,0,MT,Montana
+Llano County,433,0,TX,Texas
+Rockbridge County,433,0,VA,Virginia
+Park County,434,1,CO,Colorado
+Custer County,434,0,MT,Montana
+Scurry County,434,0,TX,Texas
+Fayette County,435,0,IN,Indiana
+Washington County,435,0,IN,Indiana
+Copiah County,436,2,MS,Mississippi
+Carroll County,436,0,TN,Tennessee
+Seward County,437,0,NE,Nebraska
+Houston County,438,4,MN,Minnesota
+Winston County,439,0,AL,Alabama
+Piscataquis County,439,0,ME,Maine
+San Miguel County,440,0,NM,New Mexico
+Martin County,440,0,NC,North Carolina
+Haralson County,441,0,GA,Georgia
+DeWitt County,441,0,TX,Texas
+Buchanan County,441,0,VA,Virginia
+Otero County,442,0,CO,Colorado
+Benzie County,442,0,MI,Michigan
+Shelby County,443,0,IL,Illinois
+Morgan County,445,2,GA,Georgia
+Upson County,445,0,GA,Georgia
+Grand County,445,0,UT,Utah
+Mason County,446,0,KY,Kentucky
+Sunflower County,447,0,MS,Mississippi
+Union County,447,0,SC,South Carolina
+Mineral County,448,0,WV,West Virginia
+Mackinac County,449,0,MI,Michigan
+Kewaunee County,451,0,WI,Wisconsin
+Neosho County,452,0,KS,Kansas
+Morehouse Parish,452,0,LA,Louisiana
+Polk County,453,0,AR,Arkansas
+Glenn County,453,0,CA,California
+Rabun County,454,4,GA,Georgia
+Montour County,454,6,PA,Pennsylvania
+Fannin County,454,0,TX,Texas
+Peach County,455,0,GA,Georgia
+Harlan County,457,0,KY,Kentucky
+Renville County,457,0,MN,Minnesota
+Washington County,457,0,MO,Missouri
+Hardin County,457,0,OH,Ohio
+Menominee County,458,0,MI,Michigan
+McKenzie County,458,1,ND,North Dakota
+Caddo County,458,0,OK,Oklahoma
+Moore County,458,0,TX,Texas
+Richland County,459,0,IL,Illinois
+Crawford County,459,0,IA,Iowa
+Juniata County,459,0,PA,Pennsylvania
+Sublette County,460,1,WY,Wyoming
+Valdez-Cordova Census Area,461,0,AK,Alaska
+Apache County,462,0,AZ,Arizona
+St. Francis County,462,2,AR,Arkansas
+Scott County,462,0,MS,Mississippi
+Barbour County,463,0,AL,Alabama
+Knox County,464,0,KY,Kentucky
+Upshur County,464,0,TX,Texas
+Cedar County,465,0,IA,Iowa
+Otoe County,465,1,NE,Nebraska
+Prince George County,465,0,VA,Virginia
+Waseca County,467,0,MN,Minnesota
+Hocking County,467,0,OH,Ohio
+Clay County,468,0,IN,Indiana
+Carroll County,468,0,OH,Ohio
+King George County,468,0,VA,Virginia
+Seminole County,469,0,OK,Oklahoma
+Lancaster County,469,0,VA,Virginia
+Labette County,471,0,KS,Kansas
+Eastland County,471,0,TX,Texas
+Hot Spring County,472,0,AR,Arkansas
+Fulton County,473,0,IN,Indiana
+Dickinson County,473,0,KS,Kansas
+Alamosa County,474,0,CO,Colorado
+Perry County,474,0,MO,Missouri
+Dillon County,474,0,SC,South Carolina
+Bee County,474,0,TX,Texas
+Converse County,474,0,WY,Wyoming
+Kingfisher County,476,0,OK,Oklahoma
+Clarendon County,476,0,SC,South Carolina
+Marshall County,476,0,TN,Tennessee
+Morgan County,477,0,MO,Missouri
+Marengo County,478,0,AL,Alabama
+Kodiak Island Borough,478,0,AK,Alaska
+Idaho County,478,0,ID,Idaho
+Cass County,478,0,IA,Iowa
+Montgomery County,478,0,NC,North Carolina
+Fayette County,479,0,IL,Illinois
+Texas County,479,0,MO,Missouri
+Crook County,479,0,OR,Oregon
+Waushara County,480,1,WI,Wisconsin
+Sabine Parish,481,0,LA,Louisiana
+Polk County,481,0,NC,North Carolina
+Prentiss County,482,1,MS,Mississippi
+Henderson County,482,1,TN,Tennessee
+Hutchinson County,482,0,TX,Texas
+Taylor County,482,0,WI,Wisconsin
+Payette County,483,0,ID,Idaho
+Russell County,483,0,VA,Virginia
+Cocke County,484,0,TN,Tennessee
+Posey County,485,1,IN,Indiana
+Iowa County,485,0,IA,Iowa
+Nodaway County,485,0,MO,Missouri
+Churchill County,485,0,NV,Nevada
+Lavaca County,485,0,TX,Texas
+Graham County,486,0,AZ,Arizona
+Logan County,486,0,KY,Kentucky
+Texas County,486,0,OK,Oklahoma
+Pontotoc County,487,0,MS,Mississippi
+Panola County,487,0,TX,Texas
+Rowan County,488,0,KY,Kentucky
+Williamsburg County,489,1,SC,South Carolina
+Archuleta County,490,1,CO,Colorado
+Randolph County,490,0,IN,Indiana
+Buchanan County,490,0,IA,Iowa
+Sumner County,490,0,KS,Kansas
+Green Lake County,490,0,WI,Wisconsin
+Union County,492,0,MS,Mississippi
+Oceana County,493,0,MI,Michigan
+Wyandot County,494,0,OH,Ohio
+Rhea County,494,1,TN,Tennessee
+Union County,495,0,SD,South Dakota
+Delaware County,496,0,IA,Iowa
+Clark County,497,2,AR,Arkansas
+Hertford County,497,0,NC,North Carolina
+Grayson County,498,0,KY,Kentucky
+Hardin County,499,0,TN,Tennessee
+Cass County,501,1,TX,Texas
+Jones County,503,0,IA,Iowa
+Avery County,503,0,NC,North Carolina
+Marion County,505,0,SC,South Carolina
+Lumpkin County,506,0,GA,Georgia
+Monroe County,506,1,GA,Georgia
+O'Brien County,506,0,IA,Iowa
+Neshoba County,506,1,MS,Mississippi
+Bladen County,506,0,NC,North Carolina
+Aransas County,507,2,TX,Texas
+Marshall County,507,0,WV,West Virginia
+Franklin County,508,0,AL,Alabama
+Redwood County,508,0,MN,Minnesota
+Henry County,511,1,IA,Iowa
+Saline County,511,0,MO,Missouri
+Clare County,512,2,MI,Michigan
+Williamsburg city,512,7,VA,Virginia
+Carbon County,513,0,UT,Utah
+Jackson County,513,0,WV,West Virginia
+Chambers County,514,0,AL,Alabama
+Crisp County,514,0,GA,Georgia
+Bell County,514,0,KY,Kentucky
+Evangeline Parish,514,0,LA,Louisiana
+Ashe County,514,1,NC,North Carolina
+York County,515,0,NE,Nebraska
+Sevier County,515,0,UT,Utah
+Smyth County,515,1,VA,Virginia
+Hockley County,517,0,TX,Texas
+Ashland County,519,0,WI,Wisconsin
+Washburn County,519,2,WI,Wisconsin
+Gilmer County,521,0,GA,Georgia
+Greenup County,521,0,KY,Kentucky
+Baker County,521,0,OR,Oregon
+Shelby County,522,0,TX,Texas
+Jerome County,524,0,ID,Idaho
+Saunders County,524,0,NE,Nebraska
+Arkansas County,525,0,AR,Arkansas
+Inyo County,525,0,CA,California
+Iberville Parish,526,0,LA,Louisiana
+Chester County,527,0,SC,South Carolina
+Ouachita County,528,0,AR,Arkansas
+Woodford County,528,0,KY,Kentucky
+Crawford County,528,2,MO,Missouri
+Lewis County,528,0,NY,New York
+Wayne County,528,4,WV,West Virginia
+Klickitat County,529,4,WA,Washington
+Union County,530,0,GA,Georgia
+Montgomery County,530,0,KY,Kentucky
+Carbon County,530,1,WY,Wyoming
+Richland County,532,2,ND,North Dakota
+Jackson County,532,0,OK,Oklahoma
+Cass County,534,0,NE,Nebraska
+Preston County,534,0,WV,West Virginia
+Hill County,535,0,MT,Montana
+Cheatham County,536,0,TN,Tennessee
+Wayne County,537,0,GA,Georgia
+Clayton County,537,1,IA,Iowa
+Louisa County,537,0,VA,Virginia
+Upshur County,538,0,WV,West Virginia
+Prince Edward County,540,0,VA,Virginia
+Chambers County,541,0,TX,Texas
+Brown County,542,0,OH,Ohio
+Stephens County,543,0,GA,Georgia
+West Baton Rouge Parish,543,2,LA,Louisiana
+Grenada County,543,0,MS,Mississippi
+Van Wert County,543,0,OH,Ohio
+Giles County,543,0,TN,Tennessee
+Hendry County,545,0,FL,Florida
+Jackson County,545,0,IA,Iowa
+Marion County,546,0,AL,Alabama
+Poweshiek County,547,0,IA,Iowa
+Antrim County,547,0,MI,Michigan
+Caldwell County,549,1,TX,Texas
+Yates County,550,0,NY,New York
+Juneau County,550,0,WI,Wisconsin
+Colorado County,551,0,TX,Texas
+Fayette County,552,1,IA,Iowa
+Fannin County,553,0,GA,Georgia
+Boone County,553,1,IA,Iowa
+Roscommon County,553,0,MI,Michigan
+Audrain County,553,3,MO,Missouri
+Starr County,553,0,TX,Texas
+Langlade County,553,1,WI,Wisconsin
+Iowa County,553,0,WI,Wisconsin
+Buena Vista County,554,0,IA,Iowa
+Seward County,554,0,KS,Kansas
+Rio Arriba County,554,0,NM,New Mexico
+Gallia County,554,0,OH,Ohio
+Coahoma County,555,0,MS,Mississippi
+Randolph County,555,0,MO,Missouri
+Alexander County,557,0,NC,North Carolina
+Beadle County,557,0,SD,South Dakota
+Manistee County,559,0,MI,Michigan
+Todd County,559,0,MN,Minnesota
+Vernon County,559,0,MO,Missouri
+Washington County,559,0,NE,Nebraska
+Schoharie County,559,0,NY,New York
+Mono County,560,1,CA,California
+Miami County,560,0,IN,Indiana
+Pottawatomie County,560,0,KS,Kansas
+Muhlenberg County,560,0,KY,Kentucky
+Jasper County,560,0,SC,South Carolina
+Elbert County,564,0,CO,Colorado
+Hardin County,565,0,IA,Iowa
+Henry County,565,1,OH,Ohio
+Nicholas County,565,0,WV,West Virginia
+Benton County,566,0,IA,Iowa
+Ogemaw County,566,0,MI,Michigan
+Valley County,567,1,ID,Idaho
+Lincoln County,567,0,TN,Tennessee
+Kleberg County,567,0,TX,Texas
+Kossuth County,571,0,IA,Iowa
+Franklin County,571,1,KS,Kansas
+Sequoyah County,571,0,OK,Oklahoma
+Lincoln County,571,1,OK,Oklahoma
+McCurtain County,572,0,OK,Oklahoma
+Wabasha County,573,0,MN,Minnesota
+Meeker County,573,2,MN,Minnesota
+Henry County,573,0,MO,Missouri
+Richland County,573,0,MT,Montana
+Clinton County,574,0,IN,Indiana
+Geary County,574,1,KS,Kansas
+Mahaska County,575,0,IA,Iowa
+Weakley County,575,0,TN,Tennessee
+Martinsville city,575,0,VA,Virginia
+Cleburne County,577,0,AR,Arkansas
+Logan County,577,0,CO,Colorado
+Decatur County,577,0,GA,Georgia
+Polk County,577,1,MO,Missouri
+Campbell County,577,0,TN,Tennessee
+Hancock County,577,0,WV,West Virginia
+Greene County,579,0,IN,Indiana
+Fayette County,580,0,OH,Ohio
+Osage County,580,0,OK,Oklahoma
+Polk County,581,0,GA,Georgia
+Jackson County,581,0,OH,Ohio
+Saline County,582,0,IL,Illinois
+Ketchikan Gateway Borough,583,0,AK,Alaska
+Caroline County,583,0,MD,Maryland
+Yadkin County,583,1,NC,North Carolina
+White County,584,3,GA,Georgia
+Clarke County,585,0,AL,Alabama
+Cherokee County,585,0,NC,North Carolina
+Douglas County,586,0,IL,Illinois
+Dawson County,587,0,GA,Georgia
+Amherst County,587,0,VA,Virginia
+Marion County,588,0,MS,Mississippi
+Warren County,588,0,MO,Missouri
+Fayette County,588,1,TN,Tennessee
+Hawkins County,589,0,TN,Tennessee
+Young County,589,0,TX,Texas
+Ottawa County,590,0,OK,Oklahoma
+Champaign County,592,0,OH,Ohio
+Plumas County,593,4,CA,California
+Uinta County,594,0,WY,Wyoming
+Pacific County,595,0,WA,Washington
+Columbia County,596,0,AR,Arkansas
+Lincoln County,596,0,MT,Montana
+Bryan County,597,0,GA,Georgia
+Hubbard County,597,0,MN,Minnesota
+Logan County,600,0,IL,Illinois
+Currituck County,600,0,NC,North Carolina
+White County,601,0,IN,Indiana
+Wilson County,601,0,TX,Texas
+Beauregard Parish,602,0,LA,Louisiana
+Austin County,602,0,TX,Texas
+Bremer County,604,0,IA,Iowa
+Fillmore County,604,0,MN,Minnesota
+Pulaski County,605,0,VA,Virginia
+Clay County,607,0,IA,Iowa
+Pine County,607,0,MN,Minnesota
+Stokes County,607,1,NC,North Carolina
+Vernon County,609,1,WI,Wisconsin
+Waynesboro city,610,2,VA,Virginia
+Iosco County,612,0,MI,Michigan
+Martin County,612,0,MN,Minnesota
+San Miguel County,613,4,CO,Colorado
+Nobles County,615,0,MN,Minnesota
+Grant County,617,1,NM,New Mexico
+Scotland County,617,0,NC,North Carolina
+Wells County,618,0,IN,Indiana
+Winneshiek County,618,0,IA,Iowa
+Taylor County,618,1,KY,Kentucky
+Jasper County,620,0,TX,Texas
+Bristol city,620,0,VA,Virginia
+Decatur County,621,0,IN,Indiana
+Uvalde County,622,0,TX,Texas
+Pike County,625,1,AL,Alabama
+Gray County,625,1,TX,Texas
+Lincoln County,625,0,WY,Wyoming
+Hill County,626,0,TX,Texas
+Palo Pinto County,627,1,TX,Texas
+Sumter County,628,0,GA,Georgia
+Webster County,628,0,MO,Missouri
+Goochland County,628,0,VA,Virginia
+Panola County,629,0,MS,Mississippi
+Titus County,629,0,TX,Texas
+Whitley County,630,0,KY,Kentucky
+Nicollet County,630,0,MN,Minnesota
+Kent County,635,0,MD,Maryland
+Adair County,637,0,MO,Missouri
+Coshocton County,637,0,OH,Ohio
+Isle of Wight County,637,0,VA,Virginia
+Gadsden County,639,0,FL,Florida
+Ripley County,639,0,IN,Indiana
+Obion County,641,0,TN,Tennessee
+Pickens County,643,2,GA,Georgia
+Cassia County,643,0,ID,Idaho
+Washington Parish,643,0,LA,Louisiana
+Monroe County,643,0,MS,Mississippi
+Nye County,643,0,NV,Nevada
+Preble County,644,0,OH,Ohio
+Wyoming County,644,0,PA,Pennsylvania
+Orleans County,645,5,NY,New York
+Marshall County,646,0,KY,Kentucky
+Trempealeau County,646,0,WI,Wisconsin
+Harrison County,649,0,IN,Indiana
+Jefferson County,649,0,TN,Tennessee
+Powhatan County,650,0,VA,Virginia
+Hughes County,654,0,SD,South Dakota
+Perry County,655,0,KY,Kentucky
+Miller County,656,0,MO,Missouri
+Logan County,656,0,WV,West Virginia
+Orange County,657,8,VA,Virginia
+Jefferson Davis Parish,658,1,LA,Louisiana
+Blount County,659,0,AL,Alabama
+Franklin County,659,0,TN,Tennessee
+Curry County,660,0,OR,Oregon
+Colonial Heights city,660,1,VA,Virginia
+Sawyer County,660,0,WI,Wisconsin
+Fulton County,661,0,IL,Illinois
+Stutsman County,663,0,ND,North Dakota
+Lincoln County,663,0,WI,Wisconsin
+Morgan County,666,0,CO,Colorado
+Mille Lacs County,666,1,MN,Minnesota
+Jefferson County,669,3,IA,Iowa
+Person County,669,0,NC,North Carolina
+Suwannee County,670,0,FL,Florida
+Whitley County,670,7,IN,Indiana
+Teller County,672,0,CO,Colorado
+Effingham County,672,0,GA,Georgia
+Toombs County,672,0,GA,Georgia
+Gage County,672,5,NE,Nebraska
+Madison County,672,0,OH,Ohio
+St. Bernard Parish,673,0,LA,Louisiana
+Jefferson County,674,0,IN,Indiana
+Highland County,674,0,OH,Ohio
+Randolph County,675,0,IL,Illinois
+Douglas County,675,0,WA,Washington
+McDonough County,678,1,IL,Illinois
+Stone County,679,2,MO,Missouri
+Okmulgee County,679,1,OK,Oklahoma
+Putnam County,680,0,IN,Indiana
+Hancock County,683,0,MS,Mississippi
+Randolph County,683,0,WV,West Virginia
+Carter County,685,0,TN,Tennessee
+Chesterfield County,687,1,SC,South Carolina
+Medina County,687,0,TX,Texas
+Lafayette County,689,0,MO,Missouri
+Wythe County,689,0,VA,Virginia
+Le Sueur County,691,0,MN,Minnesota
+Plaquemines Parish,692,0,LA,Louisiana
+Dawson County,692,0,NE,Nebraska
+Carlton County,693,0,MN,Minnesota
+Tipton County,693,0,TN,Tennessee
+Carroll County,696,0,AR,Arkansas
+Howard County,696,0,TX,Texas
+Lincoln County,698,1,NM,New Mexico
+Henry County,698,0,TN,Tennessee
+Waller County,699,1,TX,Texas
+Gibson County,700,0,IN,Indiana
+Monroe County,701,2,TN,Tennessee
+Chilton County,702,0,AL,Alabama
+Miller County,702,0,AR,Arkansas
+Iroquois County,702,1,IL,Illinois
+Plymouth County,702,0,IA,Iowa
+Lawrence County,702,0,MO,Missouri
+Meade County,702,0,SD,South Dakota
+Lawrence County,702,2,TN,Tennessee
+Levy County,703,0,FL,Florida
+Wasco County,703,1,OR,Oregon
+Walker County,704,0,GA,Georgia
+Washington County,704,0,IA,Iowa
+Tillamook County,704,0,OR,Oregon
+Garvin County,705,0,OK,Oklahoma
+Miami County,706,0,KS,Kansas
+Montgomery County,707,0,IL,Illinois
+Coryell County,707,1,TX,Texas
+Pulaski County,709,0,MO,Missouri
+Newberry County,709,0,SC,South Carolina
+Warren County,709,0,TN,Tennessee
+Halifax County,709,0,VA,Virginia
+Lee County,710,0,IL,Illinois
+Stoddard County,710,0,MO,Missouri
+Malheur County,710,0,OR,Oregon
+Polk County,711,0,TX,Texas
+Petersburg city,711,2,VA,Virginia
+Adams County,712,0,IN,Indiana
+St. John the Baptist Parish,712,0,LA,Louisiana
+Atascosa County,712,0,TX,Texas
+Hale County,714,0,TX,Texas
+Clinton County,715,0,OH,Ohio
+Dorchester County,716,4,MD,Maryland
+Christian County,717,5,IL,Illinois
+Graves County,717,0,KY,Kentucky
+Seneca County,717,0,NY,New York
+Roane County,717,0,TN,Tennessee
+Tallapoosa County,719,0,AL,Alabama
+Jo Daviess County,719,0,IL,Illinois
+Leflore County,721,1,MS,Mississippi
+Escambia County,722,0,AL,Alabama
+McDowell County,724,0,NC,North Carolina
+Botetourt County,724,0,VA,Virginia
+Cherokee County,725,0,OK,Oklahoma
+Vernon Parish,726,0,LA,Louisiana
+Avoyelles Parish,727,0,LA,Louisiana
+Putnam County,728,0,OH,Ohio
+Yankton County,728,0,SD,South Dakota
+Delaware County,729,0,OK,Oklahoma
+Matagorda County,729,0,TX,Texas
+Colleton County,730,0,SC,South Carolina
+Boyle County,732,0,KY,Kentucky
+Davison County,732,0,SD,South Dakota
+Bolivar County,734,0,MS,Mississippi
+Fayette County,734,0,TX,Texas
+Leelanau County,737,0,MI,Michigan
+Cass County,737,0,MI,Michigan
+Okeechobee County,738,0,FL,Florida
+Duchesne County,738,1,UT,Utah
+Cass County,740,0,IN,Indiana
+Callaway County,740,0,MO,Missouri
+Mason County,741,0,MI,Michigan
+Clark County,741,0,WI,Wisconsin
+Barry County,742,0,MO,Missouri
+Gratiot County,743,0,MI,Michigan
+Jasper County,744,0,IN,Indiana
+Clark County,744,0,KY,Kentucky
+Jasper County,745,0,IA,Iowa
+Edgecombe County,746,5,NC,North Carolina
+Bryan County,748,0,OK,Oklahoma
+Mecosta County,750,0,MI,Michigan
+Union County,750,0,OR,Oregon
+Hopkins County,750,0,TX,Texas
+Otsego County,752,0,MI,Michigan
+Greene County,752,0,PA,Pennsylvania
+Wabash County,754,0,IN,Indiana
+Cheboygan County,754,0,MI,Michigan
+Dallas County,755,0,AL,Alabama
+Madison County,755,2,ID,Idaho
+Wapello County,755,0,IA,Iowa
+Dunklin County,755,14,MO,Missouri
+Tooele County,756,1,UT,Utah
+Staunton city,756,0,VA,Virginia
+Oconto County,757,3,WI,Wisconsin
+Montezuma County,758,1,CO,Colorado
+Clinton County,758,1,PA,Pennsylvania
+Accomack County,758,0,VA,Virginia
+Woodford County,759,1,IL,Illinois
+Cowley County,760,0,KS,Kansas
+Greene County,762,1,AR,Arkansas
+Franklin County,763,0,IL,Illinois
+Bedford County,763,0,TN,Tennessee
+Brown County,764,0,MN,Minnesota
+Val Verde County,764,0,TX,Texas
+Dale County,765,1,AL,Alabama
+Orange County,765,1,VT,Vermont
+Bureau County,766,8,IL,Illinois
+Jackson County,767,0,FL,Florida
+Lyon County,768,1,NV,Nevada
+Dickinson County,769,0,IA,Iowa
+Maverick County,769,0,TX,Texas
+Warren County,772,0,IA,Iowa
+Ford County,772,0,KS,Kansas
+Park County,772,0,MT,Montana
+Lake County,773,1,MT,Montana
+Wise County,773,1,VA,Virginia
+Warren County,775,0,VA,Virginia
+Independence County,776,2,AR,Arkansas
+Perry County,776,0,PA,Pennsylvania
+Cherokee County,776,0,TX,Texas
+Polk County,777,0,MN,Minnesota
+Fayette County,777,0,WV,West Virginia
+Hillsdale County,778,0,MI,Michigan
+Alcorn County,780,1,MS,Mississippi
+Russell County,781,1,AL,Alabama
+Newaygo County,781,0,MI,Michigan
+Davie County,782,0,NC,North Carolina
+Pickaway County,783,3,OH,Ohio
+Wyoming County,784,0,NY,New York
+Amador County,785,0,CA,California
+Mecklenburg County,785,0,VA,Virginia
+Alpena County,786,0,MI,Michigan
+Logan County,786,0,OK,Oklahoma
+Monroe County,788,0,IL,Illinois
+Marshall County,788,0,IA,Iowa
+Pierce County,788,2,WI,Wisconsin
+Transylvania County,789,5,NC,North Carolina
+Dyer County,790,0,TN,Tennessee
+Camden County,791,2,GA,Georgia
+Harvey County,791,0,KS,Kansas
+Charlevoix County,791,0,MI,Michigan
+Lincoln County,792,0,MS,Mississippi
+Orleans County,792,0,VT,Vermont
+Cass County,793,1,MN,Minnesota
+Laclede County,794,0,MO,Missouri
+Grand County,795,0,CO,Colorado
+Lyon County,796,0,MN,Minnesota
+Habersham County,798,0,GA,Georgia
+Williams County,799,0,OH,Ohio
+Mayes County,799,0,OK,Oklahoma
+Wood County,799,0,TX,Texas
+LaGrange County,800,0,IN,Indiana
+McClain County,802,0,OK,Oklahoma
+Freeborn County,805,0,MN,Minnesota
+Le Flore County,805,0,OK,Oklahoma
+Hardin County,805,1,TX,Texas
+Marion County,806,1,IA,Iowa
+Chippewa County,806,0,MI,Michigan
+Branch County,806,1,MI,Michigan
+Defiance County,806,0,OH,Ohio
+Webster Parish,807,0,LA,Louisiana
+Wasatch County,807,4,UT,Utah
+Pearl River County,808,1,MS,Mississippi
+Allegany County,808,0,NY,New York
+Lawrence County,808,0,OH,Ohio
+Woodward County,809,0,OK,Oklahoma
+Liberty County,810,0,GA,Georgia
+Baldwin County,811,0,GA,Georgia
+Isanti County,815,0,MN,Minnesota
+Autauga County,816,0,AL,Alabama
+Natchitoches Parish,816,1,LA,Louisiana
+Pittsylvania County,816,2,VA,Virginia
+Adams County,817,0,MS,Mississippi
+Delta County,818,0,CO,Colorado
+Bingham County,818,0,ID,Idaho
+Montgomery County,818,1,KS,Kansas
+Franklin County,818,0,ME,Maine
+Yuba County,819,0,CA,California
+Tioga County,819,2,NY,New York
+Huntingdon County,820,2,PA,Pennsylvania
+Fremont County,821,0,CO,Colorado
+Crittenden County,822,2,AR,Arkansas
+Morton County,822,0,ND,North Dakota
+Floyd County,823,0,KY,Kentucky
+Lyon County,824,2,KS,Kansas
+Jefferson County,824,2,WV,West Virginia
+Coffee County,827,0,GA,Georgia
+Whitman County,827,3,WA,Washington
+Henry County,828,0,IN,Indiana
+Mississippi County,832,0,AR,Arkansas
+Granville County,832,2,NC,North Carolina
+Guernsey County,832,1,OH,Ohio
+Henry County,832,0,VA,Virginia
+Covington County,833,3,AL,Alabama
+Duplin County,834,0,NC,North Carolina
+Rusk County,834,0,TX,Texas
+Sanilac County,835,0,MI,Michigan
+Washington County,836,4,ME,Maine
+Marion County,836,3,MO,Missouri
+Van Zandt County,836,0,TX,Texas
+Lawrence County,837,0,IN,Indiana
+Wexford County,837,1,MI,Michigan
+Morgan County,840,0,IL,Illinois
+Richmond County,841,3,NC,North Carolina
+Vance County,842,0,NC,North Carolina
+Boone County,844,0,IL,Illinois
+Oktibbeha County,844,6,MS,Mississippi
+Crawford County,845,0,OH,Ohio
+Ware County,848,0,GA,Georgia
+Jackson County,853,0,AL,Alabama
+Montgomery County,853,0,IN,Indiana
+Coos County,853,0,NH,New Hampshire
+Tuscola County,854,0,MI,Michigan
+Logan County,855,0,OH,Ohio
+Mower County,857,0,MN,Minnesota
+Snyder County,859,1,PA,Pennsylvania
+Stevens County,859,0,WA,Washington
+Chaffee County,860,0,CO,Colorado
+Boone County,862,1,AR,Arkansas
+Calloway County,862,1,KY,Kentucky
+Daviess County,863,0,IN,Indiana
+Barren County,863,0,KY,Kentucky
+Noble County,864,1,IN,Indiana
+Falls Church city,865,13,VA,Virginia
+Brookings County,866,1,SD,South Dakota
+Barry County,867,1,MI,Michigan
+Scott County,868,1,KY,Kentucky
+Shenandoah County,868,1,VA,Virginia
+Huntington County,869,0,IN,Indiana
+Colquitt County,870,1,GA,Georgia
+Gloucester County,871,0,VA,Virginia
+Houghton County,875,2,MI,Michigan
+Livingston County,877,0,IL,Illinois
+Carroll County,877,0,IA,Iowa
+Shelby County,877,1,KY,Kentucky
+Union County,877,0,PA,Pennsylvania
+Clinton County,880,0,IL,Illinois
+Dickinson County,880,0,MI,Michigan
+Elk County,880,0,PA,Pennsylvania
+Calaveras County,881,1,CA,California
+Washington County,881,1,TX,Texas
+Ionia County,882,0,MI,Michigan
+Morrison County,882,0,MN,Minnesota
+McMinn County,882,0,TN,Tennessee
+Dunn County,884,0,WI,Wisconsin
+Latah County,885,2,ID,Idaho
+Pike County,887,1,PA,Pennsylvania
+Susquehanna County,887,1,PA,Pennsylvania
+Tioga County,888,0,PA,Pennsylvania
+Cooke County,889,0,TX,Texas
+Calumet County,890,4,WI,Wisconsin
+Catoosa County,891,0,GA,Georgia
+Valencia County,892,0,NM,New Mexico
+Beckham County,894,0,OK,Oklahoma
+Dickson County,895,1,TN,Tennessee
+Lincoln County,896,1,MO,Missouri
+Shawano County,898,0,WI,Wisconsin
+Crawford County,901,1,KS,Kansas
+McPherson County,902,0,KS,Kansas
+Sagadahoc County,902,0,ME,Maine
+Shelby County,903,2,IN,Indiana
+Dearborn County,904,0,IN,Indiana
+Garrett County,904,0,MD,Maryland
+Columbia County,905,1,OR,Oregon
+Loudon County,906,0,TN,Tennessee
+Nelson County,908,0,KY,Kentucky
+Lee County,909,1,IA,Iowa
+Benton County,910,0,MN,Minnesota
+Pasquotank County,910,0,NC,North Carolina
+Green County,911,0,WI,Wisconsin
+Macoupin County,913,0,IL,Illinois
+Anderson County,914,1,TX,Texas
+Erath County,914,0,TX,Texas
+Gillespie County,914,0,TX,Texas
+Knox County,915,0,IN,Indiana
+Johnson County,915,0,MO,Missouri
+Gibson County,917,1,TN,Tennessee
+Chenango County,918,1,NY,New York
+Wagoner County,918,0,OK,Oklahoma
+Custer County,920,0,OK,Oklahoma
+Brown County,921,0,TX,Texas
+Marion County,922,1,IL,Illinois
+Jackson County,923,0,NC,North Carolina
+Vilas County,924,0,WI,Wisconsin
+Franklin County,925,0,NC,North Carolina
+San Benito County,926,0,CA,California
+Laurens County,931,1,SC,South Carolina
+Nantucket County,934,0,MA,Massachusetts
+Sullivan County,934,0,NH,New Hampshire
+Muscatine County,935,1,IA,Iowa
+Fulton County,936,0,OH,Ohio
+Clarion County,937,3,PA,Pennsylvania
+Jim Wells County,937,0,TX,Texas
+St. Charles Parish,938,0,LA,Louisiana
+Navarro County,938,0,TX,Texas
+San Juan County,939,1,WA,Washington
+Lamoille County,942,2,VT,Vermont
+Caledonia County,943,1,VT,Vermont
+Walker County,945,1,TX,Texas
+Mifflin County,946,0,PA,Pennsylvania
+Mercer County,947,0,OH,Ohio
+Warren County,949,0,PA,Pennsylvania
+Pender County,950,0,NC,North Carolina
+Coffee County,951,2,AL,Alabama
+Jefferson County,952,0,IL,Illinois
+Becker County,952,0,MN,Minnesota
+St. Martin Parish,954,2,LA,Louisiana
+Tehama County,955,0,CA,California
+Waldo County,955,0,ME,Maine
+Monroe County,955,0,WI,Wisconsin
+Greenbrier County,957,0,WV,West Virginia
+Otero County,958,0,NM,New Mexico
+Huron County,959,0,MI,Michigan
+Auglaize County,962,0,OH,Ohio
+Pittsburg County,962,1,OK,Oklahoma
+Salem city,965,0,VA,Virginia
+Hopkins County,967,0,KY,Kentucky
+Steuben County,970,0,IN,Indiana
+Adams County,971,6,NE,Nebraska
+Pike County,972,0,MS,Mississippi
+Cherokee County,972,0,SC,South Carolina
+McKinley County,973,0,NM,New Mexico
+Hood River County,974,2,OR,Oregon
+Finney County,975,0,KS,Kansas
+Barton County,975,0,KS,Kansas
+McLeod County,976,3,MN,Minnesota
+Pontotoc County,976,0,OK,Oklahoma
+Shelby County,978,1,OH,Ohio
+Box Elder County,978,2,UT,Utah
+Gordon County,981,0,GA,Georgia
+DeKalb County,982,0,IN,Indiana
+Wharton County,982,0,TX,Texas
+Mason County,986,0,WA,Washington
+Franklin County,989,0,NY,New York
+Culpeper County,989,0,VA,Virginia
+Halifax County,991,0,NC,North Carolina
+Sampson County,994,1,NC,North Carolina
+Jackson County,995,0,IN,Indiana
+Union County,996,53,OH,Ohio
+Pettis County,998,0,MO,Missouri
+Steele County,999,1,MN,Minnesota
+Lonoke County,1000,2,AR,Arkansas
+Oconee County,1000,1,GA,Georgia
+Montcalm County,1002,1,MI,Michigan
+Platte County,1008,1,NE,Nebraska
+Lawrence County,1008,0,SD,South Dakota
+Columbus County,1009,0,NC,North Carolina
+Dodge County,1010,0,NE,Nebraska
+Gila County,1012,4,AZ,Arizona
+Warren County,1012,1,MS,Mississippi
+Tift County,1015,0,GA,Georgia
+Henderson County,1015,0,KY,Kentucky
+Ottawa County,1016,1,OH,Ohio
+Lincoln Parish,1017,0,LA,Louisiana
+Franklin County,1019,0,VT,Vermont
+Ashland County,1024,0,OH,Ohio
+Albany County,1024,3,WY,Wyoming
+Douglas County,1026,5,WI,Wisconsin
+Jefferson County,1027,5,WA,Washington
+Webster County,1028,1,IA,Iowa
+Cortland County,1030,0,NY,New York
+Liberty County,1030,0,TX,Texas
+Lake County,1032,2,CA,California
+Laurens County,1035,0,GA,Georgia
+Dukes County,1036,0,MA,Massachusetts
+Baxter County,1037,0,AR,Arkansas
+Marshall County,1037,0,IN,Indiana
+Bullitt County,1040,0,KY,Kentucky
+Bedford County,1041,1,PA,Pennsylvania
+San Patricio County,1042,0,TX,Texas
+Jessamine County,1043,1,KY,Kentucky
+Athens County,1044,8,OH,Ohio
+Vermilion Parish,1045,0,LA,Louisiana
+Curry County,1047,0,NM,New Mexico
+Lincoln County,1048,0,NE,Nebraska
+Thomas County,1049,3,GA,Georgia
+Gunnison County,1052,0,CO,Colorado
+Ogle County,1053,0,IL,Illinois
+Scott County,1054,0,MO,Missouri
+Crawford County,1056,2,AR,Arkansas
+Robertson County,1056,0,TN,Tennessee
+Knox County,1057,0,OH,Ohio
+Delaware County,1059,1,NY,New York
+McKean County,1060,2,PA,Pennsylvania
+Delta County,1062,1,MI,Michigan
+Washington County,1063,0,NY,New York
+Lafayette County,1065,2,MS,Mississippi
+Barrow County,1070,0,GA,Georgia
+Grundy County,1071,1,IL,Illinois
+Macon County,1071,0,NC,North Carolina
+Montgomery County,1073,1,NY,New York
+Siskiyou County,1075,1,CA,California
+Henry County,1075,0,IL,Illinois
+Marinette County,1075,0,WI,Wisconsin
+Knox County,1076,1,IL,Illinois
+Scotts Bluff County,1077,1,NE,Nebraska
+Stephens County,1078,0,OK,Oklahoma
+Kershaw County,1078,0,SC,South Carolina
+DeKalb County,1079,0,AL,Alabama
+Taos County,1082,0,NM,New Mexico
+Cumberland County,1082,0,TN,Tennessee
+Beaufort County,1083,0,NC,North Carolina
+Stephenson County,1084,3,IL,Illinois
+Tazewell County,1088,2,VA,Virginia
+Greene County,1090,0,TN,Tennessee
+Elko County,1092,1,NV,Nevada
+Darlington County,1097,0,SC,South Carolina
+Grady County,1101,0,OK,Oklahoma
+Des Moines County,1102,0,IA,Iowa
+Nez Perce County,1105,0,ID,Idaho
+Warrick County,1106,1,IN,Indiana
+Burnet County,1107,1,TX,Texas
+Polk County,1110,0,WI,Wisconsin
+Kendall County,1112,1,TX,Texas
+Codington County,1113,1,SD,South Dakota
+Spalding County,1114,1,GA,Georgia
+Okanogan County,1120,2,WA,Washington
+Howell County,1123,0,MO,Missouri
+Phelps County,1123,1,MO,Missouri
+Herkimer County,1124,0,NY,New York
+Marion County,1127,1,OH,Ohio
+Kay County,1127,1,OK,Oklahoma
+Acadia Parish,1130,2,LA,Louisiana
+Huron County,1132,0,OH,Ohio
+Carbon County,1132,0,PA,Pennsylvania
+Elmore County,1134,1,AL,Alabama
+Shiawassee County,1134,0,MI,Michigan
+Bastrop County,1134,1,TX,Texas
+Juneau City and Borough,1135,0,AK,Alaska
+Holmes County,1135,0,OH,Ohio
+Addison County,1136,10,VT,Vermont
+Seneca County,1138,0,OH,Ohio
+Union County,1139,0,AR,Arkansas
+Ellis County,1139,0,KS,Kansas
+Laurel County,1139,4,KY,Kentucky
+Sheridan County,1141,1,WY,Wyoming
+Itasca County,1142,0,MN,Minnesota
+Santa Cruz County,1145,0,AZ,Arizona
+Beltrami County,1145,0,MN,Minnesota
+Kittitas County,1147,0,WA,Washington
+St. Joseph County,1152,1,MI,Michigan
+Franklin County,1153,2,KY,Kentucky
+Washington County,1153,0,MS,Mississippi
+Silver Bow County,1153,0,MT,Montana
+Campbell County,1154,0,VA,Virginia
+Jefferson County,1159,0,PA,Pennsylvania
+Franklin County,1159,0,VA,Virginia
+Essex County,1160,2,NY,New York
+Jackson County,1161,1,GA,Georgia
+Morgan County,1161,0,IN,Indiana
+Greene County,1161,1,NY,New York
+Darke County,1161,1,OH,Ohio
+Salem County,1164,1,NJ,New Jersey
+Uintah County,1166,0,UT,Utah
+Somerset County,1170,7,ME,Maine
+Washington County,1170,2,VA,Virginia
+Clinton County,1176,0,IA,Iowa
+Fulton County,1180,0,NY,New York
+Effingham County,1182,1,IL,Illinois
+Stark County,1182,0,ND,North Dakota
+Lamar County,1183,0,TX,Texas
+Coles County,1184,1,IL,Illinois
+Winona County,1184,4,MN,Minnesota
+Washington County,1188,0,OK,Oklahoma
+Chisago County,1200,0,MN,Minnesota
+Venango County,1203,0,PA,Pennsylvania
+Park County,1203,1,WY,Wyoming
+Iron County,1204,4,UT,Utah
+Coffee County,1206,21,TN,Tennessee
+Waupaca County,1206,0,WI,Wisconsin
+Leavenworth County,1207,0,KS,Kansas
+Hood County,1211,0,TX,Texas
+Ross County,1214,0,OH,Ohio
+Wilkes County,1216,0,NC,North Carolina
+Putnam County,1217,0,WV,West Virginia
+Grant County,1218,0,WI,Wisconsin
+Marion County,1219,2,WV,West Virginia
+Colbert County,1222,3,AL,Alabama
+Oldham County,1223,9,KY,Kentucky
+Talladega County,1225,1,AL,Alabama
+Lancaster County,1227,4,SC,South Carolina
+Bristol County,1229,2,RI,Rhode Island
+Putnam County,1230,0,FL,Florida
+Sioux County,1231,0,IA,Iowa
+Whiteside County,1241,0,IL,Illinois
+Butler County,1241,0,MO,Missouri
+Clay County,1246,0,MN,Minnesota
+Walker County,1248,0,AL,Alabama
+Rutherford County,1252,0,NC,North Carolina
+Livingston County,1253,0,NY,New York
+Lenoir County,1254,0,NC,North Carolina
+Brown County,1264,1,SD,South Dakota
+St. Clair County,1266,2,AL,Alabama
+Lee County,1266,0,NC,North Carolina
+Wise County,1266,0,TX,Texas
+Van Buren County,1268,0,MI,Michigan
+Montrose County,1269,1,CO,Colorado
+Henderson County,1274,1,TX,Texas
+Jefferson County,1277,8,OH,Ohio
+Scioto County,1278,3,OH,Ohio
+Barron County,1278,0,WI,Wisconsin
+Lamar County,1282,0,MS,Mississippi
+Oxford County,1284,2,ME,Maine
+Hamblen County,1285,0,TN,Tennessee
+Dubois County,1286,1,IN,Indiana
+Tuolumne County,1287,10,CA,California
+Lincoln County,1292,0,SD,South Dakota
+Newton County,1294,0,MO,Missouri
+Stanly County,1298,1,NC,North Carolina
+Nacogdoches County,1298,0,TX,Texas
+Mercer County,1301,0,WV,West Virginia
+Newton County,1302,0,GA,Georgia
+Winchester city,1302,0,VA,Virginia
+Butler County,1303,0,KS,Kansas
+Sandusky County,1303,3,OH,Ohio
+Door County,1303,1,WI,Wisconsin
+Limestone County,1304,0,AL,Alabama
+Chatham County,1304,10,NC,North Carolina
+Clinton County,1305,0,MI,Michigan
+Jackson County,1308,1,IL,Illinois
+Pottawatomie County,1310,1,OK,Oklahoma
+Wayne County,1310,0,PA,Pennsylvania
+St. Mary Parish,1311,0,LA,Louisiana
+Fredericksburg city,1311,5,VA,Virginia
+Christian County,1312,0,KY,Kentucky
+Sumter County,1317,1,FL,Florida
+Columbia County,1318,2,FL,Florida
+Madison County,1318,0,NE,Nebraska
+Harrison County,1318,0,TX,Texas
+Grant County,1319,3,IN,Indiana
+Goodhue County,1321,0,MN,Minnesota
+Jones County,1324,1,MS,Mississippi
+Danville city,1327,1,VA,Virginia
+Hancock County,1328,1,IN,Indiana
+Eddy County,1333,0,NM,New Mexico
+Caldwell County,1335,0,NC,North Carolina
+Polk County,1335,0,OR,Oregon
+Oneida County,1336,0,WI,Wisconsin
+Blaine County,1338,1,ID,Idaho
+Armstrong County,1338,2,PA,Pennsylvania
+Douglas County,1340,0,MN,Minnesota
+Walla Walla County,1341,1,WA,Washington
+Genesee County,1343,6,NY,New York
+Greenwood County,1344,2,SC,South Carolina
+Sweetwater County,1345,1,WY,Wyoming
+Queen Anne's County,1348,12,MD,Maryland
+Pike County,1351,1,KY,Kentucky
+Bedford County,1352,1,VA,Virginia
+Orange County,1358,0,TX,Texas
+Hunt County,1364,1,TX,Texas
+Jefferson County,1367,4,AR,Arkansas
+Fremont County,1367,1,WY,Wyoming
+Columbia County,1368,2,PA,Pennsylvania
+Bulloch County,1370,0,GA,Georgia
+Haywood County,1374,1,NC,North Carolina
+Columbia County,1376,0,WI,Wisconsin
+Ravalli County,1378,2,MT,Montana
+Kerr County,1380,1,TX,Texas
+Creek County,1381,0,OK,Oklahoma
+Boyd County,1383,1,KY,Kentucky
+Bradford County,1390,1,PA,Pennsylvania
+Lincoln County,1394,1,ME,Maine
+Isabella County,1396,2,MI,Michigan
+Kandiyohi County,1396,0,MN,Minnesota
+Bonner County,1397,5,ID,Idaho
+Cerro Gordo County,1397,5,IA,Iowa
+Troup County,1400,1,GA,Georgia
+Bennington County,1401,1,VT,Vermont
+Camden County,1402,0,MO,Missouri
+Franklin County,1404,1,WA,Washington
+Augusta County,1405,0,VA,Virginia
+York County,1406,0,VA,Virginia
+Boone County,1409,4,IN,Indiana
+Ohio County,1411,1,WV,West Virginia
+Washington County,1412,3,OH,Ohio
+Manassas city,1412,5,VA,Virginia
+Madison County,1414,5,NY,New York
+Rockingham County,1416,0,VA,Virginia
+Williams County,1431,0,ND,North Dakota
+Muskogee County,1433,0,OK,Oklahoma
+Otsego County,1435,5,NY,New York
+Chaves County,1441,1,NM,New Mexico
+Frederick County,1441,2,VA,Virginia
+Burke County,1443,4,NC,North Carolina
+Clatsop County,1444,0,OR,Oregon
+Oconee County,1444,0,SC,South Carolina
+Pulaski County,1449,0,KY,Kentucky
+Vermilion County,1456,3,IL,Illinois
+Campbell County,1465,0,WY,Wyoming
+Talbot County,1466,0,MD,Maryland
+Emmet County,1467,5,MI,Michigan
+St. Francois County,1473,0,MO,Missouri
+Rice County,1477,4,MN,Minnesota
+Belmont County,1487,0,OH,Ohio
+Suffolk city,1490,0,VA,Virginia
+Lowndes County,1493,0,MS,Mississippi
+Lincoln County,1511,1,NC,North Carolina
+White County,1513,0,AR,Arkansas
+Anderson County,1517,7,TN,Tennessee
+Walton County,1518,0,GA,Georgia
+Wayne County,1525,1,IN,Indiana
+Klamath County,1527,1,OR,Oregon
+Umatilla County,1529,0,OR,Oregon
+Pope County,1531,1,AR,Arkansas
+Chippewa County,1550,0,WI,Wisconsin
+Buffalo County,1555,2,NE,Nebraska
+Pitkin County,1556,5,CO,Colorado
+Harrisonburg city,1556,5,VA,Virginia
+Carter County,1557,1,OK,Oklahoma
+Watauga County,1560,8,NC,North Carolina
+Saline County,1561,2,KS,Kansas
+Lincoln County,1561,0,OR,Oregon
+Riley County,1567,1,KS,Kansas
+Coos County,1567,0,OR,Oregon
+Berkeley County,1570,0,WV,West Virginia
+Kings County,1571,3,CA,California
+Lapeer County,1573,0,MI,Michigan
+Franklin County,1582,1,MA,Massachusetts
+Routt County,1589,3,CO,Colorado
+Williamson County,1592,0,IL,Illinois
+Douglas County,1593,1,NV,Nevada
+St. Landry Parish,1597,0,LA,Louisiana
+Harnett County,1605,3,NC,North Carolina
+Allegany County,1609,2,MD,Maryland
+Portage County,1611,0,WI,Wisconsin
+Cattaraugus County,1622,4,NY,New York
+Reno County,1627,1,KS,Kansas
+Campbell County,1636,14,KY,Kentucky
+Marquette County,1637,1,MI,Michigan
+Nassau County,1646,5,FL,Florida
+James City County,1646,0,VA,Virginia
+Orangeburg County,1647,0,SC,South Carolina
+Sandoval County,1648,6,NM,New Mexico
+Christian County,1650,2,MO,Missouri
+Cayuga County,1650,2,NY,New York
+Madison County,1651,0,KY,Kentucky
+Livingston Parish,1652,3,LA,Louisiana
+Northumberland County,1654,1,PA,Pennsylvania
+Maury County,1661,0,TN,Tennessee
+Grays Harbor County,1661,0,WA,Washington
+Rockingham County,1664,0,NC,North Carolina
+Surry County,1678,0,NC,North Carolina
+Calvert County,1686,0,MD,Maryland
+Otter Tail County,1686,0,MN,Minnesota
+Island County,1686,0,WA,Washington
+Navajo County,1691,0,AZ,Arizona
+Portsmouth city,1692,1,VA,Virginia
+Sutter County,1695,4,CA,California
+Hancock County,1697,3,OH,Ohio
+Rogers County,1698,3,OK,Oklahoma
+Knox County,1700,0,ME,Maine
+Kaufman County,1700,0,TX,Texas
+Somerset County,1701,1,PA,Pennsylvania
+Columbia County,1706,1,NY,New York
+Iberia Parish,1707,0,LA,Louisiana
+Lea County,1708,1,NM,New Mexico
+Garfield County,1708,0,OK,Oklahoma
+Cullman County,1710,0,AL,Alabama
+Dallas County,1711,0,IA,Iowa
+Wayne County,1713,0,NY,New York
+Paulding County,1715,0,GA,Georgia
+Windham County,1721,2,VT,Vermont
+Wilson County,1729,0,NC,North Carolina
+Putnam County,1731,1,TN,Tennessee
+Dodge County,1732,3,WI,Wisconsin
+Muskingum County,1733,2,OH,Ohio
+Midland County,1739,3,MI,Michigan
+Grant County,1741,0,WA,Washington
+Howard County,1745,3,IN,Indiana
+Taney County,1752,3,MO,Missouri
+Manitowoc County,1752,1,WI,Wisconsin
+Wood County,1755,2,WI,Wisconsin
+Payne County,1760,4,OK,Oklahoma
+Georgetown County,1760,1,SC,South Carolina
+Belknap County,1762,1,NH,New Hampshire
+Sumter County,1769,0,SC,South Carolina
+Floyd County,1773,8,IN,Indiana
+Sauk County,1776,0,WI,Wisconsin
+Cecil County,1777,2,MD,Maryland
+Marshall County,1787,0,AL,Alabama
+Robeson County,1795,2,NC,North Carolina
+Broomfield County,1800,73,CO,Colorado
+Steuben County,1806,1,NY,New York
+Lenawee County,1807,2,MI,Michigan
+Fauquier County,1808,3,VA,Virginia
+Lewis County,1808,0,WA,Washington
+Hall County,1809,0,NE,Nebraska
+Chemung County,1810,0,NY,New York
+Cass County,1811,0,MO,Missouri
+Bartholomew County,1814,0,IN,Indiana
+Raleigh County,1821,0,WV,West Virginia
+Adams County,1827,1,IL,Illinois
+Harrison County,1831,0,WV,West Virginia
+Carroll County,1833,1,NH,New Hampshire
+Saline County,1836,3,AR,Arkansas
+Lafourche Parish,1836,0,LA,Louisiana
+Forrest County,1848,5,MS,Mississippi
+Bartow County,1849,0,GA,Georgia
+Erie County,1854,0,OH,Ohio
+Flagler County,1860,3,FL,Florida
+Highlands County,1860,2,FL,Florida
+Angelina County,1863,0,TX,Texas
+Clinton County,1865,3,NY,New York
+Walton County,1871,14,FL,Florida
+Bradley County,1874,1,TN,Tennessee
+Guadalupe County,1875,2,TX,Texas
+Madera County,1880,0,CA,California
+Rockwall County,1884,2,TX,Texas
+Dare County,1897,0,NC,North Carolina
+Josephine County,1897,1,OR,Oregon
+Adams County,1897,0,PA,Pennsylvania
+Grand Forks County,1898,5,ND,North Dakota
+Indiana County,1901,1,PA,Pennsylvania
+Cheshire County,1902,2,NH,New Hampshire
+Jefferson County,1902,4,WI,Wisconsin
+Sherburne County,1903,11,MN,Minnesota
+Kosciusko County,1904,4,IN,Indiana
+Carteret County,1914,1,NC,North Carolina
+Cleveland County,1921,0,NC,North Carolina
+Rockdale County,1924,0,GA,Georgia
+St. Mary's County,1926,5,MD,Maryland
+Blue Earth County,1926,0,MN,Minnesota
+Montgomery County,1928,36,VA,Virginia
+Carson City,1934,10,NV,Nevada
+Sullivan County,1936,2,NY,New York
+Ashtabula County,1937,1,OH,Ohio
+Lauderdale County,1941,0,MS,Mississippi
+Floyd County,1945,1,GA,Georgia
+Teton County,1950,5,WY,Wyoming
+Bannock County,1951,1,ID,Idaho
+DeKalb County,1957,0,IL,Illinois
+Lauderdale County,1964,1,AL,Alabama
+St. Lawrence County,1968,5,NY,New York
+Lawrence County,1973,2,PA,Pennsylvania
+Pottawattamie County,1978,1,IA,Iowa
+Carroll County,1979,2,GA,Georgia
+Kauai County,1981,2,HI,Hawaii
+Aroostook County,1998,3,ME,Maine
+Pickens County,2000,3,SC,South Carolina
+Clearfield County,2001,0,PA,Pennsylvania
+Etowah County,2003,0,AL,Alabama
+Story County,2004,17,IA,Iowa
+Kendall County,2007,0,IL,Illinois
+Roanoke County,2010,27,VA,Virginia
+Charlottesville city,2011,0,VA,Virginia
+Eaton County,2028,1,MI,Michigan
+Crawford County,2029,0,PA,Pennsylvania
+Windsor County,2041,12,VT,Vermont
+Nash County,2049,0,NC,North Carolina
+Wood County,2049,3,WV,West Virginia
+Columbiana County,2051,1,OH,Ohio
+Ward County,2053,0,ND,North Dakota
+Clallam County,2056,2,WA,Washington
+Kenai Peninsula Borough,2057,0,AK,Alaska
+Matanuska-Susitna Borough,2069,1,AK,Alaska
+Crow Wing County,2072,6,MN,Minnesota
+Benton County,2077,13,OR,Oregon
+Windham County,2088,2,CT,Connecticut
+Columbia County,2088,0,GA,Georgia
+Ascension Parish,2089,1,LA,Louisiana
+McCracken County,2090,2,KY,Kentucky
+Coweta County,2106,1,GA,Georgia
+Oswego County,2106,0,NY,New York
+Worcester County,2108,0,MD,Maryland
+Miami County,2109,1,OH,Ohio
+Dorchester County,2110,2,SC,South Carolina
+Wayne County,2129,2,NC,North Carolina
+St. Croix County,2131,5,WI,Wisconsin
+Summit County,2137,3,CO,Colorado
+Summit County,2138,30,UT,Utah
+Craven County,2141,0,NC,North Carolina
+Stafford County,2141,0,VA,Virginia
+Tuscarawas County,2142,5,OH,Ohio
+Cowlitz County,2154,0,WA,Washington
+Rutland County,2163,2,VT,Vermont
+Whitfield County,2165,0,GA,Georgia
+Comanche County,2177,0,OK,Oklahoma
+Lynchburg city,2185,4,VA,Virginia
+Bowie County,2188,1,TX,Texas
+Hancock County,2189,10,ME,Maine
+Moore County,2197,4,NC,North Carolina
+Fairfax city,2205,0,VA,Virginia
+Lewis and Clark County,2206,0,MT,Montana
+Washington County,2212,6,VT,Vermont
+Allegan County,2221,0,MI,Michigan
+Madison County,2225,4,IN,Indiana
+Jackson County,2237,2,MS,Mississippi
+Platte County,2238,0,MO,Missouri
+Cochise County,2241,0,AZ,Arizona
+Bay County,2242,0,MI,Michigan
+Monongalia County,2243,11,WV,West Virginia
+Blount County,2257,0,TN,Tennessee
+Daviess County,2263,4,KY,Kentucky
+Cole County,2263,0,MO,Missouri
+Tangipahoa Parish,2274,1,LA,Louisiana
+La Plata County,2293,7,CO,Colorado
+Monroe County,2294,1,MI,Michigan
+LaPorte County,2296,0,IN,Indiana
+Buchanan County,2299,0,MO,Missouri
+Brunswick County,2299,0,NC,North Carolina
+Hardin County,2302,1,KY,Kentucky
+Calhoun County,2308,2,AL,Alabama
+Yamhill County,2311,1,OR,Oregon
+Houston County,2314,1,GA,Georgia
+Delaware County,2318,0,IN,Indiana
+Spotsylvania County,2328,0,VA,Virginia
+Dougherty County,2330,1,GA,Georgia
+Warren County,2336,1,NY,New York
+Tompkins County,2340,42,NY,New York
+Clark County,2357,5,OH,Ohio
+Fond du Lac County,2359,1,WI,Wisconsin
+Kankakee County,2362,0,IL,Illinois
+Cape Girardeau County,2369,1,MO,Missouri
+Victoria County,2369,0,TX,Texas
+Hampton city,2370,4,VA,Virginia
+Parker County,2378,0,TX,Texas
+Douglas County,2388,3,GA,Georgia
+Tolland County,2393,4,CT,Connecticut
+Randall County,2394,0,TX,Texas
+Wilson County,2396,1,TN,Tennessee
+Clark County,2400,0,IN,Indiana
+Douglas County,2406,1,OR,Oregon
+Garfield County,2408,1,CO,Colorado
+Lee County,2412,1,MS,Mississippi
+Imperial County,2414,0,CA,California
+Bossier Parish,2414,3,LA,Louisiana
+Glynn County,2424,3,GA,Georgia
+Cascade County,2427,0,MT,Montana
+Chelan County,2429,2,WA,Washington
+Linn County,2432,1,OR,Oregon
+Faulkner County,2434,8,AR,Arkansas
+Carver County,2435,25,MN,Minnesota
+Wayne County,2441,6,OH,Ohio
+Macon County,2447,0,IL,Illinois
+Jefferson County,2450,3,NY,New York
+Twin Falls County,2451,0,ID,Idaho
+Allen County,2455,2,OH,Ohio
+Canadian County,2455,0,OK,Oklahoma
+Mendocino County,2465,2,CA,California
+Fairbanks North Star Borough,2468,3,AK,Alaska
+Santa Rosa County,2468,1,FL,Florida
+Craighead County,2471,1,AR,Arkansas
+Cabell County,2473,0,WV,West Virginia
+Warren County,2483,1,NJ,New Jersey
+Vigo County,2484,2,IN,Indiana
+Lee County,2496,8,AL,Alabama
+Grayson County,2505,0,TX,Texas
+Henderson County,2516,5,NC,North Carolina
+Wicomico County,2527,1,MD,Maryland
+Madison County,2529,0,TN,Tennessee
+Strafford County,2530,13,NH,New Hampshire
+Randolph County,2534,2,NC,North Carolina
+Sevier County,2543,0,TN,Tennessee
+Rowan County,2548,0,NC,North Carolina
+Albemarle County,2564,119,VA,Virginia
+Fairfield County,2568,5,OH,Ohio
+Morgan County,2581,2,AL,Alabama
+Walworth County,2587,10,WI,Wisconsin
+Franklin County,2596,0,MO,Missouri
+DeSoto County,2609,2,MS,Mississippi
+Ellis County,2609,7,TX,Texas
+Calhoun County,2616,0,MI,Michigan
+Charles County,2620,2,MD,Maryland
+Lebanon County,2624,2,PA,Pennsylvania
+Johnson County,2628,2,TX,Texas
+Douglas County,2629,15,KS,Kansas
+Lowndes County,2632,1,GA,Georgia
+Richland County,2634,0,OH,Ohio
+Sheboygan County,2644,2,WI,Wisconsin
+Montgomery County,2657,1,TN,Tennessee
+Citrus County,2660,3,FL,Florida
+Eau Claire County,2661,5,WI,Wisconsin
+Aiken County,2665,4,SC,South Carolina
+Androscoggin County,2670,2,ME,Maine
+Fayette County,2674,0,PA,Pennsylvania
+Woodbury County,2685,1,IA,Iowa
+Garland County,2691,1,AR,Arkansas
+Houston County,2697,0,AL,Alabama
+Newport County,2708,6,RI,Rhode Island
+LaSalle County,2710,1,IL,Illinois
+Wood County,2715,7,OH,Ohio
+Berkeley County,2719,0,SC,South Carolina
+Ozaukee County,2727,12,WI,Wisconsin
+Tom Green County,2735,0,TX,Texas
+Onslow County,2742,0,NC,North Carolina
+Davidson County,2749,2,NC,North Carolina
+Geauga County,2752,2,OH,Ohio
+Dubuque County,2762,2,IA,Iowa
+Washington County,2776,0,TN,Tennessee
+Tazewell County,2790,7,IL,Illinois
+Schuylkill County,2798,6,PA,Pennsylvania
+San Juan County,2800,1,NM,New Mexico
+Mercer County,2800,1,PA,Pennsylvania
+Putnam County,2822,3,NY,New York
+Ontario County,2835,8,NY,New York
+Yuma County,2845,0,AZ,Arizona
+Merced County,2847,2,CA,California
+Lycoming County,2847,2,PA,Pennsylvania
+Jasper County,2855,5,MO,Missouri
+Grafton County,2862,24,NH,New Hampshire
+Licking County,2885,1,OH,Ohio
+Madison County,2891,14,MS,Mississippi
+Cumberland County,2892,1,NJ,New Jersey
+Warren County,2893,3,KY,Kentucky
+Monroe County,2895,11,IN,Indiana
+Chautauqua County,2900,6,NY,New York
+Laramie County,2905,9,WY,Wyoming
+Clarke County,2909,2,GA,Georgia
+Sumner County,2933,3,TN,Tennessee
+Natrona County,2942,6,WY,Wyoming
+Hendricks County,2943,5,IN,Indiana
+Jackson County,2945,2,MI,Michigan
+Burleigh County,2946,2,ND,North Dakota
+Nevada County,2961,6,CA,California
+Portage County,2966,5,OH,Ohio
+Boone County,2970,1,KY,Kentucky
+Rensselaer County,2978,27,NY,New York
+Hernando County,2981,2,FL,Florida
+La Crosse County,3000,2,WI,Wisconsin
+Terrebonne Parish,3002,0,LA,Louisiana
+Kenton County,3009,11,KY,Kentucky
+Franklin County,3013,1,PA,Pennsylvania
+Greene County,3014,3,OH,Ohio
+Kenosha County,3018,1,WI,Wisconsin
+Pueblo County,3029,5,CO,Colorado
+Cache County,3034,8,UT,Utah
+Johnston County,3035,2,NC,North Carolina
+Wyandotte County,3037,27,KS,Kansas
+Florence County,3039,4,SC,South Carolina
+Johnson County,3043,3,IN,Indiana
+Schenectady County,3060,10,NY,New York
+St. Clair County,3066,2,MI,Michigan
+Hanover County,3071,4,VA,Virginia
+Comal County,3088,6,TX,Texas
+Orange County,3089,58,NC,North Carolina
+Muskegon County,3127,4,MI,Michigan
+Rapides Parish,3141,1,LA,Louisiana
+Wright County,3143,1,MN,Minnesota
+Wichita County,3146,0,TX,Texas
+Alamance County,3155,0,NC,North Carolina
+Kent County,3157,3,DE,Delaware
+Washington County,3167,7,WI,Wisconsin
+Humboldt County,3168,8,CA,California
+Roanoke city,3171,0,VA,Virginia
+Johnson County,3175,27,IA,Iowa
+Fayette County,3179,3,GA,Georgia
+Black Hawk County,3190,4,IA,Iowa
+Rock County,3194,4,WI,Wisconsin
+Blair County,3208,1,PA,Pennsylvania
+Scott County,3209,3,MN,Minnesota
+Eagle County,3214,5,CO,Colorado
+Kennebec County,3214,0,ME,Maine
+Bonneville County,3237,6,ID,Idaho
+Centre County,3250,11,PA,Pennsylvania
+Rock Island County,3253,11,IL,Illinois
+Sussex County,3262,2,NJ,New Jersey
+Marathon County,3271,2,WI,Wisconsin
+Sullivan County,3289,2,TN,Tennessee
+Pinal County,3302,5,AZ,Arizona
+Grand Traverse County,3302,1,MI,Michigan
+Cambria County,3333,0,PA,Pennsylvania
+Sarpy County,3335,3,NE,Nebraska
+Henry County,3348,6,GA,Georgia
+Skagit County,3349,3,WA,Washington
+Monroe County,3351,4,PA,Pennsylvania
+Tippecanoe County,3357,31,IN,Indiana
+Taylor County,3372,2,TX,Texas
+Washington County,3416,4,MD,Maryland
+Beaver County,3424,5,PA,Pennsylvania
+Porter County,3442,3,IN,Indiana
+Rankin County,3445,14,MS,Mississippi
+Winnebago County,3471,2,WI,Wisconsin
+Sebastian County,3472,2,AR,Arkansas
+Olmsted County,3487,10,MN,Minnesota
+Coconino County,3514,2,AZ,Arizona
+Clermont County,3515,7,OH,Ohio
+Pitt County,3517,8,NC,North Carolina
+Hays County,3540,18,TX,Texas
+Dona Ana County,3550,4,NM,New Mexico
+Hampshire County,3555,16,MA,Massachusetts
+Ector County,3576,1,TX,Texas
+Clay County,3594,2,FL,Florida
+Mohave County,3600,3,AZ,Arizona
+Berrien County,3604,3,MI,Michigan
+Monroe County,3613,1,FL,Florida
+Canyon County,3620,2,ID,Idaho
+Potter County,3624,5,TX,Texas
+Anderson County,3638,3,SC,South Carolina
+Pennington County,3651,5,SD,South Dakota
+Charlotte County,3688,1,FL,Florida
+Newport News city,3712,10,VA,Virginia
+Washington County,3717,8,RI,Rhode Island
+McLean County,3719,2,IL,Illinois
+Clayton County,3756,2,GA,Georgia
+Cape May County,3805,0,NJ,New Jersey
+Hunterdon County,3869,18,NJ,New Jersey
+Flathead County,3870,7,MT,Montana
+Yolo County,3871,32,CA,California
+Gaston County,3892,2,NC,North Carolina
+Warren County,3914,19,OH,Ohio
+Hawaii County,3917,4,HI,Hawaii
+Berkshire County,3922,23,MA,Massachusetts
+Hall County,3940,3,GA,Georgia
+Jefferson County,3958,0,MO,Missouri
+Racine County,3963,2,WI,Wisconsin
+Indian River County,3972,16,FL,Florida
+Brazos County,3987,16,TX,Texas
+Medina County,3988,10,OH,Ohio
+Tuscaloosa County,3997,2,AL,Alabama
+Benton County,4003,3,WA,Washington
+Cabarrus County,4016,0,NC,North Carolina
+Merrimack County,4021,14,NH,New Hampshire
+Napa County,4036,23,CA,California
+Catawba County,4038,1,NC,North Carolina
+Bibb County,4051,11,GA,Georgia
+Gregg County,4090,0,TX,Texas
+Union County,4091,4,NC,North Carolina
+Penobscot County,4097,9,ME,Maine
+Harrison County,4099,1,MS,Mississippi
+Shasta County,4122,5,CA,California
+Trumbull County,4125,2,OH,Ohio
+Champaign County,4126,61,IL,Illinois
+Delaware County,4133,16,OH,Ohio
+Middlesex County,4141,12,CT,Connecticut
+Livingston County,4156,7,MI,Michigan
+Missoula County,4173,20,MT,Montana
+Ouachita Parish,4174,1,LA,Louisiana
+Washington County,4192,7,UT,Utah
+El Dorado County,4229,12,CA,California
+Muscogee County,4243,4,GA,Georgia
+Shawnee County,4247,2,KS,Kansas
+Carroll County,4251,2,MD,Maryland
+Broome County,4286,6,NY,New York
+Richmond County,4293,0,GA,Georgia
+Stearns County,4316,15,MN,Minnesota
+Calcasieu Parish,4331,1,LA,Louisiana
+Kootenai County,4340,6,ID,Idaho
+Saginaw County,4343,5,MI,Michigan
+Iredell County,4350,5,NC,North Carolina
+Bay County,4375,7,FL,Florida
+Scott County,4393,3,IA,Iowa
+Maui County,4399,7,HI,Hawaii
+Mesa County,4428,6,CO,Colorado
+Boone County,4435,26,MO,Missouri
+Niagara County,4444,0,NY,New York
+York County,4538,3,SC,South Carolina
+Peoria County,4549,5,IL,Illinois
+Yakima County,4601,1,WA,Washington
+Kent County,4629,13,RI,Rhode Island
+Butte County,4630,19,CA,California
+Alexandria city,4631,63,VA,Virginia
+Rutherford County,4649,1,TN,Tennessee
+Ulster County,4678,8,NY,New York
+Santa Fe County,4711,24,NM,New Mexico
+Butler County,4754,6,PA,Pennsylvania
+Clay County,4773,5,MO,Missouri
+Litchfield County,4780,4,CT,Connecticut
+Beaufort County,4798,9,SC,South Carolina
+Cherokee County,4828,5,GA,Georgia
+Elkhart County,4832,5,IN,Indiana
+Shelby County,4836,4,AL,Alabama
+Oneida County,4840,3,NY,New York
+Bell County,4861,5,TX,Texas
+Baldwin County,4865,3,AL,Alabama
+Outagamie County,4880,9,WI,Wisconsin
+Washington County,4918,108,AR,Arkansas
+Gallatin County,4960,33,MT,Montana
+Vanderburgh County,4965,2,IN,Indiana
+Midland County,4969,4,TX,Texas
+Weber County,4994,24,UT,Utah
+McLennan County,5005,3,TX,Texas
+Okaloosa County,5024,5,FL,Florida
+Washington County,5026,6,PA,Pennsylvania
+St. Lucie County,5055,12,FL,Florida
+Sangamon County,5064,6,IL,Illinois
+Osceola County,5080,14,FL,Florida
+Webb County,5086,0,TX,Texas
+Brazoria County,5110,5,TX,Texas
+Saratoga County,5114,7,NY,New York
+Martin County,5139,10,FL,Florida
+Cass County,5168,14,ND,North Dakota
+Kanawha County,5174,2,WV,West Virginia
+St. Louis County,5293,9,MN,Minnesota
+St. Johns County,5301,29,FL,Florida
+Harford County,5313,6,MD,Maryland
+St. Clair County,5317,1,IL,Illinois
+Chesapeake city,5320,2,VA,Virginia
+Sussex County,5334,18,DE,Delaware
+Galveston County,5366,26,TX,Texas
+Norfolk city,5366,10,VA,Virginia
+Weld County,5370,6,CO,Colorado
+Lackawanna County,5387,10,PA,Pennsylvania
+Linn County,5393,18,IA,Iowa
+Hinds County,5431,1,MS,Mississippi
+York County,5434,17,ME,Maine
+Benton County,5439,28,AR,Arkansas
+Kalamazoo County,5487,47,MI,Michigan
+Minnehaha County,5497,17,SD,South Dakota
+Forsyth County,5505,4,GA,Georgia
+Chittenden County,5510,73,VT,Vermont
+Washington County,5512,6,MN,Minnesota
+Yellowstone County,5516,1,MT,Montana
+Montgomery County,5518,9,AL,Alabama
+Cleveland County,5522,12,OK,Oklahoma
+Lorain County,5523,10,OH,Ohio
+Yavapai County,5541,1,AZ,Arizona
+Mahoning County,5562,9,OH,Ohio
+Kitsap County,5592,16,WA,Washington
+Jefferson County,5603,3,TX,Texas
+Cumberland County,5652,0,NC,North Carolina
+Smith County,5656,3,TX,Texas
+New London County,5688,14,CT,Connecticut
+Cumberland County,5709,5,PA,Pennsylvania
+Ottawa County,5756,7,MI,Michigan
+St. Joseph County,5770,11,IN,Indiana
+Thurston County,5832,7,WA,Washington
+Alachua County,5843,81,FL,Florida
+Madison County,5847,5,IL,Illinois
+Jackson County,5855,15,OR,Oregon
+Gloucester County,5887,6,NJ,New Jersey
+Frederick County,5945,36,MD,Maryland
+Richmond city,5981,0,VA,Virginia
+Lake County,6073,11,OH,Ohio
+Deschutes County,6075,42,OR,Oregon
+Ingham County,6118,29,MI,Michigan
+Spartanburg County,6122,15,SC,South Carolina
+Tulare County,6133,4,CA,California
+St. Tammany Parish,6146,6,LA,Louisiana
+Lexington County,6158,2,SC,South Carolina
+Northampton County,6193,33,PA,Pennsylvania
+Arlington County,6201,126,VA,Virginia
+Williamson County,6211,158,TN,Tennessee
+Whatcom County,6212,17,WA,Washington
+Erie County,6218,7,PA,Pennsylvania
+Cameron County,6288,1,TX,Texas
+Brown County,6293,6,WI,Wisconsin
+Caddo Parish,6297,6,LA,Louisiana
+Winnebago County,6464,4,IL,Illinois
+Atlantic County,6476,20,NJ,New Jersey
+Davis County,6493,17,UT,Utah
+Lake County,6519,7,FL,Florida
+Escambia County,6572,13,FL,Florida
+Solano County,6661,11,CA,California
+Dauphin County,6700,14,PA,Pennsylvania
+Durham County,6760,349,NC,North Carolina
+Santa Cruz County,6774,72,CA,California
+Marion County,6781,4,FL,Florida
+New Hanover County,6796,20,NC,North Carolina
+Chesterfield County,6905,8,VA,Virginia
+Lubbock County,6910,7,TX,Texas
+Butler County,6967,6,OH,Ohio
+Luzerne County,7147,10,PA,Pennsylvania
+Chatham County,7212,4,GA,Georgia
+Anoka County,7328,6,MN,Minnesota
+Prince William County,7381,5,VA,Virginia
+Buncombe County,7387,26,NC,North Carolina
+Leon County,7389,10,FL,Florida
+Dutchess County,7499,9,NY,New York
+Marion County,7675,4,OR,Oregon
+McHenry County,7683,3,IL,Illinois
+Genesee County,7732,7,MI,Michigan
+Nueces County,7846,3,TX,Texas
+San Luis Obispo County,7864,31,CA,California
+Manatee County,7920,10,FL,Florida
+Washtenaw County,7948,229,MI,Michigan
+Douglas County,8024,10,CO,Colorado
+Lancaster County,8028,50,NE,Nebraska
+Hamilton County,8063,63,IN,Indiana
+Madison County,8066,48,AL,Alabama
+St. Charles County,8076,10,MO,Missouri
+Greene County,8183,7,MO,Missouri
+Horry County,8207,10,SC,South Carolina
+Forsyth County,8211,25,NC,North Carolina
+Berks County,8224,9,PA,Pennsylvania
+Stark County,8273,5,OH,Ohio
+Lafayette Parish,8310,8,LA,Louisiana
+Barnstable County,8319,19,MA,Massachusetts
+Monterey County,8401,3,CA,California
+Lehigh County,8407,21,PA,Pennsylvania
+Fayette County,8427,69,KY,Kentucky
+Stanislaus County,8497,3,CA,California
+Mobile County,8540,5,AL,Alabama
+Adams County,8543,54,CO,Colorado
+York County,8551,9,PA,Pennsylvania
+Anchorage Municipality,8579,20,AK,Alaska
+Richland County,8635,16,SC,South Carolina
+Orleans Parish,8638,51,LA,Louisiana
+Westmoreland County,8651,3,PA,Pennsylvania
+Hamilton County,8677,90,TN,Tennessee
+Pasco County,8776,15,FL,Florida
+Henrico County,8835,27,VA,Virginia
+Williamson County,8888,48,TX,Texas
+Richmond County,8916,6,NY,New York
+Howard County,8924,110,MD,Maryland
+Loudoun County,8964,132,VA,Virginia
+Allen County,9019,9,IN,Indiana
+Orange County,9134,21,NY,New York
+Albany County,9386,8,NY,New York
+Rockland County,9403,19,NY,New York
+Rockingham County,9404,81,NH,New Hampshire
+Lane County,9530,17,OR,Oregon
+Lucas County,9566,24,OH,Ohio
+Marin County,9642,173,CA,California
+Hampden County,9644,12,MA,Massachusetts
+Mercer County,9669,142,NJ,New Jersey
+Placer County,9691,38,CA,California
+Larimer County,9713,62,CO,Colorado
+Clark County,9714,20,WA,Washington
+St. Louis city,9748,66,MO,Missouri
+Lake County,9815,11,IN,Indiana
+Somerset County,9882,95,NJ,New Jersey
+Montgomery County,9932,15,TX,Texas
+Dakota County,10073,57,MN,Minnesota
+Burlington County,10527,39,NJ,New Jersey
+Collier County,10612,28,FL,Florida
+San Joaquin County,10647,7,CA,California
+Virginia Beach city,10707,27,VA,Virginia
+Hillsborough County,10743,145,NH,New Hampshire
+Fort Bend County,10779,34,TX,Texas
+Cumberland County,10884,58,ME,Maine
+Polk County,10898,25,FL,Florida
+Knox County,10947,65,TN,Tennessee
+Clackamas County,11101,40,OR,Oregon
+Santa Barbara County,11197,238,CA,California
+Utah County,11349,247,UT,Utah
+Camden County,11429,16,NJ,New Jersey
+Montgomery County,11444,14,OH,Ohio
+Washoe County,11453,52,NV,Nevada
+Jefferson Parish,11611,5,LA,Louisiana
+Hidalgo County,11655,4,TX,Texas
+Boulder County,11676,651,CO,Colorado
+Sedgwick County,11724,9,KS,Kansas
+Onondaga County,11727,30,NY,New York
+Passaic County,11852,24,NJ,New Jersey
+Polk County,11869,55,IA,Iowa
+Plymouth County,11907,36,MA,Massachusetts
+Volusia County,11959,9,FL,Florida
+Pulaski County,11983,64,AR,Arkansas
+East Baton Rouge Parish,12044,28,LA,Louisiana
+Charleston County,12115,84,SC,South Carolina
+Ada County,12190,89,ID,Idaho
+Spokane County,12196,42,WA,Washington
+Greenville County,12211,88,SC,South Carolina
+Baltimore city,12227,0,MD,Maryland
+Lancaster County,12231,23,PA,Pennsylvania
+Kane County,12288,3,IL,Illinois
+Kern County,12315,53,CA,California
+Ocean County,12323,16,NJ,New Jersey
+Waukesha County,12394,29,WI,Wisconsin
+Denton County,12489,59,TX,Texas
+Delaware County,12589,137,PA,Pennsylvania
+Seminole County,12619,49,FL,Florida
+Bristol County,12708,52,MA,Massachusetts
+Hudson County,12830,120,NJ,New Jersey
+Sarasota County,12897,39,FL,Florida
+Brevard County,13066,59,FL,Florida
+Ramsey County,13119,95,MN,Minnesota
+Guilford County,13146,29,NC,North Carolina
+Dane County,13345,248,WI,Wisconsin
+Summit County,13353,66,OH,Ohio
+Sonoma County,13360,149,CA,California
+Union County,13639,71,NJ,New Jersey
+Anne Arundel County,13727,86,MD,Maryland
+El Paso County,13777,6,TX,Texas
+Chester County,13903,159,PA,Pennsylvania
+Prince George's County,14253,87,MD,Maryland
+Washington County,14348,144,OR,Oregon
+Will County,14349,11,IL,Illinois
+Douglas County,15001,103,NE,Nebraska
+New Castle County,15397,148,DE,Delaware
+Providence County,15481,189,RI,Rhode Island
+Kent County,15558,41,MI,Michigan
+Bernalillo County,15773,137,NM,New Mexico
+Fresno County,15938,21,CA,California
+El Paso County,15974,62,CO,Colorado
+DeKalb County,16006,44,GA,Georgia
+Jefferson County,16168,74,AL,Alabama
+Jefferson County,16203,80,CO,Colorado
+Lee County,16390,34,FL,Florida
+Pierce County,16553,27,WA,Washington
+Morris County,16714,108,NJ,New Jersey
+Jackson County,17017,59,MO,Missouri
+Bronx County,17044,5,NY,New York
+Johnson County,17188,113,KS,Kansas
+Snohomish County,17195,21,WA,Washington
+Arapahoe County,17238,248,CO,Colorado
+Monroe County,17389,102,NY,New York
+Worcester County,17589,176,MA,Massachusetts
+Essex County,18241,222,MA,Massachusetts
+Davidson County,18265,413,TN,Tennessee
+Macomb County,18304,10,MI,Michigan
+Tulsa County,18528,47,OK,Oklahoma
+Essex County,18722,123,NJ,New Jersey
+Bucks County,18907,129,PA,Pennsylvania
+Monmouth County,18940,66,NJ,New Jersey
+Cobb County,19106,48,GA,Georgia
+Jefferson County,19200,89,KY,Kentucky
+Milwaukee County,19296,63,WI,Wisconsin
+Shelby County,19343,172,TN,Tennessee
+New Haven County,19390,228,CT,Connecticut
+Norfolk County,19543,239,MA,Massachusetts
+Lake County,19567,78,IL,Illinois
+Baltimore County,19742,353,MD,Maryland
+Collin County,19833,192,TX,Texas
+Pima County,19915,98,AZ,Arizona
+Suffolk County,19982,1470,MA,Massachusetts
+Ventura County,20062,104,CA,California
+San Mateo County,20279,3141,CA,California
+Hamilton County,20799,245,OH,Ohio
+Honolulu County,21115,91,HI,Hawaii
+Middlesex County,21476,171,NJ,New Jersey
+Gwinnett County,21512,157,GA,Georgia
+District of Columbia,21839,460,DC,District of Columbia
+Contra Costa County,22286,205,CA,California
+Erie County,22465,97,NY,New York
+Hartford County,22542,130,CT,Connecticut
+Marion County,22649,249,IN,Indiana
+Denver County,22769,530,CO,Colorado
+Oklahoma County,22894,55,OK,Oklahoma
+Duval County,23721,61,FL,Florida
+Multnomah County,25302,472,OR,Oregon
+Montgomery County,25893,243,PA,Pennsylvania
+Wake County,25981,465,NC,North Carolina
+Montgomery County,26670,505,MD,Maryland
+Pinellas County,26685,118,FL,Florida
+Fairfield County,26916,308,CT,Connecticut
+Franklin County,26982,212,OH,Ohio
+Philadelphia County,27122,375,PA,Pennsylvania
+Sacramento County,27520,119,CA,California
+Mecklenburg County,28599,191,NC,North Carolina
+Fairfax County,29440,550,VA,Virginia
+Salt Lake County,29790,489,UT,Utah
+St. Louis County,30756,344,MO,Missouri
+Travis County,31008,1571,TX,Texas
+Bergen County,31462,162,NJ,New Jersey
+Westchester County,31613,118,NY,New York
+Wayne County,31708,153,MI,Michigan
+San Francisco County,32266,7422,CA,California
+San Bernardino County,32356,97,CA,California
+Cuyahoga County,32879,383,OH,Ohio
+Orange County,33178,179,FL,Florida
+Hillsborough County,33200,173,FL,Florida
+DuPage County,33226,157,IL,Illinois
+Allegheny County,33457,664,PA,Pennsylvania
+Fulton County,33715,1014,GA,Georgia
+Bexar County,33778,188,TX,Texas
+Riverside County,34706,69,CA,California
+Alameda County,37020,1392,CA,California
+Oakland County,38282,167,MI,Michigan
+Tarrant County,38669,91,TX,Texas
+Hennepin County,39032,580,MN,Minnesota
+Clark County,40813,322,NV,Nevada
+Middlesex County,42674,3530,MA,Massachusetts
+Palm Beach County,44180,312,FL,Florida
+Santa Clara County,46020,6692,CA,California
+Queens County,46414,55,NY,New York
+Nassau County,47619,96,NY,New York
+Suffolk County,48625,109,NY,New York
+Kings County,53123,339,NY,New York
+Broward County,57531,245,FL,Florida
+Dallas County,62224,744,TX,Texas
+King County,64005,2383,WA,Washington
+San Diego County,78212,1867,CA,California
+Miami-Dade County,78493,404,FL,Florida
+Maricopa County,85793,552,AZ,Arizona
+Orange County,89271,1261,CA,California
+Harris County,95012,570,TX,Texas
+New York County,104957,6159,NY,New York
+Cook County,129540,1431,IL,Illinois
+Los Angeles County,252654,3356,CA,California
